@@ -31,10 +31,13 @@
 
 /*手机*/
 @media screen and (max-width:768px){
-    .content{width: 100%;height: 78px;border: 0;background: #00322f;min-height: 78px;margin: 0;}
-    .content .container{padding: 0;}
+	html{font-size: 100px;}
+	.container{padding-left: .15rem;padding-right: .15rem;}
+	
+    .wcontent{width: 100%;height: 78px;border: 0;background: #00322f;min-height: 78px;margin: 0;}
+    .wcontent .container{padding: 0;}
     .wnav{overflow: hidden;}
-    .content img.wlogo{float: left;padding: 26.5px 0 26.5px 15px;}
+    .wcontent img.wlogo{float: left;padding: 26.5px 0 26.5px 15px;}
     .wbutton{width: 80px;height: 78px;margin: 0;background: #03493f;border: 0;border-color: inherit;border-radius: 0;float: right;padding: 1px 16px;}
     .wbutton span{display: block;width: 48px;height: 5px;background: #fff;margin-top: 10px;}
     .wbutton span:first-child{margin: 0;}
