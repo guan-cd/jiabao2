@@ -1,0 +1,118 @@
+/*reset  2018-1-4*/
+
+
+/*除去手机端点击按钮时的灰色阴影*/
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    /* For some Androids */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: .32rem;
+    font-family: 'PingFang SC', 'STHertiSC-Light', 'HelveTica-Light', Arial, sans-serif;
+}
+
+ul,
+li,
+ol,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+div,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*除去在手机端默认的圆角和背景色*/
+
+input {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+}
+
+input,
+textarea,
+button {
+    outline-style: none;
+    border: 0 none;
+}
+
+
+/*去除自动填充时的表单黄色背景*/
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*框架搭建*/
+
+
+
+/* 四个边都加阴影*/
+
+
+/* box-shadow: 0 2px 16px #dadada, 0 0 1px #dadada, 0 0 1px #dadada;  */
+
+
+/* 字间距*/
+
+
+/* letter-spacing:3px; */
+
+
+/*  除掉IE下输入框获取焦点时的小叉 */
+
+
+/*input::-ms-clear,input::-ms-reveal{display:none;}*/
+
+
+/* input[type=search]::-ms-clear{display: none;}  清除IE下的 search 叉号 */
+
+
+/*input[type=text]::-ms-clear{display: none;}  清除IE下的 text 叉号*/

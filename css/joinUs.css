@@ -1,0 +1,77 @@
+.padd-23{
+    padding:0 23px ;
+    background-color: #fff;
+    margin-top: 74px;
+    height :895px;
+    position: relative;
+}
+.padd-23 .magin_2{
+     float: right!important;
+ }
+.xinxi{
+    height :67px;
+    background-color: #ffb84c;
+    line-height: 67px;
+
+    margin-top: 15px;
+    width: 98%;
+}
+.xinxi span.tou{
+    display: inline-block;
+    margin-left: 20px;
+    height :33px;
+    width :33px;
+
+    vertical-align: middle;
+    margin-left: 102px;
+    margin-right: 20px;
+
+}
+.xinxi p{
+    font-size: 30px;
+}
+.xinxi span{
+    font-size: 15px;
+}
+.xinxi .zp-toux{
+    background: url(../img/shequ.jpg) 0 0 no-repeat;
+}
+.xinxi .sq-toux{
+    background: url(../img/shequ.jpg) 0 0 no-repeat;
+}
+.padd-23 .col-md-6{
+    padding:0;
+    margin-top: 24px;
+
+}
+.padd-23 .col-md-6 img{
+    width :98%;
+}
+.padd-23 .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.magin_2{
+    margin-right: -1%!important;
+
+}
+.zp{
+    position: relative;
+}
+.huang{
+    background-color: #fbc066;
+    border-radius: 10px;
+}
+.xinxi .jinru{
+    margin-left: 22%;
+}
+ .ban{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+

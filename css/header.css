@@ -1,0 +1,152 @@
+
+.header{
+    width :100%;
+    height :250px;
+    background-color: #FFFFFF;
+    clear: both;
+}
+.header ul{
+    margin:0px !important;
+}
+.hea-top h1{
+    text-indent: -9999px;
+    background: url(../img/logo.png) 0 0 no-repeat;
+    height :60px;
+    margin-top: 87px;
+    float: left;
+    width :335px;
+}
+.hea-top{
+    width :100%;
+
+    /*margin-top: -20px;*/
+}
+.hea-top .search{
+    float: right;
+    margin-top: 106px;
+    height:35px;
+    border: 1px solid #a0a0a0;
+    width :228px;
+    position: relative;
+}
+.hea-top .search span{
+
+    /*position: absolute;*/
+}
+.hea-top .search input{
+    border: 0 none;
+    height :100%;
+    padding-left: 10px;
+    outline:none;
+    outline:medium;
+}
+.header_h{
+    height :250px;
+
+}
+p{
+    margin: 0px;
+}
+.hea-bot{
+    clear: both;
+    padding-top: 50px;
+}
+.hea-bot ul li{
+    float: left;
+    margin-right :30px;
+    color: #5d5d5d;
+}
+.hea-bot ul li a{
+    color:rgba(93,93,93);
+}
+.navtwocontent{
+    background:#f5f5f5;
+    overflow: hidden;
+}
+.navtwobox{
+    height:75px;
+    background: #f5f5f5;
+}
+.navtwocontent{
+    height:75px;
+}
+.navtwocontent{
+    background:#f5f5f5;
+    overflow: hidden;
+}
+.navtwobox{
+    height:75px;
+    background: #f5f5f5;
+}
+.navtwocontent{
+    height:75px;
+}
+.list li{
+    float:left;
+}
+.list li a{
+    margin-right:25px;
+    font-size:19.15px;
+    font-weight: bold;
+    color: #464646;
+    line-height:75px;
+    text-decoration:none;
+}
+.list li a:hover{
+    color: #94724d;
+}
+.information p span{
+    cursor:pointer;
+}
+.information li{
+    cursor:pointer;
+}
+.headerbox{
+    background:white;
+}
+/*手机*/
+@media screen and (max-width:768px){
+    .header{
+        height:38px;
+        line-height:38px;
+    }
+
+
+}
+/*平板*/
+@media only screen and (min-width:768px) and (max-width : 1024px){
+   .Footer{
+       height:327px;
+   }
+    .lkqr,.lkqc,.lkqf{
+
+        height:125px;
+    }
+    .lkqr{
+        width:27%;
+    }
+    .lkqr img{
+        width:100%;
+    }
+    .lkqc span{
+        font-size:16px;
+    }
+    .lkqc p{
+        font-size:5px;
+    }
+    .x{
+        width:100%;
+    }
+    .lkqc p{
+        line-height:normal;
+    }
+    .lkqr img{
+      margin-top:-63px;
+    }
+
+}
+
+/*桌面*/
+@media (min-width: 1024px){
+
+}

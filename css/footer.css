@@ -1,0 +1,78 @@
+.footer{
+    background: #00322f;
+}
+.bgcontent{
+    position: relative;
+}
+.bgcon{
+    position: relative;
+    height:413px;
+    background:white;
+}
+.bgf{
+    height:413px;
+    position: absolute;
+    width:100%;
+    bottom:-2px;
+    background:url("../img/bgf_02.png") no-repeat 0 0/100% 100%;
+}
+
+.Footer {
+    background: #00322f;
+    height: 247px;
+    width: 100%;
+    margin-top: -4px;
+}
+
+.x {
+    width: 1155px;
+    margin: 0 auto;
+    clear: both;
+    -background: orange;
+    overflow: hidden;
+}
+.lkqr {
+    float: left;
+    border-right: 2px solid #7d6716;
+    height: 180px;
+    line-height: 180px;
+    margin-top: 40px;
+    padding-right: 30px;
+}
+
+.lkqc {
+    float: left;
+    border-right: 2px solid #7d6716;
+    height: 180px;
+    -line-height: 180px;
+    margin-top: 40px;
+    color: #fff;
+    padding: 0px 20px 0 30px;
+    font-size: 18px;
+}
+
+.lkqf {
+    float: right;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.lkqc span {
+    color: #ed9600;
+    font-size: 22px;
+}
+.lkqc p {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.kmws {
+    padding-top: 20px;
+}
+.lkqf p {
+    padding-top: 6px;
+}
+
+

@@ -1,0 +1,412 @@
+body{
+    font-family:none;
+    font-size:62.5%;
+}
+/*.swiper-pagination.swiper-pagination-bullets{*/
+    /*margin-left:-29% !important;*/
+/*}*/
+.swiper-pagination-bullet{
+    width:20px!important;
+    height:20px!important;
+}
+.fenye{
+    width:100%;
+    height:50px;
+    position: absolute;
+    bottom:10px;
+}
+.swiper-pagination-bullet{
+    margin-right:20px;
+}
+.fenyebox{
+    height:50px;
+}
+.header{
+    width :100%;
+    height :250px;
+    background-color: #FFFFFF;
+    clear: both;
+}
+.mediaCenter{
+    position: relative;
+}
+.bj{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    top: 91%;
+    left: 19%;
+}
+.circle span:nth-of-type(1)
+{
+    background:white;
+}
+.circle span{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    border-radius:100%;
+    border:1px solid white;
+    margin-right:5px;
+}
+.bannerimg:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.bj{
+    overflow: hidden;
+}
+.bannerimg{
+    width:400%;
+}
+.bannerimg li{
+   float:left;
+}
+.logg{
+    position: absolute;
+}
+.exist{
+    margin-top:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+.margin40{
+    margin-top:40px;
+}
+
+ul{
+    margin:0px !important;
+}
+.hea-top h1{
+    text-indent: -9999px;
+    background: url(../img/logonew.png) 0 0 no-repeat;
+    height :60px;
+    margin-top: 87px;
+    float: left;
+    width :335px;
+}
+.hea-top{
+    width :100%;
+
+    /*margin-top: -20px;*/
+}
+.hea-top .search{
+    float: right;
+    margin-top: 106px;
+    height:35px;
+    border: 1px solid #a0a0a0;
+    width :228px;
+    position: relative;
+}
+.hea-top .search span{
+    margin-left: 30px;
+}
+.indexnav>li>a{
+    font-size:14.38px;
+}
+/*导航一块开始*/
+.erji{
+    width:200%;
+    position: absolute;
+    z-index:25555;
+    /*background:rgba(255,255,255,0.7);*/
+    display: none;
+}
+.erji a{
+    display:block;
+    width:100%;
+    /*padding-top:10px;*/
+    background: rgba(255,255,255,0.7);
+    text-align: center;
+    height:45px;
+    line-height:45px;
+}
+.erji li:nth-of-type(1)
+{
+    margin-top:0px;
+}
+.erji li{
+    margin-top:1.5px;
+}
+.moreadda{
+    color:black;
+    text-decoration:none!important;
+}
+.lunbox{
+    margin-top:19%;
+    height:221px;
+    margin-left:21.5%;
+    width:165px;
+    overflow:hidden;
+}
+.lunboximgs{
+    height:100%;
+    transition:all 0.5s;
+    font-size:0;
+}
+
+.videoimg{
+    padding-right:12px;
+}
+.banner{
+    height:589px;
+    overflow:hidden;
+}
+
+.erji a:hover{
+    color:orange;
+}
+.erji>li{
+    float:none;
+    width:100%;
+}
+.san{
+    position: absolute;
+    right:-12px;
+    top:-4px;
+}
+/*.indexnav>li>a{*/
+    /*background: orange;*/
+    /*padding: 10px 30px;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+
+
+.morebox{
+    position: relative;
+}
+.moretext{
+    font-size:16px;
+    font-weight:bold;
+}
+.moreadda{
+    padding:0;
+    margin:0;
+
+}
+
+
+
+
+
+
+.more{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+
+
+}
+.indexnav>li{
+    position: relative;
+}
+.indexnav>li:hover .erji{
+    display:block;
+}
+
+.hea-top .search input{
+    border: 0 none;
+    height: 100%;
+    padding-left: 10px;
+    outline: none;
+    outline: medium;
+    background: transparent;
+}
+.header_h{
+    height :250px;
+
+}
+.indexcontent{
+    width:100%;
+    overflow-x:hidden;
+}
+p{
+    margin: 0px;
+}
+.hea-bot{
+    clear: both;
+    padding-top: 50px;
+}
+.hea-bot ul li{
+    float: left;
+    margin-right :30px;
+    color: #5d5d5d;
+}
+.hea-bot ul li a{
+    color: #5d5d5d;
+    text-decoration:none;
+}
+.hea-bot ul li a:hover{
+    color: #94724d;
+}
+.thumbnail{
+    border-width:0!important;
+}
+.thumbnail p{
+    font-size:16px;
+}
+.bj{
+    width:100%;
+    height:auto!important;
+}
+.bj img{
+    width: 100%;
+    vertical-align: middle;
+}
+.mediaCenter{
+    background-color: #fff;
+    padding:20px 30px;
+    margin-top: 10px;
+}
+.mediaCenter .underline{
+    display: block;
+    height :2px;
+    width :50px;
+    background-color: #65a700;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+.mediaCenter-bj-p{
+    height :80px;
+    line-height: 80px;
+}
+.video-right{
+    /*float: left;*/
+    height :435px;
+    width :400px;
+    margin-left: -2px;
+    vertical-align: middle;
+    /*position: absolute;*/
+}
+.exist{
+    clear: both;
+}
+.shouye{
+    color:black!important;
+}
+.exist-left-bj{
+    float: left;
+    width :100%;
+    font-size:0;
+
+    /*padding-top: 38px;*/
+    /*padding-bottom: 73px;*/
+    background-color: #fff;
+    text-align:left!important;
+    height :330px;
+}
+.exist-left-bj p{
+     margin-top: 18px;
+ }
+/*332-38*/
+.exist-right-bj{
+    /*width : 73%;*/
+    width:100%;
+    height :330px;
+}
+.paddingnone.erweima{
+    padding-left:20px;
+}
+/*箭头*/
+.jiantou1{
+    position:absolute;
+    top:40%;
+    left:6%;
+}
+.lunboxtest{
+    position: relative;
+}
+.jiantou2{
+    position:absolute;
+    top:40%;
+    right:6%;
+    transform:rotateZ(180deg);
+}
+.mapbox{
+    position:relative;
+}
+.city{
+    width: 4%;
+    height: 7%;
+    text-align:center;
+    top: 29%;
+    left: 19%;
+    position:absolute;
+    font-weight:bolder;
+    font-size:30.74px;
+    color: #6f787b;
+
+}
+.xiangmu{
+    position: absolute;
+    width: 5%;
+    height: 7%;
+    font-weight:bolder;
+    text-align:center;
+    top: 29%;
+    left: 36%;
+    font-size:30.74px;
+    color: #6f787b;
+}
+.thumbnail a{
+    text-decoration:none;
+}
+.thumbnail p{
+    color:black!important;
+}
+.exist.text-center .row{
+    margin:0!important;
+}
+.paddingnone{
+    padding:0!important;
+}
+.paddingright10{
+    padding-right:10px!important;
+}
+.jiayuanshenghuo{
+    width:100%;
+    color:rgb(107,107,107);
+    font-size:3rem;
+    text-align: center;
+
+}
+.margin10{
+    margin-top:10px!important;
+}
+
+
+/*手机*/
+@media screen and (max-width:768px){
+    .header{
+        height:38px;
+        line-height:38px;
+    }
+
+}
+/*平板*/
+@media only screen and (min-width:768px) and (max-width : 1024px){
+.city{
+    font-size:18px;
+    top:30%;
+}
+    .xiangmu{
+        font-size:18px;
+        top:30%;
+    }
+    .paddingnone.erweima{
+        padding-left:0!important;
+    }
+}
+
+/*桌面*/
+@media (min-width: 1024px){
+
+}
+
+
+
+

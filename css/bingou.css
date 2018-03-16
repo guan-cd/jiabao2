@@ -1,0 +1,110 @@
+/*手机*/
+@media screen and (max-width:768px){
+	body,html{font-family: "微软雅黑";}
+	
+	/*并购计划*/
+	.gleft,.gright{width: 48%;}
+	.gleft{margin-right: 1%;}
+	.gright{margin-left: 1%;}
+	.jyqy,.gdxx{font-family: "微软雅黑";font-size: 0.16rem;color: #626262;line-height: 28px;}
+	.jyqy{padding-top: 0.39rem;padding-bottom: 0.64rem;}
+	.bing h1{border-bottom: 0;padding-bottom: 0;}
+	.bing .wpart2{height: 100%;}
+	.bing .p1{font-family: Myriad Pro;font-size: 0.26rem;color: #626262;line-height: 32px;margin-top: 0.18rem;}
+	.bing .p1 p{border-bottom: 1px solid #6f6f6f;width: 1.62rem;padding-bottom: 2px;}	
+	.gdxx{line-height: 0.3rem;}
+	
+	
+	/*商业运营服务*/
+	.shangy h1{width: auto;}
+	.shangy .shcon{font-size: 0.14rem;color: #6f6f6f;}
+	.shangy .sy1{margin: 34px 0;}
+	.shangy .sy2{margin: 0 0 34px;}
+	.shangy .gdxx{font-size: 0.14rem;}
+	
+	
+	/*生活家联盟*/
+	.iuqi p.kjwi{font-size: .14rem;line-height: .24rem;}
+	.act_content h1
+	.act_content .ctos{font-size: .26rem;}
+	
+	
+	/*招投标*/
+	.ztou{width: 100%;padding: 0.6rem 0.15rem;background: #f4f4f4;}
+	.ztou .m{padding: 0 0.25rem;background: #fff;}
+	.ztou .m,.ztou .n,.ztou .siut{width: 100%;}
+	.ztou h1{font-size: 0.25rem;color: #2d2d2d;padding-top: 0;}
+	.ztou .ctoi{font-size: 0.26rem;color: #6f6f6f;margin-top: 0.16rem;}
+	.ztou .uyqi{line-height: 24px;font-size: 0.14rem;}
+	.ztou .uuyf{width: 2.27rem;}
+	.ztou .siut{padding-top: 0.16rem;}
+	.ztou img.zlink{margin: 0.47rem 0;}
+	
+	
+	.jjkw img,.llzv img{width: 100%;}
+	
+	
+	
+	/*员工活动*/
+	.lmds{width: 100%;margin-top: 0 !important;}
+	.act_content{width: 100%;padding: .6rem .15rem 0;background: #f4f4f4;}
+	.act_content .n{width: 100%;padding: 0 .25rem;background: #fff;}
+	.act_content .n h1{padding-top: 0;font-size: .25rem;color: #2d2d2d;}
+	.act_content .n .ctoi{font-size: .26rem;color: #6f6f6f;}
+	.act_content .n .kmer{width: 60%;}
+	.act_content .kmer p{font-size: .18rem;width: 100%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+	.act_content .kmer .qrat{width: auto;}
+	.act_content .kmer .lmop{padding-top: 0;}
+	.act_content .mnlf{margin-bottom: 0;}
+	
+	
+	/*员工活动详情页*/
+	.user_content h1{font-size: 0.2rem;color: #00322f;}
+	.user_content>p>span{font-size: 0.14rem;}
+	.user_content>p{font-size: inherit;}
+	.user_des p{font-size: 0.14rem;color: #323232;line-height: 0.24rem;}
+	.user_content.container{padding: 0.1rem 0.4rem;}
+	.whitbg{position: relative;padding-bottom: 180px;}
+	.wbot{position: absolute;bottom: 0;}
+	.navtwobox .row{margin: 0 auto;}
+	.marginleft29{margin: 0 auto !important;text-align: center;}
+	.list-unstyled{overflow: hidden;display: inline-block;}
+	
+	
+	/*业务介绍-住宅*/
+	.lmqr ul li{width: auto;padding: 0 10px;}
+	.shang{width: 100%;padding: 0 .15rem;background: #f4f4f4;}
+	.shang .n{width: 100%;padding: 0 .25rem;background: #fff;}
+	.shang h1{padding: .4rem 0 .12rem;font-size: .25rem;}
+	.shang .ctoi{font-size: .15rem;margin-top: 0.1rem;}
+	.ymenu{overflow: hidden;width: 66%;}
+	.ymenu li{float: left;padding: .04rem .1rem;font-size: .16rem;}
+	.zhuz .zpart2{margin: 0 !important;}
+	.zhuz .zpart3{margin: .6rem 0 0 !important;}
+	.zhuz{margin: .3rem auto 0;}
+	.zmenu img.yleft{margin-right: .8rem;}
+	.zpart3 .tabs>div{margin: 0 4% .5rem 0;}
+	
+	/*业务介绍-拎包入住*/
+	.zp{margin-top: 0 !important;}
+	.padd-23 .gsfl{padding-top: 0;}
+	.act_content .wlbrz{margin: 0 !important;}
+	.act_content .ctoi{margin: .1rem 0;}
+	
+	.padd-23{padding: 0 .25rem !important;height: auto;}
+	.act_content .conte{width: 100% !important;height: auto !important;}
+	.act_content .Occupancy{margin-top: 0;}
+	.act_content .Occupancy-Reason,.act_content .Occupancy-Business{width: 50%;margin: 0;}
+	.Occupancy-Business li span{margin-right: .1rem;}
+	.conte .synopsis-c span{margin-left: 0;}
+	.act_content .map1{position: absolute;right: 5%;top: -66%;}
+	.act_content .guan{font-size: .21rem;color: #94724d;padding: 1.2rem 0 .4rem;}
+	
+	/*顾问咨询服务*/
+	.iuqt img{width: 48%;}
+	.iuqt p.kjwi{line-height: 32px;}
+	
+	/*全委托服务*/
+	.iuqt img.powf{width: 100%;}
+	
+}

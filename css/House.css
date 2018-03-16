@@ -1,0 +1,24 @@
+.z-banner,.wh-bj-con{width: 100%;}
+.z-banner img,.wh-bj-con img{width: 100%;}
+
+
+.Cult{background: #fff;}
+.attention p {height: 77px;line-height: 77px;}
+.attention p span {margin: 0 20px;color: #464646;font-weight: bold;}
+span.attention-this{color: #94724c!important;}
+
+
+.house{background: #fff; width: 1200px; margin: 0 auto;}
+.house .hpart1,.house .hpart2,.house .hpart3{margin: 0 6% !important;}
+
+.hpart1 .p1{font-size: 30px;font-family: "微软雅黑";color: #2d2d2d;margin-bottom: 43px !important; }
+.hpart1 .p2{font-size: 40px;font-family: Gautami;color: #94724d;margin: 53px 0 !important;}
+
+.hpart2 img{width: 100%;}
+
+.house .hpart3{margin: 0 6% 100px !important;}
+.hpart3 p{font-family: "微软雅黑";font-size: 14px;color: #6f6f6f;line-height: 28px;}
+.hpart3 p.f24{font-size: 24px;color: #95734e;line-height: 40px;}
+.hpart3 p.f18{font-size: 18px;color: #91734d;line-height: 42px;}
+.hpart3 p.f16{font-size: 16px;color: #95724c;line-height: 28px;}
+.hpart3 p.l40{line-height: 40px;}

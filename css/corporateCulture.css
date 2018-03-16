@@ -1,0 +1,19 @@
+.attention p {
+    height: 77px;
+    line-height: 77px;
+}
+.attention p span {
+    margin: 0 20px;
+    color: #464646;
+    font-weight: bold;
+}
+
+span.attention-this {
+    color: #fbc066!important;
+}
+
+
+
+
+
+

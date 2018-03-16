@@ -1,0 +1,112 @@
+
+.neinav{
+    background:white;
+}
+a{
+    text-decoration:none;
+}
+.navneibox>li>a:hover{
+    background:orange;
+
+}
+.navboxcontent{
+    padding-bottom:5px;
+}
+.information{
+    clear: both;
+}
+.navneibox li a{
+    text-align: center;
+    display: block;
+    color: #919292;
+}
+.neinavbox:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.neilog{
+    float:left;
+}
+.neinavlink{
+    float:left;
+    margin-left:1%;
+}
+.neinavlink li{
+    float:left;
+}
+.navboxcontent{
+    background:white;
+    padding-top:54px;
+}
+.neinavlink>li>a:hover{
+    background:orange;
+    color:black;
+}
+.addus>a{
+    background:orange;
+    color:black!important;
+}
+/*.neinavlink li:nth-of-type(1) a*/
+/*{*/
+    /*background:orange;*/
+/*}*/
+.logimg{
+    float:right;
+    margin-top: -1%;
+    /*margin-left: 2%;*/
+}
+
+
+.information{
+    overflow: hidden;
+}
+
+
+@media screen and (max-width:768px){
+
+
+}
+
+/* 判断ipad */
+@media  screen and (min-width:768px) and (max-width:1024px){
+    .neinavlink li a{
+        padding: 10px 18px;
+        border-radius: 5px;
+        text-decoration: none;
+        display: block;
+    }
+    .logimg img{
+        width:100px;
+    }
+    .logimg{
+        margin-top:0.5%;
+    }
+    .neilog{
+        margin-top:-5px;
+    }
+    /*.navneibox li a{*/
+        /*width:80px;*/
+        /*height:43px;*/
+        /*line-height:43px;*/
+        /*font-size:14.38px;*/
+        /*border-radius:5px;*/
+        /*text-decoration:none;*/
+
+    /*}*/
+    /*.log{*/
+        /*margin-right:-30px;*/
+    /*}*/
+}
+
+@media (min-width: 1024px){
+    .neinavlink li a{
+        padding:13px 30px;
+        border-radius:5px;
+        text-decoration:none;
+        display:block;
+        font-size:14.38px;
+        color: #919292;
+        /*background:orange;*/
+    }
+}

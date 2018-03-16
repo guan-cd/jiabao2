@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>媒体新闻页面</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/commonality.css">
+		<link rel="stylesheet" href="css/culture.css">
+		<link rel="stylesheet" href="css/introduce.css">
+		<link rel="stylesheet" href="css/globel.css" />
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="css/neinav.css">
+		<link rel="stylesheet" href="css/web-metalist.css" />
+		<link rel="stylesheet" type="text/css" href="css/Residential.css" />
+		<link rel="stylesheet" type="text/css" href="css/indexzyr.css" />
+		<link rel="stylesheet" type="text/css" href="css/gg.css" />
+		<link rel="stylesheet" type="text/css" href="css/wang.css" />
+		<link rel="stylesheet" type="text/css" href="css/contact.css" />
+		<script type="text/javascript">
+			var phoneWidth = parseInt(window.screen.width);
+			var phoneScale = phoneWidth / 640;
+			var ua = navigator.userAgent;
+
+			if(/Android (\d+\.\d+)/.test(ua)) {
+				var version = parseFloat(RegExp.$1);
+				if(version > 2.3) {
+					document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+				} else {
+					document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+				}
+			} else {
+				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+			}
+		</script>
+		<style type="text/css">
+			#allmap {height:716px;width:100%;overflow:hidden;}
+			#result {width:100%;font-size:12px;}
+			dl,dt,dd,ul,li {margin:0;padding:0;list-style:none;}
+			dt {font-size:14px;font-family:"微软雅黑";font-weight:bold;border-bottom:1px dotted #000;padding:5px 0 5px 5px;margin:5px 0;}
+			dd {padding:5px 0 0 5px;}
+			li {-line-height:28px;}
+
+		</style>
+		<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=94OCcDi7Nq2c5t9qcPbl3zmsEHebr42C"></script>-->
+		<!--<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>-->
+		<!--<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />-->
+	</head>
+
+	<body>
+		<!--web端 start-->
+		<div class="wcontent visible-xs">
+			<img src="wimg/logo.png" class="wlogo" />
+			<button class="wbutton">
+		       	<span></span>
+		        <span></span>
+		        <span></span>
+		    </button>
+		</div>
+
+		<!--banner-->
+		<div class="wbanner visible-xs">
+			<ul>
+				<li><img src="wimg/banner2.jpg" alt=""></li>
+			</ul>
+		</div>
+		<!--banner-->
+
+		<div class="container wnav visible-xs">
+			<p class="text-center">
+				<span>企业介绍</span>
+				<span>发展历程</span>
+				<span>企业荣誉</span>
+				<span>企业文化</span>
+				<span class="wling">关注嘉宝</span>
+			</p>
+		</div>
+
+		<div class="wcon visible-xs">
+			<div class="container w">
+				<div class="wpart1">
+					<h1>联系我们</h1>
+					<div class="p1">
+						CONTACT US
+					</div>
+				</div>
+
+				<div class="wpart2">
+					<p class="wld">
+						<span class="wicon1"></span>联系地址：四川省成都市高新区西区西芯大道9号
+					</p>
+					<p class="qzx">
+						<span class="wicon2"></span>全国招聘热线：028-87826263
+					</p>
+
+					<img src="wimg/wmap.png" />
+				</div>
+
+			</div>
+			<img class="wbot" src="wimg/img1.png" alt="">
+		</div>
+
+		<div class="wfooter visible-xs">
+
+			<div class="container">
+				<div class="wleft">
+					<img src="wimg/wfot.png" />
+					<p class="wlx">如遇到问题，请联系我们</p>
+					<p>地址：成都市高新西区西芯大道9号 &nbsp;&nbsp;服务热线：400-8888-116</p>
+					<p>审计监督：028-87826372 &nbsp;&nbsp;招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+				</div>
+				<div class="wgw">
+					<img src="wimg/gw.jpg" />
+					<p>官方微信</p>
+				</div>
+
+			</div>
+
+		</div>
+		<!--web端 end-->
+		
+		
+		
+		
+		<div class="head hidden-xs">
+			<div class="m">
+
+				<!--  <div class="he_le"><img src="images/img1.png" style="vertical-align: middle; padding-right: 4px;">全国统一服务热线 &nbsp; 400-8888-116</div>
+
+					  <div class="he_rg"> 
+					      <a><img src="images/img2.png" style="vertical-align: middle; padding-right: 4px;">网点信息</a>
+					      <a><img src="images/img3.png" style="vertical-align: middle; padding-right: 4px;">人才招聘</a>
+					      <a><img src="images/img4.png" style="vertical-align: middle; padding-right: 4px;">在线客服</a>
+					  </div> -->
+				<div class="container information">
+					<div class="content">
+						<!--  联系start  -->
+						<div class="relation">
+							<p><span class="iphone"></span><span class="serviceHotline">全国统一服务热线</span><span class="tit">400-8888-116</span></p>
+							<ul>
+								<li><span class="branch"></span>网点信息</li>
+								<li><span class="talents"></span>人才招聘</li>
+								<li><span class="service"></span>在线客服</li>
+							</ul>
+						</div>
+						<!--   联系end   -->
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="qrct hidden-xs">
+			<div class="m">
+
+				<div class="ctle">
+
+					<a href="index.html"><img src="images/jimg1.png" /></a>
+
+				</div>
+
+				<div class="ctlk">
+					<ul>
+						<li>
+							<a href="introduce.html" class="iiiw">走进嘉宝</a>
+						</li>
+						<li>
+							<a href="metalist.html">媒体中心</a>
+						</li>
+						<li>
+							<a href="Residention.html">业务介绍</a>
+						</li>
+						<li>
+							<a href="binggouhezuo.html">携手嘉宝</a>
+						</li>
+						<li>
+							<a href="attention-jb.html">加入我们</a>
+						</li>
+						<li>
+							<a href="zhaotoubiao.html">招投标</a>
+						</li>
+						<li>
+							<a href="jibenxinxi.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="ctrg">
+					<img src="images/jimg2.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="lmaf bj-sh hidden-xs">
+			<ul>
+				<li>
+					<img class="visible-xs" src="img/w-fzlc-1.jpg" alt="" />
+					<img class=" hidden-xs" src="img/img22.png" alt="">
+				</li>
+			</ul>
+		</div>
+
+		<div class="lmqr hidden-xs">
+			<ul>
+				<li>
+					<a href="introduce.html">企业介绍</a>
+				</li>
+				<li>
+					<a href="course.html">发展历程</a>
+				</li>
+				<li>
+					<a href="corporate.html">企业荣誉</a>
+				</li>
+				<li>
+					<a href="corporateCulture.html">企业文化</a>
+				</li>
+				<li class="liqr">
+					<a href="lianxiwomen.html">关注嘉宝</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="lmds hidden-xs" style="margin-top: 30px;">
+
+			<div class="m">
+
+				<div class="n">
+
+					<h1>联系我们</h1>
+
+					<div class="ctoi" style="width:240px; color: #94724d;">
+						CONTACT US
+					</div>
+
+					<div style="clear: both;"></div>
+					<div class="mnls">
+						<div class="sslq">
+							<p><img src="images/xsbb.png" style="vertical-align: text-top">
+								<span>联系地址：四川省成都市高新西区西芯大道9号</span>
+							</p>
+							<p>
+								<img src="images/xsbb2.png" style="vertical-align:text-top">
+								<span>全国招聘热线：028—87826263</span>
+							</p>
+						</div>
+						<div id="allmap">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="iusa hidden-xs">
+			<img src="images/frfc.png">
+		</div>
+
+		<div class="Footer hidden-xs">
+
+			<div class="x">
+
+				<div class="lkqr">
+					<img src="images/foot_logo.png" />
+				</div>
+
+				<div class="lkqc">
+
+					<span>如遇到问题，请联系我们</span>
+
+					<p class="kmws">地址：成都市高新西区西芯大道9号</p>
+					<p>服务热线：400-8888-116 &nbsp;&nbsp; 审计监督：028-87826372</p>
+					<p>招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+
+				</div>
+
+				<div class="lkqf">
+					<img src="images/logo_wx.png" />
+					<p>官方微信</p>
+				</div>
+
+			</div>
+
+		</div>
+		<script type="text/javascript">
+			// 百度地图API功能
+			var map = new BMap.Map('allmap');
+			var poi = new BMap.Point(103.966366, 30.746648);
+			map.centerAndZoom(poi, 16);
+			map.enableScrollWheelZoom();
+
+			var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+				'<img src="images/logor.png" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
+				'地址：四川省成都市高新西区西芯大道9号<br/>电话：(028)87826263<br/>' +
+				'</div>';
+
+			//创建检索信息窗口对象
+			var searchInfoWindow = null;
+			searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+				title: "嘉宝股份", //标题
+				width: 290, //宽度
+				height: 105, //高度
+				panel: "panel", //检索结果面板
+				enableAutoPan: true, //自动平移
+				searchTypes: [
+					BMAPLIB_TAB_SEARCH, //周边检索
+					BMAPLIB_TAB_TO_HERE, //到这里去
+					BMAPLIB_TAB_FROM_HERE //从这里出发
+				]
+			});
+
+			var marker = new BMap.Marker(poi); //创建marker对象
+			marker.enableDragging(); //marker可拖拽
+			//    marker.addEventListener("click", function(e){
+			//        searchInfoWindow.open(marker);
+			//    })
+			map.addOverlay(marker); //在地图中添加marker
+			searchInfoWindow.open(marker);
+		</script>
+
+	</body>
+
+</html>

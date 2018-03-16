@@ -1,0 +1,279 @@
+.ditudh{
+    position: relative;
+    width :100%;
+}
+.point .dian {
+    display: inline-block;
+    width :5px;
+    height :5px;
+    position: absolute;
+    /*background-color: #6f787b;*/
+    background-color:blue;
+    bottom: 0;
+    border-radius: 50%;
+}
+.ditudh .dian1{
+    right :37.3%;
+    top :25.5%;
+}
+.ditudh .dian2{
+    right :26.4%;
+    top :45.8%;
+}
+
+.ditudh .dian3{
+    right :36.6%;
+    top :61%;
+}
+.ditudh .dian4{
+    right :15.3%;
+    top :40.9%;
+}
+.ditudh .dian5{
+    right :26%;
+    top :74.5%;
+}
+.ditudh .dian6{
+    right :24.5%;
+    top :48%;
+}
+.ditudh .dian7{
+    right :13%;
+    top :45.3%;
+}
+.ditudh .dian8{
+    right :18.2%;
+    top :84%;
+}
+.ditudh .dian9{
+    right :20.2%;
+    top :80%;
+}
+.ditudh .dian10{
+    right :12.2%;
+    top :56.3%;
+}
+.ditudh .dian11{
+    right :24.5%;
+    top :60.7%;
+}
+
+.ditudh .dian12{
+    right :17.1%;
+    top :42.4%;
+}
+.ditudh .dian13{
+    right :15.9%;
+    top :65.7%;
+}
+.ditudh .dian14{
+    right :8.8%;
+    top :30.4%;
+}
+.ditudh .dian15{
+    right :20.1%;
+    top :51.58%;
+}
+.ditudh .dian16{
+    right :22.55%;
+    top :41.5%;
+}
+.ditudh .dian17{
+    right :13%;
+    top :38.5%;
+}
+.ditudh .dian18{
+    right :18.1%;
+    top :35.3%;
+}
+.ditudh .dian19{
+    right :7.7%;
+    top :24.4%;
+}
+.ditudh .dian20{
+    right :6.9%;
+    top :27%;
+}
+.ditudh .dian21{
+    right :7.2%;
+    top :19.5%;
+}
+.ditudh .dian22{
+    right :9.59%;
+    top :69.3%;
+}
+.ditudh .dian23{
+    right :9.4%;
+    top :59%;
+}
+.ditudh .dian24{
+    right :15.7%;
+    top :50%;
+}
+.ditudh .dian25{
+    right :22.2%;
+    top :63.3%;
+}
+.ditudh .dian26{
+    right :18.2%;
+    top :87%;
+}
+.ditudh .dian27{
+    right :10.5%;
+    top :55.6%;
+}
+.ditudh .dian28{
+    right :8%;
+    top :57%;
+}
+.ditudh .dian29{
+    right :7.2%;
+    top :72.2%;
+}
+.ditudh .dian30{
+    right :14.7%;
+    top :60%;
+}
+.ditudh .dian31{
+    right :14.3%;
+    top :80.4%;
+}
+.ditudh .dian32{
+    right :6%;
+    top :22%;
+}
+.ditudh .dian33{
+    right :15.25%;
+    top :78.2%;
+}
+
+.ditudh .dian34{
+    right :14.9%;
+    top :80.8%;
+}
+
+.ditudh .dian35{
+    right :13.3%;
+    top :64.3%;
+}
+
+@keyframes fang {
+    0% {
+        transform:scale(0);
+    }
+    100%{
+        transform:scale(1.2);
+    }
+
+}
+.dian{
+    animation:fang 1.8s ease-in 1.1s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+/*.dian2{
+    animation:fang 1.8s ease-in 1.22s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian3{
+    animation:fang 1.8s ease-in 1s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian4{
+    animation:fang 1.8s ease-in 2.1s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian5{
+    animation:fang 1.8s ease-in 1s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian6{
+    animation:fang 1.8s ease-in .3s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian7{
+    animation:fang 1.8s ease-in 0.6s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian8{
+    animation:fang 1.8s ease-in .7s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian9{
+    animation:fang 1.8s ease-in 0s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian10{
+    animation:fang 1.8s ease-in 1.8s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+
+.dian11{
+    animation:fang 1.8s ease-in 2.0s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+
+.dian12{
+    animation:fang 1.8s ease-in 1.6s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian13{
+    animation:fang 1.8s ease-in 0.8s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian14{
+    animation:fang 1.8s ease-in 1s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian15{
+    animation:fang 1.8s ease-in 0.3s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian16{
+    animation:fang 1.8s ease-in 1.8s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian17{
+    animation:fang 1.8s ease-in 3.0s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian18{
+    animation:fang 0.8s ease-in 0.6s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian19{
+    animation:fang 1.8s ease-in 3s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian20{
+    animation:fang 1.8s ease-in 2.2s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian21{
+    animation:fang 1.8s ease-in 1.4s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian22{
+    animation:fang 1.8s ease-in 1.2s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian23{
+    animation:fang 1.8s ease-in .9s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian24{
+    animation:fang 1.8s ease-in 0.5s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian25{
+    animation:fang 1.8s ease-in .8s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian26{
+    animation:fang 1.8s ease-in .5s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian27{
+    animation:fang 1.8s ease-in 2s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian28{
+    animation:fang 1.8s ease-in 2.1s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian29{
+    animation:fang 1.8s ease-in 1.7s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian30{
+    animation:fang 1.8s ease-in 1.5s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}
+.dian31{
+    animation:fang 1.8s ease-in 2.1s infinite alternate;/!*infinite表示无数次。。。alternate表示上下播放*!/
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

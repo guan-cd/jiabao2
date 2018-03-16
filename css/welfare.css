@@ -1,0 +1,256 @@
+html,body{
+    /*background-color: ;*/
+}
+.padd-23 {
+    padding: 0 84px !important;
+    background-color: #fff;
+    -margin-top: 30px;
+    height: 8174px;
+     position: relative;
+}
+.padd-23 .gsfl{
+    color: rgb(111, 111, 111);
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 150px;
+    padding-top: 115px;
+    border-bottom: 2px solid rgb(178, 183, 185);
+}
+.ctoi {
+    margin-top: 30px;
+    width: 213px;
+    color: #b1b1b1;
+    font-size: 34px;
+}
+.conte .zbdz{
+    font-size: 15px;
+    height: 123px;
+    line-height: 123px;
+}
+.fitnessRoom{
+    height :138px;
+    background-color: #f5f5f5;
+    line-height: 138px;
+    margin-bottom: 22px;
+}
+.fitnessRoom p {
+    color:#2a3564;
+    float: right;
+    margin-right: 10%;
+    font-size: 30px;
+    width: 200px;
+}
+.fitnessRoom p span{
+    height: 42px;
+    display:inline-block;
+    width: 81px;
+    vertical-align: middle;
+    background: url(../img/gym.png)0 0;
+    margin-right: 5%;
+}
+.fitnessRoom-1{
+    margin-bottom: 22px;
+    margin-top: 30px;
+}
+.fitnessRoom-1 p span{
+    background: url(../img/sports.jpg)0 0;
+    width: 222px;
+}
+.fitnessRoom-1 p{
+    width: 360px;
+}
+.mg-b-20 img{
+    margin-bottom: 22px;
+}
+.mg-b-20 .bj-c{
+    background-color: #f5f5f5;
+    height: 50%;
+    width :504px;
+    margin-left: 13px;
+
+}
+.huang{
+    background-color: #ffb84c;
+    border-radius: 5px;
+}
+.mg-b-20 .bj-c p{
+    padding:78.959px;
+    /*padding: 78px 79px;*/
+    line-height: 30px;
+    font-size: 18px;
+}
+.mg-b-20 div{
+    float: left;
+}
+.fitnessRoom-2{
+    clear: both;
+}
+.fitnessRoom-2 p span{
+    width:187px ;
+    /*background: url('../img/art-center.jpg') 0 0;*/
+    background: url('../img/art-center.jpg') 0 0 no-repeat;
+}
+.fitnessRoom-2 p{
+    width: 324px;
+}
+.yisuzx .float-le{
+    float: left;
+}
+.yisuzx .float-ri{
+    float: right;
+    width :485px;
+}
+.yisuzx .float-ri img{
+    float: right;
+    width :485px;
+}
+.yisuzx .float-le img{
+    width :525px;
+}
+.float-ri img.bot{
+    margin-bottom: 23px;
+}
+.fitnessRoom-3{
+    clear: both;
+    margin-top: 20px;
+}
+.fitnessRoom-3 p span{
+    width: 140px;
+    background: url('../img/canteen.jpg') 0 0 no-repeat;
+}
+.fitnessRoom-3 p{
+    width :212px;
+}
+.stang .float-ri{
+    float: right;
+}
+.stang .float-le{
+    float: left;
+    width :353px;
+}
+.stang .float-le img{
+    float: left;
+}
+.stang .float-le img.bot{
+    margin-bottom: 22px;
+}
+.fitnessRoom-4 p{
+    width: 140px;
+}
+.fitnessRoom-4 p span{
+    width: 73px;
+    background: url('../img/club.jpg') 0 0 no-repeat;
+}
+
+
+.zdy .float-le img {
+    width: auto;
+}
+.zdy .float-ri{
+    width: 531px;
+}
+.zdy .float-ri img {
+    width: 100%;
+}
+.zdy .float-r .bot{
+    margin-bottom: 25px;
+}
+.fitnessRoom-5 p{
+    width: 363px;
+}
+.fitnessRoom-5 p span{
+    width: 222px;
+    background: url("../img/park-scenery.jpg") 0 0 no-repeat;
+}
+.fitnessRoom-5{
+    margin-top: 20px;
+}
+.yuna1 .yuna1-1{
+     float: left;
+    width: 210px;
+ }
+.yuna1 .yuna1-1 img{
+    float: left;
+}
+.yuna1 .yuna1-2{
+    float: left;
+    width:526px;
+    margin-left: 19px;
+}
+.yuna1 .yuna1-3{
+    float: right;
+    width: 250px;
+}
+.yuna1 .yuna1-3 img{
+    float: right;
+}
+.yuna1 .bot{
+    margin-bottom: 21px;
+}
+.yuan2{
+    margin-top: 10px;
+}
+.yuan2 .yuan2-1{
+    float: left;
+}
+.yuan2 .yuan2-2{
+    float: left;
+    margin-left: 19px;
+    width :244px;
+}
+.yuan2 .yuan2-2 img{
+    float: left;
+}
+.yuan2 .yuan2-3{
+    float:right;
+}
+.yuan2 .bot{
+    margin-bottom: 18px;
+    width :244px;
+}
+.fitnessRoom-5 p span{
+    width: 345px;
+    background: url("../img/offce.jpg") 0 0 no-repeat;
+}
+.fitnessRoom-5 p{
+    width :492px;
+}
+.huanj1 .huanj1-1{
+    float: left;
+}
+.huanj1 .huanj1-2{
+    float: right;
+    width: 326px;
+}
+.huanj1 .huanj1-2 .bot{
+    margin-bottom: 20px;
+}
+.huanj2{
+    margin-top: 10px;
+}
+.huanj2 .huanj1-1{
+    float: left;
+    width :504px;
+}
+.huanj2 .huanj1-2{
+    float: right;
+    width: 504px;
+}
+.huanj2 .bot{
+    margin-bottom: 20px;
+}
+.fitnessRoom-6{
+    margin-top: 10px;
+}
+.fitnessRoom-6 p{
+    width:220px;
+}
+.fitnessRoom-6 p span{
+    width: 119px;
+    background: url("../img/lintrary.png") 0 0 no-repeat;
+}
+.Footer{
+    margin:0!important;
+}
+

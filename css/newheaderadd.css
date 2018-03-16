@@ -1,0 +1,108 @@
+/*邹秀梅改导航栏*/
+body,html{
+    font-size:62.5%;
+}
+.san {
+    float: right;
+    margin-top: -3px;
+}
+.erji{
+    width:100%;
+    position: absolute;
+    z-index:25555;
+    /*background:rgba(255,255,255,0.7);*/
+    display: none;
+    top:100%;
+}
+.erji a{
+    display:block;
+    width:100%;
+    /*padding-top:10px;*/
+    background: rgba(255,255,255,0.7);
+    text-align: center;
+    height:30px;
+    line-height:30px;
+}
+.glyphicon{
+    font-size:0.5rem;
+}
+.erji li:nth-of-type(1)
+{
+    margin-top:0px;
+
+}
+.erji li{
+    margin-top:1.5px;
+}
+.indexnav>li{
+    position: relative;
+}
+.indexnav>li:nth-of-type(1)
+{
+    margin-right:40px!important;
+}
+.indexnav>li:hover a
+{
+    color: rgb(93,93,93);
+}
+.indexnav>li:hover .erji{
+    display:block;
+}
+.hea-bot ul li a:hover{
+    color: #94724d;
+}
+.indexnav>li>a{
+    font-size:14.38px;
+}
+.erji>li {
+    float: none;
+    width: 100%;
+}
+a{
+    text-decoration:none!important;
+}
+.hea-top:after{
+    content:"";
+    display:none;
+}
+.hea-top .search span{
+    margin-left:55px;
+}
+.indexnav>li{
+    /* padding: 5px; */
+    /*background: orange;*/
+    padding: 10px 20px;
+}
+.indexnav>li:hover{
+    background: orange;
+}
+.hea-bot ul li a{
+    float:left;
+}
+.hea-bot ul li{
+    margin-right:0!important;
+    border-radius:5px;
+}
+.hea-bot {
+    clear: both;
+    padding-top: 27px;
+}
+.indexnav:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.header{
+    height:250px!important;
+}
+.header_h{
+    height:250px!important;
+}
+/*.san{*/
+    /*height:0px;*/
+    /*width: 0px;*/
+    /*border-top: 2px solid red;*/
+    /*border-right: 5px solid black;*/
+    /*border-bottom: 5px solid blue;*/
+    /*transform:rotate(-90deg);*/
+/*}*/

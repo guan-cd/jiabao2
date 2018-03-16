@@ -1,0 +1,72 @@
+/*关注嘉宝*/
+/*.bj{
+    height :114px;
+    background-color: #fff;
+    clear: both;
+}
+.bj .title{
+    float: left;
+    margin-top: 36px;
+    margin-bottom: 0px;
+}
+.bj .title li{
+    float: left;
+    padding:13px 30px;
+    cursor: pointer;
+}*/
+/*.title li span{
+    background: url('../img/fz.png');
+    display: inline-block;
+    width :47px;
+    height :47px;
+    position: relative;
+    top:-15px;
+
+}
+.title .bj-color{
+    background-color: #fbc066;
+    border-radius: 5px;
+}*/
+.ServiceLife{
+
+}
+/*p.logo{
+    float: right;
+    height :60px;
+    width :340px;
+    margin-top: 30px;
+    background: url('../img/img5.png');
+}*/
+.ServiceLife{
+    width :100%;
+    /*height :100px;*/
+    background: #65a700;
+}
+.ServiceLife img{
+    width :100%;
+}
+.attention p{
+    height: 77px;
+    line-height: 77px;
+}
+.attention p span{
+    margin :0 20px;
+    color: #464646;
+    font-weight: bold;
+}
+span.attention-this{
+    color :#fbc066!important;
+}
+.sabshui{
+    width :100%;
+}
+.sabshui img{
+    width :100%;
+}
+
+
+
+
+
+
+

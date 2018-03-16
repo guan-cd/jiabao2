@@ -1,0 +1,39 @@
+/*手机*/
+@media screen and (max-width:768px){
+    .wcon .wpart2{position: relative;height: 8.1rem;}
+	.wpart2 .wline{position: absolute;}
+	.wpart2 .wideas .wp{font-family: "微软雅黑";width: 1.41rem;height: 0.32rem;background: url(../wimg/b1.png) no-repeat;font-size: 0.2rem;color: #f1a400;padding-left: 0.36rem;line-height: 0.3rem;margin: 0 0 0.1rem -0.36rem !important;}
+	
+	.wideas div{position: absolute;left: -3px;padding-left: 0.36rem;}
+	.wpart2 .wideas .wp1{top: -0.15rem;}
+	.wpart2 .wideas .wp2{top: 0.94rem;}
+	.wpart2 .wideas .wp3{top: 1.88rem;}
+	.wpart2 .wideas .wp4{top: 2.82rem;}
+	.wpart2 .wideas .wp5{top: 3.98rem;}
+	.wpart2 .wideas .wp6{top: 4.88rem;}
+	.wpart2 .wideas .wp6-1{width: 2.35rem;background: url(../wimg/b2.png) no-repeat;}
+	.wpart2 .wideas .wp7{bottom: 1.86rem;}
+	.wpart2 .wideas .wp8{bottom: 1.12rem;}
+	.wpart2 .wideas .wp9{bottom: 0.36rem;}
+	.wpart2 .wideas .wp10{bottom: -0.36rem;}
+	.wpart2 .wideas .wp7,.wpart2 .wideas .wp8,.wpart2 .wideas .wp9,.wpart2 .wideas .wp10{padding-left: 0.36rem;}
+	.wpart2 .wideas span{font-family: "微软雅黑";font-size: 0.16rem;color: #626262;}
+	.wpart2 .wideas span.fbold{font-weight: bold;}
+	
+	
+}
+
+
+/*ipad*/
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+
+
+/*PC*/
+@media (min-width: 1024px){
+
+}
+
+
+

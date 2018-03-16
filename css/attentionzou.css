@@ -1,0 +1,187 @@
+html,body{
+    font-size:62.5%;
+}
+/*关注嘉宝*/
+/*.bj{
+    height :114px;
+    background-color: #fff;
+    clear: both;
+}
+.bj .title{
+    float: left;
+    margin-top: 36px;
+    margin-bottom: 0px;
+}
+.bj .title li{
+    float: left;
+    padding:13px 30px;
+    cursor: pointer;
+}*/
+/*.title li span{
+    background: url('../img/fz.png');
+    display: inline-block;
+    width :47px;
+    height :47px;
+    position: relative;
+    top:-15px;
+
+}
+.title .bj-color{
+    background-color: #fbc066;
+    border-radius: 5px;
+}*/
+/*导航样式*/
+.neinavlink>li{
+    position: relative;
+}
+.erji{
+    width:100%;
+    position: absolute;
+    z-index:25555;
+    background:rgba(255,255,255,0.7);
+    /*display: none;*/
+}
+.erji a{
+    display:block!important;
+    padding:0 0!important;
+    width:100%;
+    border-bottom:1px solid white;
+    /*padding-top:10px;*/
+    text-align: center;
+    height:45px;
+    line-height:45px;
+}
+
+.erji a:hover{
+    color:orange;
+}
+.erji>li{
+    float:none;
+    width:100%;
+
+}
+/*导航样式结束*/
+.bgwhite{
+    background:#f5f5f5;
+}
+.ServiceLife{
+
+}
+/*p.logo{
+    float: right;
+    height :60px;
+    width :340px;
+    margin-top: 30px;
+    background: url('../img/img5.png');
+}*/
+.ServiceLife{
+    width :100%;
+    /*height :100px;*/
+    /*background: #65a700;*/
+}
+.ServiceLife img{
+    width :100%;
+}
+.attention p{
+    height: 77px;
+    line-height: 77px;
+}
+.attention p span{
+    margin :0 20px;
+    color: #464646;
+    font-weight: bold;
+}
+span.attention-this{
+    color :#fbc066!important;
+}
+.sabshui{
+    width :100%;
+}
+.sabshui img{
+    width :100%;
+}
+.ServiceLife .container{
+    background:white;
+}
+.ServiceLife .container:nth-of-type(1){
+    padding-top:150px;
+}
+.ServiceLife h2{
+    font-size:30px;
+    color:rgb(111,111,111);
+}
+.border{
+    margin-top:40px;
+    width:17%;
+    height:3px;
+    background:rgb(178,183,185);
+}
+.ServiceLife h3{
+font-size:39.43px;
+    color:rgb(148,114,77);
+    text-transform: uppercase;
+}
+.ServiceLife .container{
+    padding-left:105px;
+    padding-right:105px;
+}
+.boxcontent{
+    padding:20px!important;
+    background:white;
+    /*margin-top:75px;*/
+}
+.paddingnone{
+    padding:0!important;
+}
+.marinleft0{
+    margin-left:0;
+}
+.des{
+    height:68px;
+    background: #ffb84c;
+    width:97.8%;
+    margin-top:15px;
+}
+.desbox{
+    width:80%;
+    margin-left:10%;
+    height:100%;
+    line-height:68px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.shehui{
+    font-size:3.59rem;
+    color:white;
+    margin-left:7px;
+}
+.margintop{
+    margin-top:-13px;
+}
+.dianji{
+    font-size:1.5rem;
+
+}
+.dianji a{
+    color:white;
+    text-decoration:none;
+}
+.in{
+    margin-top:-2px;
+    cursor:pointer;
+}
+.Footer{
+    margin-top:0!important;
+}
+.dianji a{
+  color:white;
+}
+
+
+
+
+

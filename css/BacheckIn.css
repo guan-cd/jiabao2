@@ -1,0 +1,108 @@
+.attention p {
+    height: 77px;
+    line-height: 77px;
+    font-size: 18px;
+}
+.attention p span {
+    margin: 0 20px;
+    color: #464646;
+    font-weight: bold;
+    cursor: pointer;
+}
+.padd-23 {
+    padding: 0 84px !important;
+    background-color: #fff;
+    /* margin-top: 30px; */
+    height: 2233px;
+    position: relative;
+}
+.padd-23 .gsfl {
+    color: rgb(111, 111, 111);
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 150px;
+    padding-top: 115px;
+    border-bottom: 2px solid rgb(178, 183, 185);
+}
+.conte .synopsis-p{
+    color:#96734d;
+    font-size: 16px;
+}
+.conte .synopsis-c{
+    font-size: 14px;color:#6f6f6f;
+}
+.conte .range{
+    color:#96734d;
+    font-size: 16px;
+}
+.conte p{
+     font-size: 14px;color:#6f6f6f;
+ }
+.conte .synopsis-c span{
+    display: inline-block;
+    margin-left: 40px;
+}
+.Occupancy .Occupancy-Reason{
+    width :490px;
+    float: left;
+}
+.Occupancy{
+    position: relative;
+    margin-top: 100px;
+    height :412px;
+    width: 100%;
+    /*background-color: #0070c0;*/
+}
+.Occupancy ul li{
+    font-size: 16px;
+}
+.Occupancy-Business{
+    float: right;
+    width: 237px;
+    margin-right: 283px;
+}
+.Occupancy-Business li span{
+    display: inline-block;
+    height :5px;
+    width :5px;
+    background-color: #707070;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+.Occupancy .map{
+    position: absolute;
+    top :-194px;
+    right :0px;
+    width :324px;
+}
+.LifeHome{
+    /*width :88%;*/
+    width :100%;
+    /*padding:0 6%;*/
+    /*background-color: #007aff;*/
+    /*height :200px;*/
+    margin: 0 auto;
+}
+.LifeHome img{
+    width :100%;
+}
+.zp{
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+.ban{
+    position: absolute;
+    bottom: 0;
+    width :100%;
+}
+.attention p span.attention-this{
+    color: #fbc066;
+}
+
+
+
+
+
