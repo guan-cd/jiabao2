@@ -1,0 +1,79 @@
+body,html{
+    width :100%;
+}
+.bj-sh{
+    width :100%;
+}
+.bj-sh img{
+    width :100%;
+}
+.attention p{
+    height: 77px;
+    line-height: 77px;
+}
+.attention p span{
+    margin :0 20px;
+    color: #464646;
+    font-weight: bold;
+}
+span.attention-this{
+    color :#fbc066!important;
+}
+.wh-bj-con{
+    width: 100%;
+    position: relative;
+}
+.wh-bj-con img{
+    width: 100%;
+
+}
+.wh-bj-con .banner{
+    width :100%;
+    position: absolute;
+    bottom:0;
+}
+.padd-23 {
+    padding: 0 84px !important;
+    background-color: #fff;
+    /* margin-top: 30px; */
+    height: 1365px;
+    position: relative;
+}
+.padd-23 .gsfl {
+    color: rgb(111, 111, 111);
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 150px;
+    padding-top: 115px;
+    border-bottom: 2px solid rgb(178, 183, 185);
+}
+.padd-23 .gsfl {
+    color: rgb(111, 111, 111);
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 150px;
+    padding-top: 115px;
+    border-bottom: 2px solid rgb(178, 183, 185);
+}
+
+.ctoi {
+    margin-top: 30px;
+    width: 213px;
+    color: #b1b1b1;
+    font-size: 34px;
+}
+.ban {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.zp {
+    height: 1365px;
+    position: relative;
+}
+
+
+
+
