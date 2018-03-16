@@ -1,0 +1,85 @@
+/*ÊÖ»ú*/
+@media screen and (max-width:768px){
+    html {
+        width: 100%;
+        height: 100%;
+
+        -webkit-text-size-adjust: none;
+        font-size: calc(100vw/6.4);
+
+        font-size: -webkit-calc(100vw/6.4);
+        font-size: -moz-calc(100vw/6.4);
+
+    }
+    h1,h2,h4,h5,h6,h3,p{
+        text-align: left;
+        margin:0;
+    }
+    .con p{
+        text-indent: 2em;
+    }
+    .con {
+        background-color: #fff;
+        padding: .67rem .25rem 0px;
+        text-align: center;
+    }
+    .con .ywen{
+        color :#94724d;
+        margin-bottom: .73rem;
+    }
+    .container{
+        padding: 0 .15rem!important;
+    }
+    .con .henxian {
+        background-color: #bcc0c1;
+        display: block;
+        width: 2.25rem;
+        height: .02rem;
+        margin-top: .19rem;
+        margin-bottom: .25rem;
+    }
+    .con p{
+        font-size: .16rem;
+    }
+    .con .p2{
+        margin: .4rem 0 .7rem;
+        font-size: 12px;
+        text-indent: 0em;
+    }
+    .henxian1{
+        border :.01rem solid #c5cad2;
+        margin-top: .5rem;
+        margin-bottom: .4rem;
+
+    }
+    table tr{
+        height :1.2rem;
+        border-right:1px solid #6f6f6f;
+    }
+
+
+
+
+    .boot{
+        position: relative;
+        /*padding-top: 1rem;*/
+    }
+    .boot img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .container-ren {
+        width: 100%;
+        background-color: #fff;
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+/*×ÀÃæ*/
+@media (min-width: 1024px){
+
+}

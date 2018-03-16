@@ -1,0 +1,130 @@
+
+/*ÊÖ»ú*/
+@media screen and (max-width:768px){
+    .w-fzlc-hea{
+        /*height :588px;*/
+        background-color: #fff;
+        padding: 50px 25px 0px;
+        /*background-color: blue;  w-fzlc-hea*/
+        /*font-size: 25px;*/
+    }
+    .w-fzlc-hea h3{
+        font-size: 25px;
+    }
+    .w-fzlc-hea .yinwen{
+        font-size: 14px;
+    }
+    .w-fzlc-con{
+        position: relative;
+        /*background-color: #fff;*/
+    }
+    .w-fzlc-con .fzlc-foo-img{
+        width :100%;
+        position: absolute;
+        bottom: 0;
+        left :0px;
+    }
+    .container{
+        padding-right:15px!important;
+        padding-left: 15px!important;
+    }
+    .w-fzlc-hea .henxian{
+        display: inline-block;
+        width :75px;
+        height :2px;
+        background-color: #c5c9ca;
+    }
+    .w-fzlc-hea .mg-top{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    .w-fzlc-hea .mg-top .mg-bot{
+        margin-bottom: 10px!important;
+    }
+    .trophy{
+        height :252px;
+        width :100%;
+        text-align: center;
+        background-color: #FFF;
+    }
+    .trophy img{
+        width: 100%;
+    }
+     .trophy .trophy-left{
+        float: left;
+        /*height :252px;*/
+         width :49%;
+    }
+     .trophy .trophy-right{
+        float: right;
+        /*height :252px;*/
+         width :50%;
+    }
+    .trophy-con {
+        position: relative;
+    }
+    .trophy-con div{
+        position: absolute;
+        width: 100%;
+        bottom:-10px;
+    }
+    .trophy-con div p{
+        line-height: 1.4em;
+        font-size: 16px;
+    }
+    div.ditu{
+        width :100%;
+        background-color: #fff;
+        position: relative;
+    }
+    div.ditu img{
+        width :100%;
+    }
+    div.ditu .Barchart1{
+        position: absolute;
+        background-color: #fff;
+        bottom :0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+/*×ÀÃæ*/
+@media (min-width: 1024px){
+    .w-fzlc-con{
+        position: relative;
+
+    }
+    .w-fzlc-con .container{
+        background-color: #fff;
+    }
+    .w-fzlc-con img{
+        width :100%;
+        position: absolute;
+        left :0;
+        bottom:0;
+    }
+}

@@ -1,0 +1,70 @@
+
+/*ÊÖ»ú*/
+@media screen and (max-width:768px){
+    .w-fzlc-hea{
+        height :588px;
+        background-color: #fff;
+        padding: 50px 25px 0px;
+        height :9rem;
+        /*background-color: blue;*/
+    }
+    .w-fzlc-con{
+        position: relative;
+        height :6rem;
+    }
+    .w-fzlc-con .fzlc-foo-img{
+        width :100%;
+        position: absolute;
+        bottom: 0;
+        left :0px;
+    }
+    .container{
+        padding-right:15px!important;
+        padding-left: 15px!important;
+    }
+    .w-fzlc-hea .henxian{
+        display: inline-block;
+        width :75px;
+        height :2px;
+        background-color: #c5c9ca;
+    }
+    .w-fzlc-hea h3{
+        font-size: .2rem!important;
+    }
+    .w-fzlc-con{
+        height :9rem;
+    }
+
+
+}
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+/*×ÀÃæ*/
+@media (min-width: 1024px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
