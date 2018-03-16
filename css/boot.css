@@ -1,0 +1,65 @@
+.lkqr {
+    float: left;
+    border-right: 2px solid #7d6716;
+    height: 102px;
+    line-height: 20px;
+    margin-top: 20px;
+    padding-right: 53px;
+}
+.Footer {
+    background: #00322f;
+
+    height: 140px;
+    margin-top: -6px;
+}
+.Footer-ren{
+    margin-top: 0px;
+}
+.lkqr img {
+    padding-top: 25px;
+    padding-right: 20px;
+}
+.lkqc {
+    float: left;
+    border-right: 2px solid #7d6716;
+    height: 102px;
+    -line-height: 180px;
+    margin-top: 20px;
+    color: #fff;
+    padding: 0px 71px 0 0px;
+    font-size: 18px;
+    margin-left: 77px;
+}
+.lkqc p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 2px!important;
+}
+.kmws {
+    padding-top: 10px;
+}
+.lkqc span{
+    font-size: 18px;
+    line-height: 0px;
+    display: inline-block;
+}
+.lkqf {
+    float: right;
+    text-align: center;
+    padding-right: 11px;
+     padding-top: 18px;
+    color: #fff;
+}
+.lkqf img{
+    height :86px;
+}
+
+
+
+
+
+
+
+
+
+
