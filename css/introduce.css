@@ -7,8 +7,8 @@ ul li{list-style: none;}
 
 .qj .part1,.qj .part2,.qj .part3{margin: 0 5%;}
 
-.part1 .p1{font-size: 30px;font-family: "微软雅黑";color: #b1b1b1;margin-bottom: 43px !important;}
-.part1 .p2{font-size: 40px;font-family: Gautami;margin-top: 23px; color: #b1b1b1;
+.part1 .p1{font-size: 16px;font-family: "微软雅黑";color: #b1b1b1;margin-bottom: 43px !important;}
+.part1 .p2{font-size:14px;font-family: Gautami;margin-top: 23px; color: #b1b1b1;
 	margin-bottom: 48px!important;}
 
 .part2{margin-top: 56px;overflow: hidden;}

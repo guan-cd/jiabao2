@@ -748,15 +748,15 @@ width: 44%;
 .iuqb{
 
 }
-.zcli{
+/*.zcli{
 overflow:hidden;
 width: 100%;
 -background: pink;
 margin-top: 80px;
 border-bottom: 1px solid #c5cad2;
 -background: pink;
-}
-.mnyy{
+}*/
+/*.mnyy{
 	float: left;
 	width: 10%;
 	-background: red;
@@ -765,20 +765,20 @@ border-bottom: 1px solid #c5cad2;
 	font-weight:bold;
 	padding-top: 110px;
 	-background: green;
-}
-.jhll{
+}*/
+/*.jhll{
 	float: right;
 	width: 80%;
 	-background:red;
-}
+}*/
 
-.jhll ul li{
+/*.jhll ul li{
 	 float: left;
 	 width: 410px;
 	 height:180px;
 	 margin-top: 10px;
 	 -background: orange;
-}
+}*/
 .jhll ul li img{
 	vertical-align: middle;
 }
@@ -805,11 +805,11 @@ border-bottom: 1px solid #c5cad2;
     padding-top:30px;
 }
 
-.dsao{
+/*.dsao{
 	font-size: 15px;
 	line-height: 30px;
 	padding-bottom: 50px;
-}
+}*/
 
 .mnyi{
 float: left;
@@ -1265,13 +1265,101 @@ float: left;
 .mnls{
 	margin-bottom: 600px;
 }
+.ffqz{
+	overflow: hidden;
+	-margin-top: 30px;
+	z-index: -1;
+	padding-bottom: 650px!important;
+}
 
+.ffqp{
+	-overflow: hidden;
+	-margin-top: 30px;
+	-z-index: -1;
+	padding-bottom: 400px!important;
+}
 
+.dffq{
+    -background: green;
+	margin-top: 300px;
+	z-index: 9;
+	position: relative;
+}
+.dffs{
+	-background: green;
+	margin-top: 300px;
+	z-index: 9;
+	position: relative;
+}
+.dsay{
+	margin-top: 300px;
+	-background: orange;
+}
+.contesa{
+   background: url("../images/bgma.png") no-repeat;
+	height:1164px;
+	margin-top:60px;
+	-margin-bottom: 300px;
+}
+.contesa ul li{
+	width: 70%;
+	overflow: hidden;
+	-background: green;
+}
+.contesa ul li p{
+	 color: #f1a400;
+     font-size: 25px;
+	 padding-left: 56px;
+}
+.contesa ul li strong{
+	color: #f1a400;
+	font-size: 25px;
+	padding-left: 56px;
+}
+.contesa ul li span{
+	 font-size: 20px;
+	 overflow: hidden;
+	 -background: green;
+	 display: inline-block;
+	 padding:6px 0 0 32px;
+}
 
+.contesa ul li.jzfw{
+	overflow: hidden;
+	-background: green;
+	padding-top: 67px;
+}
 
+.contesa ul li.jzfr{
+	overflow: hidden;
+	-background: green;
+	padding-top: 65px;
+}
+.contesa ul li.jzft{
+	overflow: hidden;
+	-background: green;
+	padding-top: 67px;
+}
 
+.contesa ul li.jzfy{
+	overflow: hidden;
+	-background: green;
+	padding-top: 30px;
+}
 
-
-
-
-
+.contesa ul li.dsai{
+	overflow: hidden;
+	-background: green;
+	padding-top: 65px;
+	margin-left: -14px;
+}
+.contesa ul li.dsai p{
+	padding-top: 17px;
+}
+.contesa ul li.dsai p,strong{
+	color: #626262;
+	font-size:22px;
+}
+.qrct{
+	font-size: 16px;
+}

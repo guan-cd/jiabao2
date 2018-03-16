@@ -1,0 +1,85 @@
+/*ÊÖ»ú*/
+@media screen and (max-width:768px){
+    html {
+        width: 100%;
+        height: 100%;
+
+        -webkit-text-size-adjust: none;
+        font-size: calc(100vw/6.4);
+
+        font-size: -webkit-calc(100vw/6.4);
+        font-size: -moz-calc(100vw/6.4);
+
+    }
+    .container{
+        padding: 0 .15rem!important;
+    }
+    .container-ren{
+        width :100%;
+    }
+    h2{
+        text-align: center;
+        font-size: 21px;
+        margin:0px;
+    }
+    .con{
+        background-color: #fff;
+        padding:.67rem .25rem 0px;
+        text-align: center;
+    }
+    .con .laiyuan{
+        text-align: center;
+        font-size: 12px;
+        margin-top: .3rem;
+        margin-bottom: .36rem;
+    }
+    .con .text-index{
+        text-indent: 2em;
+        margin-bottom: .22rem;
+        text-align: left;
+        font-size: .12rem;
+        padding: 0 .7rem;
+    }
+    .con .text-index1{
+        margin-top: .2rem;
+    }
+    .con .img1{
+        width :3.5rem;
+
+    }
+    .con .img2{
+        width :4.4rem;
+    }
+    .con .text-index2{
+        margin-top: .26rem;
+        margin-bottom: .16rem;
+    }
+    .img3{
+        width :3.38rem;
+    }
+    .img10{
+        width :2.66rem;
+    }
+    .container-ren{
+        background-color: #fff;
+    }
+    .boot{
+        position: relative;
+    }
+    .boot img{
+        position: absolute;
+        bottom: 0;
+        left :0;
+        width :100%;
+    }
+    .text-index3{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+/*×ÀÃæ*/
+@media (min-width: 1024px){
+
+}

@@ -1,0 +1,157 @@
+/*ÊÖ»ú*/
+@media screen and (max-width:768px){
+    html {
+        width: 100%;
+        height: 100%;
+
+        -webkit-text-size-adjust: none;
+        font-size: calc(100vw/6.4);
+
+        font-size: -webkit-calc(100vw/6.4);
+        font-size: -moz-calc(100vw/6.4);
+
+    }
+    body {
+        /*height:30rem;*/
+    }
+    h1,h2,h4,h5,h6,h3,p{
+        text-align: left;
+
+    }
+    .con .henxian {
+        background-color: #bcc0c1;
+        display: block;
+        width: 1.25rem;
+        height: .02rem;
+        margin-top: .19rem;
+        margin-bottom: .25rem;
+    }
+    .con h3{
+        font-size: .25rem;
+    }
+    .con p{
+        font-size: .15rem;
+    }
+    .contens .con-left{
+        float: left;
+        width :2.68rem;
+        height :1.71rem;
+        position: relative;
+        text-align: center;
+    }
+    .contens img{
+        width: 100%;
+    }
+    .contens .con-right{
+        float: right;
+        width :2.7rem;
+        height :1.71rem;
+        position: relative;
+    }
+    .con-right div,.con-left div{
+        position: absolute;
+        bottom :.15rem;
+        /*left :.1rem;*/
+    }
+    .con-right h5,.con-left h5{
+        /*position: absolute;
+        top :.3rem;*/
+    }
+    .con-right h5,.con-left h5,.con-left h6,.con-right h6{
+        text-align: center;
+    }
+    .contens h5{
+        font-size: .17rem;
+
+        /*position: absolute;bottom: .3rem;*/
+    }
+    .contens h6{
+        font-size: .13rem;
+        /*position: absolute;bottom: .2rem;*/
+    }
+    .con-left .text-center{
+        width: 2.68rem;
+    }
+    .con-right .text-center{
+        width: 2.7rem;
+    }
+    .ding i{
+        display: inline-block;
+        height :.22rem;
+        width :.23rem;
+        background: url(../img/web-tzz-xia.jpg) 0 0 / 100% 100% no-repeat;
+        vertical-align: middle;
+    }
+    .ding p{
+        position: absolute;bottom: 0;
+    }
+    .con{
+        padding-bottom: 2rem;
+    }
+    .con h5{
+        margin-bottom: .4rem;
+    }
+    .an-left{
+        position: absolute;
+        left :1.4rem;
+        bottom: -1.5rem;
+    }
+    .an-rig{
+        position: absolute;
+        right :1.4rem;
+        bottom: -1.5rem;
+    }
+
+
+    .boot{
+        position: relative;
+        /*padding-top: 1rem;*/
+    }
+    .boot img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .container-ren {
+        width: 100%;
+        background-color: #fff;
+    }
+    .ding h5{
+        margin-bottom: 0!important;
+    }
+    .con {
+        /*margin-left: .1rem;*/
+        overflow: hidden!important;
+        background-color: #f5f5f5;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding-left: .15rem;
+        padding-right: .15rem;
+    }
+    .swiper-container-ren{
+        background-color: #fff;
+        padding-bottom: 2rem;
+        padding-top: .67rem;
+        padding-left: .25rem;
+        padding-right: .25rem;
+    }
+    .an-left{
+        z-index: 99;
+    }
+    .an-rig{
+        z-index: 99;
+    }
+    .contens{
+        overflow-x: hidden;
+    }
+
+
+}
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+/*×ÀÃæ*/
+@media (min-width: 1024px){
+
+}

@@ -76,7 +76,67 @@ html,body{
 .yuangong{
     color: #94724d!important;
 }
-.hea-top .search span{
+/*.hea-top .search span{
     margin-left:54px;
 }
+
+.whitbg h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/!*ÊÖ»ú*!/
+@media screen and (max-width:768px){
+    html {
+        width: 100%;
+        height: 100%;
+
+        -webkit-text-size-adjust: none;
+        font-size: calc(100vw/6.4);
+
+        font-size: -webkit-calc(100vw/6.4);
+        font-size: -moz-calc(100vw/6.4);
+
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+/!*×ÀÃæ*!/
+@media (min-width: 1024px){
+
+    .img-responsive{
+        width :50%;
+        margin-left: 22%;
+    }
+    .swiper-slide img{
+        margin-left: 0;
+    }
+    .user_content p{
+        font-size: 14px;
+    }
+    .lkqc p {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .lkqc span{
+        font-size: 16px;
+    }
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 

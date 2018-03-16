@@ -1,0 +1,91 @@
+/*ÊÖ»ú*/
+@media screen and (max-width:768px){
+    html {
+        width: 100%;
+        height: 100%;
+
+        -webkit-text-size-adjust: none;
+        font-size: calc(100vw/6.4);
+
+        font-size: -webkit-calc(100vw/6.4);
+        font-size: -moz-calc(100vw/6.4);
+
+    }
+    .container{
+        padding:0 .15rem;
+    }
+    .con{
+        background-color: #fff;
+        /*padding-top: .57rem;*/
+        padding:.57rem .25rem 1rem;
+    }
+    .con h3{
+        margin:0;
+        font-size: .25rem;
+    }
+    .con .henxian{
+        background-color: #bcc0c1;
+        display: block;
+        width :1.25rem;
+        height: .02rem;
+        margin-top: .19rem;
+        margin-bottom: .25rem;
+    }
+    .con h5{
+        color: #94724d;
+        margin-top: .16rem;
+        margin-bottom: .25rem;
+    }
+    .form-inline input{
+        display:inline-block;
+        width: auto;
+        /*width: 1.82rem;*/
+        /*height :.3rem;*/
+    }
+    .form-group{
+        margin-top: .4rem;
+    }
+    .con .contents{
+        text-align: center;
+    }
+    .form-inline textarea{
+        width :77%;
+        display: inline-block;
+        margin-top: .4rem;
+        height :3rem;
+    }
+    .form-inline .btn{
+        /*display: block;*/
+        background-color: #00322f;
+        border-radius: .1rem;
+        width :40%;
+        hieght :.3rem;
+        color :#fff;
+        margin-top: .3rem;
+    }
+
+
+
+
+    .boot{
+        position: relative;
+        /*padding-top: 1rem;*/
+    }
+    .boot img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .container-ren {
+        width: 100%;
+        background-color: #fff;
+    }
+}
+@media only screen and (min-width:768px) and (max-width : 1024px){
+
+}
+/*×ÀÃæ*/
+@media (min-width: 1024px){
+
+}
