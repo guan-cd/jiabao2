@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/globel.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/corporateCulture.css">
@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="css/indexzyr.css">
     <link rel="stylesheet" type="text/css" href="css/gg.css"/>
     <link rel="stylesheet" type="text/css" href="css/wang.css"/>
-    <script type="text/javascript">
+    <link rel="stylesheet" href="css/font-size.css"/>
+    <!--<script type="text/javascript">
         var phoneWidth = parseInt(window.screen.width);
         var phoneScale = phoneWidth / 640;
         var ua = navigator.userAgent;
@@ -30,7 +31,7 @@
         } else {
             document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
         }
-    </script>
+    </script>-->
 </head>
 <body>
 
@@ -195,7 +196,7 @@
             CULTURAL IDEAS
         </div>
         <div class="conte" style="position: relative; width:1022px;height :740px;clear: both;">
-            <div class="swiper-container">
+            <div class="swiper-container swiper-container-ren">
                 <div class="swiper-wrapper">
                     <!--<div class="swiper-slide bj1">
                         <img src="img/qyry-r-1.jpg" alt=""/>
@@ -274,15 +275,36 @@
 </div>
 
 <!-- Swiper JS -->
-<script src="./js/swiper.min.js"></script>
-
-<!-- Initialize Swiper -->
+<script src="js/swiper.min.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.swiper-container-web',{
+        loop:true,
+        speed : 1000,
+        autoplay :3000,
+        //        pagination:'.swiper-pagination',
+        autoplayDisableOnInteraction : false
+    })
+    /*var swiper = new Swiper('.swiper-container-ren', {
+     navigation: {
+     nextEl: '.an-left',
+     prevEl: '.an-rig'
+     }
+     });*/
+</script>
+<script src="js/1.swiper.min.js"></script>
+
+<script>
+    /*var swiper1 = new Swiper('.swiper-container-web',{
+         loop:true,
+         speed : 1000,
+         autoplay :3000,
+         //        pagination:'.swiper-pagination',
+         autoplayDisableOnInteraction : false
+    })*/
+    var swiper = new Swiper('.swiper-container-ren', {
         navigation: {
             nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            loop: 'loop'
+            prevEl: '.swiper-button-prev'
         }
     });
 </script>
