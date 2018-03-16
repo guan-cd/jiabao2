@@ -15,7 +15,9 @@
 		<link rel="stylesheet" href="css/web-course.css"/>
 		<link rel="stylesheet" href="css/gg.css"/>
 		<link rel="stylesheet" href="css/wang.css"/>
-		<script type="text/javascript">
+		<link rel="stylesheet" href="css/font-size.css"/>
+		<link rel="stylesheet" href="css/boot.css"/>
+		<!--<script type="text/javascript">
 			var phoneWidth = parseInt(window.screen.width);
 			var phoneScale = phoneWidth / 640;
 			var ua = navigator.userAgent;
@@ -30,7 +32,7 @@
 			} else {
 				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
 			}
-		</script>
+		</script>-->
 		<title>发展历程</title>
 	</head>
 <!--	<body>
@@ -335,7 +337,7 @@
 				EVOLUTION
 			</div>
 			<div class="conte" style="position: relative; width:1022px;height :740px;clear: both;">
-				<div class="swiper-container">
+				<div class="swiper-container swiper-container-ren">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide bj1">
 							<img src="img/fazhan1.jpg" alt=""/>
@@ -449,15 +451,35 @@
 	<!--web   ebd-->
 	</body>
 	<!-- Swiper JS -->
-	<script src="./js/swiper.min.js"></script>
-
-	<!-- Initialize Swiper -->
+	<script src="js/swiper.min.js"></script>
 	<script>
-		var swiper = new Swiper('.swiper-container', {
+		var swiper1 = new Swiper('.swiper-container-web',{
+			loop:true,
+			speed : 1000,
+			autoplay :3000,
+			//        pagination:'.swiper-pagination',
+			autoplayDisableOnInteraction : false
+		})
+		/*var swiper = new Swiper('.swiper-container-ren', {
+		 navigation: {
+		 nextEl: '.an-left',
+		 prevEl: '.an-rig'
+		 }
+		 });*/
+	</script>
+	<script src="js/1.swiper.min.js"></script>
+	<script>
+		/*var swiper1 = new Swiper('.swiper-container-web',{
+		 loop:true,
+		 speed : 1000,
+		 autoplay :3000,
+		 //        pagination:'.swiper-pagination',
+		 autoplayDisableOnInteraction : false
+		 })*/
+		var swiper = new Swiper('.swiper-container-ren', {
 			navigation: {
 				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-				loop: 'loop'
+				prevEl: '.swiper-button-prev'
 			}
 		});
 	</script>
