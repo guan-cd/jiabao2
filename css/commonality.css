@@ -509,5 +509,9 @@ a:hover{
 .liqr{
     color:#94724d;
 }
+.lmqr ul li{
+    width:auto!important;
+    padding:0 12px!important;
+}
 
 
