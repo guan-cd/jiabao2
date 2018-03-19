@@ -24,6 +24,7 @@
 }
 .n h1{
     padding-top: 40px;
+    margin-top:0!important;
 }
 .ctoi{
     margin-top: 15px;
@@ -62,5 +63,9 @@
 }
 .mg-b-20 .bj-c p {
     padding: 91.959px;
+}
+.paddingtop40,.padd-23 .gsfl{
+    padding-top:40px!important;
+    margin-top:0!important;
 }
 
