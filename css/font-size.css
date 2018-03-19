@@ -85,10 +85,12 @@
 .synopsis-p-ren{
     margin-bottom: 16px!important;
 }
-.mg-1-ren{ 
+.mg-1-ren{
     margin-bottom: 13px;
 }
-
+.line-ren{
+    line-height: 27px;
+}
 
 
 
