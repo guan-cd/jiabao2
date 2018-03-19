@@ -149,9 +149,9 @@ body{
 	text-decoration: none;
 }
 .lmqr ul li{
-	width: 120px;
+	/*width: 120px;*/
 	display: inline-block;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	font-weight: bold;
 	color: #464646;
 	cursor: pointer;
@@ -1362,4 +1362,8 @@ float: left;
 }
 .qrct{
 	font-size: 16px;
+}
+.lmqr ul li {
+	width:auto!important;
+	padding:0 12px!important;
 }

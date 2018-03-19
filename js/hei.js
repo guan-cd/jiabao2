@@ -21,7 +21,7 @@ $(function(){
         var boo = $('.iusa img').height();
         $('.iusa').height(boo)
         $('.ban-ren').height(boo)
-        
+
     })
     var kuan = $('.kuan').width()
     $('.img12').width(kuan)
