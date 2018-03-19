@@ -274,6 +274,10 @@ p{
     height :80px;
     line-height: 80px;
 }
+.mediaCenter-bj-p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
 .video-right{
     /*float: left;*/
     height :435px;
@@ -373,9 +377,14 @@ p{
     font-size:3rem;
     text-align: center;
 
+
 }
 .margin10{
     margin-top:10px!important;
+}
+.moreboximg{
+    height:15.8rem;
+    background:url("../img/morebg_03.png") no-repeat 0 0/100% 100%;
 }
 
 
@@ -385,6 +394,231 @@ p{
         height:38px;
         line-height:38px;
     }
+    .marginbottom10{
+        margin-bottom:10px!important;
+    }
+    .bj img{
+    /*height:309px;*/
+}
+    .moreboximg{
+        height:3.9rem;
+    }
+    .xsimg{
+        width:100%;
+    }
+    .xsbg{
+        /*background:white;*/
+    }
+
+    .mediaCenter{
+        background: #f4f4f4;
+    }
+    .paddingnoeleft{
+        padding-left:0px;
+    }
+    .padingright{
+        padding-right:5px;
+    }
+
+    .padingleft{
+        padding-left:5px;
+    }
+    .paddingnoright{
+        padding-right:0px;
+    }
+    .mediaCenter-bj-p{
+        /*height:40px;*/
+        /*line-height:40px;*/
+    }
+    .mediaCenter-bj-p{
+        line-height:normal!important;
+        overflow:hidden;
+    }
+    .mediaCenter-bj-p:nth-of-type(1) p{
+       margin-top:30px;
+    }
+    .mediaCenter-bj2-p p{
+        margin-top:20px!important;
+    }
+    .morebox{
+        padding:0;
+    }
+    .mediaCenter-bj-p{
+        color:black;
+        font-size: 13px;
+    }
+    .vdeioheight{
+        /*height:200px;*/
+        width: 100%;
+    }
+    .imgauto{
+        height:auto!important;
+    }
+    .padding15{
+        padding-left:15px!important;
+        padding-right:15px!important;
+    }
+    .marginzou0{
+        margin-left:0;
+        margin-right:0;
+    }
+    .bgzou{
+        background: #f4f4f4;
+    }
+    .city {
+        width: 11%;
+        height: 7%;
+        text-align: center;
+        top: 56%;
+        left: 5%;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 13.74px;
+        color: #6f787b;
+    }
+    .xiangmu {
+        position: absolute;
+        width: 5%;
+        height: 7%;
+        font-weight: bolder;
+        text-align: center;
+        top: 56%;
+        left: 36%;
+        font-size: 13.74px;
+        color: #6f787b;
+    }
+    .swiper-button-prev{
+        width:3rem!important;
+        height:3rem!important;
+        background:url("../img/jiantou_03.png") no-repeat 0 0/100% 100%!important;
+    }
+    .swiper-button-next{
+        width:3rem!important;
+        height:3rem!important;
+        background:url("../img/jiantou_03.png") no-repeat 0 0/100% 100%!important;
+        transform:rotate(-180deg);
+    }
+    .swiper-slide{
+        width:100%;
+    }
+    .changswiperwidth{
+        width:80%;
+    }
+    .imgleft{
+        float:left;
+        width:45%;
+        margin-right:5%;
+    }
+    .imgright{
+        float:right;
+        width:45%;
+        margin-left:5%
+    }
+    .bgcolor{
+        background:white;
+    }
+    .padding25{
+        padding-left:25px!important;
+        padding-right:25px!important;
+        background:white!important;
+    }
+    .xsbg{
+        background: #ffffff;
+    }
+    .paddingtop30{
+        padding-top:30px;
+    }
+    .mediaCenter-bj-p{
+        font-size:1.6rem;
+    }
+    .qingchu{
+        margin-left:15px;
+        margin-right:15px;
+    }
+    .xsbg{
+        background: #f4f4f4;
+    }
+    .mediaCenter{
+        padding-bottom:0;
+    }
+    .padint_top10{
+        padding-top:10px;
+    }
+    .mediaCenter-bj-p{
+        /*height:55px;*/
+        /*line-height:55px;*/
+        background: #f7f7f7;
+        margin-top:5px;
+    }
+    .maringnoyi{
+        margin-top:0!important;
+    }
+    .padding_top15{
+        padding-top:15px;
+    }
+    .exist{
+        margin-top:0!important;
+        padding-top:15px;
+        background:white;
+    }
+    .imgleft img{
+        width:100%;
+    }
+    .imgright img{
+        width:100%;
+    }
+    .jiayuansheng{
+        font-size:3rem;
+        margin-top:10px;
+        margin-bottom:10px!important;
+        color: #6b6b6b;
+    }
+    .city {
+        width: 11%;
+        height: 7%;
+        text-align: center;
+        top: 60%;
+        left: 5%;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 19.74px;
+        color: #6f787b;
+    }
+    .xiangmu {
+        position: absolute;
+        width: 5%;
+        height: 7%;
+        font-weight: bolder;
+        text-align: center;
+        top: 60%;
+        left: 37%;
+        font-size: 19.74px;
+        color: #6f787b;
+    }
+    .erweima{
+        margin-top:10px;
+        padding-left:35px!important;
+        padding-right:35px!important;
+    }
+    .fenyeboxyidong{
+        padding-left:35px!important;
+    }
+    .fenye{
+        bottom:-8px!important;
+    }
+    .mediaCenter-bj-p{
+        margin-bottom:0!important;
+    }
+    .swiper-button-next,.swiper-button-prev{
+        top:40%!important;
+    }
+
+
+
+
+
+
+
 
 }
 /*平板*/
@@ -400,11 +634,34 @@ p{
     .paddingnone.erweima{
         padding-left:0!important;
     }
+
+
 }
 
 /*桌面*/
 @media (min-width: 1024px){
+.erweima{
+    padding-right:0!important;
+}
+    .mediaCenter-bj-p{
+        color: black!important;
+    }
 
+    .mediaCenter-bj-p{
+        font-size: 16px;
+    }
+    .swiper-button-next{
+        width:35px!important;
+        height:33px!important;
+       background:url("../img/jiantou_03.png") no-repeat 0 0/100% 100%!important;
+        top: 46.6% !important;
+        right:20px!important;
+    }
+    .swiper-button-pre{
+        width:35px!important;
+        height:33px!important;
+        background:url("../img/jiantou_03.png") no-repeat 0 0/100% 100%!important;
+    }
 }
 
 
