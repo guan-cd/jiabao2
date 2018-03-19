@@ -1363,7 +1363,8 @@ float: left;
 .qrct{
 	font-size: 16px;
 }
-.lmqr ul li {
+.lmqr ul li{
 	width:auto!important;
 	padding:0 12px!important;
+	font-size:18px!important;
 }
