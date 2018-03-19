@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="./css/commonality.css">
     <link rel="stylesheet" href="css/attention.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -15,10 +16,13 @@
     <link rel="stylesheet" href="css/globel.css"/>
     <link rel="stylesheet" href="css/swiper.css"/>
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/web-metalist.css"/>
+    <!--<link rel="stylesheet" href="css/web-metalist.css"/>-->
     <link rel="stylesheet" type="text/css" href="css/Residential.css"/>
     <link rel="stylesheet" type="text/css" href="css/indexzyr.css"/>
-    <link rel="stylesheet" href="css/attention-ren.css"/>
+    <link rel="stylesheet" href="css/footerweb.css">
+    <link rel="stylesheet" href="css/font-size.css"/>
+    <link rel="stylesheet" href="css/boot.css"/>
+
     <title>加入我们</title>
     <style>
         .navboxcontent .container{
@@ -27,10 +31,34 @@
             padding-bottom:10px;
         }
     </style>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if(/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if(version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+        // win.addEventListener(resizeEvt, recalc, false);
+        // doc.addEventListener('DOMContentLoaded', recalc, false);
+    </script>
 </head>
 <body>
-
-<div class="head">
+<div class="content visible-xs">
+    <img src="wimg/logo.png" class="wlogo"/>
+    <button class="wbutton">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
+<div class="head hidden-xs">
 <div class="m">
   
  <!--  <div class="he_le"><img src="images/img1.png" style="vertical-align: middle; padding-right: 4px;">全国统一服务热线 &nbsp; 400-8888-116</div>
@@ -59,7 +87,7 @@
 </div>
 </div>
 
-<div class="qrct">
+<div class="qrct hidden-xs">
 <div class="m">
 
 <div class="ctle">
@@ -68,7 +96,7 @@
 
 </div>
 
-<div class="ctlk">
+<div class="ctlk hidden-xs">
        <ul>
             <li><a href="introduce.html" >走进嘉宝</a></li>
             <li><a href="metalist.html"  >媒体中心</a></li>
@@ -79,6 +107,7 @@
             <li><a href="jibenxinxi.html">投资者关系</a></li>
       </ul>
 </div>
+
 <div class="ctrg">
     <img src="images/jimg2.png"/>
 </div>
@@ -87,9 +116,12 @@
 
 
  <div class="bgwhite">
-    <div class="ServiceLife">
+    <div class="ServiceLife hidden-xs">
         <img src="./img/jimg3.png" class="img-responsive" alt="">
     </div>
+     <div class="ServiceLife visible-xs">
+         <img src="./img/23yismaill_02.png" class="img-responsive" alt="">
+     </div>
     <!--<div class="navtwocontent">-->
         <!--<div class="container navtwobox">-->
             <!--<div class="row">-->
@@ -143,11 +175,18 @@
          </ul>
      </div>
 
+     <div class="lmqr visible-xs">
+         <ul>
+             <li class="liqr"><a href="shehuizhaoping.html">社会招聘</a></li>
+             <li><a href="xiaoyuanzhaoping.html">校园招聘</a></li>
+             <li><a href="corporateWelfare.html">公司福利</a></li>
+             <li><a href="yuangonghuodong.html">员工活动</a></li>
+         </ul>
+     </div>
 
-
-    <div class="container boxcontent" style="margin-top: 30px;">
-       <div class="row marinleft0">
-           <div class="col-lg-6 paddingnone">
+    <div class="container boxcontent hidden-xs" style="margin-top: 30px;">
+       <div class="row marinleft0 marginfu3">
+           <div class="col-lg-6 col-md-6 col-xs-6 paddingnone paddingweb01">
                <a href="shehuizhaoping.html">
                    <img src="img/addus1_03.png" class="img-responsive imgwidthchang" alt="">
                    <div class="des">
@@ -168,7 +207,7 @@
                </a>
 
            </div>
-           <div class="col-lg-6 paddingnone">
+           <div class="col-lg-6 col-md-6 col-xs-6 paddingnone">
                <a href="#">
                    <img src="img/addus2_03.png" class="img-responsive imgwidthchang" alt="">
                    <div class="des">
@@ -189,7 +228,54 @@
            </div>
        </div>
     </div>
+     <div class="container boxcontent visible-xs" style="margin-top: 30px;">
+         <div class="row marinleft0 marginfu3">
+             <div class="col-lg-6 col-md-6 col-xs-6  paddingweb01 paddingleftren">
+                 <a href="shehuizhaoping.html">
+                     <img src="img/addus1_03.png" class="img-responsive imgwidthchang" alt="">
+                 </a>
+                 <div class="des">
+                     <div class="desbox">
+                         <div class="left">
+                             <img src="img/dogicon_03.png" class="margintop" alt="">
+                             <span class="shehui">社会招聘</span>
+                         </div>
+                         <div class="right">
+                           <span class="dianji">
+                               <a href="shehuizhaoping.html" class="jiantou" style="color:white;">
+                                    <span>点击进入</span><img src="img/in_03.png" alt="" class="in">
+                               </a>
+                           </span>
+                         </div>
+                     </div>
+                 </div>
 
+             </div>
+             <div class="col-lg-6 col-md-6 col-xs-6 paddingrightren">
+                 <!--<a href="#">-->
+                 <a href="#"><img src="img/addus2_03.png" class="img-responsive imgwidthchang" alt=""></a>
+                     <div class="des">
+                         <div class="desbox">
+                             <div class="left">
+                                 <img src="img/dogicon_03.png" class="margintop" alt="">
+                                 <span class="shehui">校园招聘</span>
+                             </div>
+                             <div class="right">
+                                 <span class="dianji">
+                                   <a href="#" class="jiantou" style="color:white;">
+                                        <span>点击进入</span>
+                                     <img src="img/in_03.png" alt="" class="in">
+                                   </a>
+                                 </span>
+                             </div>
+                         </div>
+
+                     </div>
+                 <!--</a>-->
+
+             </div>
+         </div>
+     </div>
 
     <div class="bgcontent">
         <div class="container bgcon">
@@ -199,7 +285,7 @@
 </div> 
 
 
-<div class="Footer">
+<div class="Footer hidden-xs">
 
     <div class="x">
 
@@ -225,6 +311,22 @@
     </div>
 
 </div>
+<div class="wfooter visible-xs">
 
+    <div class="container">
+        <div class="wleft">
+            <img src="wimg/wfot.png"/>
+            <p class="wlx">如遇到问题，请联系我们</p>
+            <p>地址：成都市高新西区西芯大道9号         &nbsp;&nbsp;服务热线：400-8888-116</p>
+            <p>审计监督：028-87826372      &nbsp;&nbsp;招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+        </div>
+        <div class="wgw">
+            <img src="wimg/gw.jpg"/>
+            <p>官方微信</p>
+        </div>
+
+    </div>
+
+</div>
 </body>
 </html>

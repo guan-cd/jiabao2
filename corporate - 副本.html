@@ -14,18 +14,6 @@
     <link rel="stylesheet" href="css/indexzyr.css">
     <link rel="stylesheet" type="text/css" href="css/gg.css"/>
     <link rel="stylesheet" type="text/css" href="css/wang.css"/>
-    <link rel="stylesheet" href="css/globel.css"/>
-    <link rel="stylesheet" href="css/swiper.css"/>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="css/indexzyr.css">
-    <link rel="stylesheet" type="text/css" href="css/neinav.css">
-    <link rel="stylesheet" href="css/web-metalist.css"/>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/commonality.css">
-    <link rel="stylesheet" type="text/css" href="css/Residential.css"/>
-    <link rel="stylesheet" type="text/css" href="css/indexzyr.css"/>
-    <link rel="stylesheet" href="css/font-size.css"/>
-    <link rel="stylesheet" href="css/boot.css"/>
     <script type="text/javascript">
         var phoneWidth = parseInt(window.screen.width);
         var phoneScale = phoneWidth / 640;
@@ -70,7 +58,7 @@
 </head>
 <body>
 <!-- web  start    -->
-<div class="wcontent visible-xs">
+<div class="content visible-xs">
     <img src="wimg/logo.png" class="wlogo"/>
     <button class="wbutton">
         <span></span>
@@ -198,25 +186,23 @@
 
 
 <div class="bj-sh hidden-xs">
-    <ul class="lmaf">
-        <li>
-            <img class="visible-xs" src="img/w-fzlc-1.jpg" alt=""/>
-            <img class="hidden-xs" src="img/qyry1.png" alt="">
-        </li>
-    </ul>
+    <ul><li><img src="./img/qyry1.png" alt=""></li></ul>
 </div>
-
-<div class="lmqr hidden-xs">
-    <ul>
-        <li><a href="introduce.html">企业介绍</a></li>
-        <li><a href="course.html">发展历程</a></li>
-        <li class="liqr"><a href="corporate.html">企业荣誉</a></li>
-        <li><a href="corporateCulture.html">企业文化</a></li>
-        <li><a href="lianxiwomen.html">关注嘉宝</a></li>
-    </ul>
+<div class="container attention hidden-xs">
+    <p class="text-center">
+        <!--<span>企业介绍</span>
+        <span>发展历程</span>
+        <span class="attention-this">企业荣誉</span>
+        <span>企业文化</span>-->
+        <a href="introduce.html"><span>企业介绍</span></a>
+        <a href="course.html"><span>发展历程</span></a>
+        <a href="corporate.html"><span class="attention-this">企业荣誉</span></a>
+        <a href="corporateCulture.html"><span>企业文化</span></a>
+        <span>关注嘉宝</span>
+    </p>
 </div>
-<div class="zp hidden-xs" style="margin-top: 30px;">
-    <div class="padd-23 container ffqp">
+<div class="zp hidden-xs" style="width: 100%;">
+    <div class="padd-23 container">
         <h1 class="gsfl">企业荣誉</h1>
         <div class="ctoi">
             BUSINESS HONOURS
@@ -226,18 +212,20 @@
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide bj1">
-                        <img src="images/k1.jpg" alt=""/>
+                        <img src="img/whyx-cen_09.jpg" alt=""/>
                     </div>
                     <div class="swiper-slide bj2">
-                        <img src="images/k2.jpg" alt=""/>
+                        <img src="img/whyx-cen3.jpg" alt=""/>
                     </div>
                     <div class="swiper-slide bj3">
-                        <img src="images/k3.jpg" alt=""/>
+                        <img src="img/whyx-cen1.jpg" alt=""/>
                     </div>
                     <div class="swiper-slide bj4">
-                        <img src="images/k4.jpg" alt=""/>
+                        <img src="img/whyx-cen4.jpg" alt=""/>
                     </div>
-
+                    <div class="swiper-slide bj5">
+                        <img src="img/whtx-cen2.png" alt=""/>
+                    </div>
                     <!--<div class="swiper-slide">Slide 6</div>
                     <div class="swiper-slide">Slide 7</div>
                     <div class="swiper-slide">Slide 8</div>
@@ -282,15 +270,14 @@
 
 </div>
 <!-- Swiper JS -->
-<script src="js/1.swiper.min.js"></script>
+<script src="./js/swiper.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper('.swiper-container', {
         navigation: {
             nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            loop: 'loop'
+            prevEl: '.swiper-button-prev'
         }
     });
 </script>

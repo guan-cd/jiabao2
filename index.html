@@ -8,7 +8,7 @@
     <title>嘉宝官网</title>
     <!--<link rel="stylesheet" href="css/swiper.css">-->
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/zouboot/bootstrap.css">
     <link rel="stylesheet" href="./css/commonality.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="./fonts/glyphicons-halflings-regular.eot">
@@ -17,14 +17,37 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/newheaderadd.css">
-    <link rel="stylesheet" href="css/ditudh.css"/>
-    <link rel="stylesheet" href="css/web-index.css"/>
+    <link rel="stylesheet" href="css/footerweb.css">
     <link rel="stylesheet" href="css/boot.css"/>
     <link rel="stylesheet" href="css/font-size.css"/>
-
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if(/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if(version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+        // win.addEventListener(resizeEvt, recalc, false);
+        // doc.addEventListener('DOMContentLoaded', recalc, false);
+    </script>
 </head>
 <body>
-<div class="indexcontent">
+<div class="content visible-xs">
+    <img src="wimg/logo.png" class="wlogo"/>
+    <button class="wbutton">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
+<div class="indexcontent hidden-xs">
     <div class="container information">
         <div class="content">
             <!--  联系start  -->
@@ -42,10 +65,7 @@
 
     </div>
 </div>
-
-
-
-    <div class="header">
+<div class="header hidden-xs">
     <div class="headerbox">
         <div class="container header_h">
             <div class="hea-top">
@@ -147,30 +167,32 @@
     </div>
 
 </div>
-
-
-
-
-
-
-
-
-
+<div class="bgzou">
     <div class="bj banner">
         <!--<div class="circle">-->
         <!--<span></span>-->
         <!--<span></span>-->
         <!--<span></span>-->
         <!--</div>-->
-        <div class="swiper-container">
+        <div class="swiper-container swiper1-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./img/bg_02.png" alt="" class="img-responsive"></div>
-                <div class="swiper-slide"><img src="./img/bg_02.png" alt="" class="img-responsive"></div>
-                <div class="swiper-slide"><img src="./img/bg_02.png" alt="" class="img-responsive"></div>
+                <div class="swiper-slide">
+                    <img src="./img/bg_02.png" alt="" class="img-responsive hidden-xs">
+                    <img src="./img/zouwebbg_02.png" class="visible-xs img-responsive" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/bg_02.png" alt="" class="img-responsive hidden-xs">
+                    <img src="./img/zouwebbg_02.png" class="visible-xs img-responsive" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/bg_02.png" alt="" class="img-responsive hidden-xs">
+                    <img src="./img/zouwebbg_02.png" class="visible-xs img-responsive" alt="">
+                </div>
+
             </div>
             <!-- 分页器 -->
             <div class="fenye">
-                <div class="container fenyebox">
+                <div class="container fenyebox fenyeboxyidong">
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
@@ -185,41 +207,61 @@
         <!--&lt;!&ndash;<li><img src="./img/bj1.png" alt=""></li>&ndash;&gt;-->
         <!--</ul>-->
     </div>
-    <div class="container">
-        <div class="mediaCenter">
-            <div class="row">
-                <div class="col-lg-12 morebox">
+        <div class="container xsbg">
+            <div class="mediaCenter">
+                <div class="row">
+                    <div class="col-lg-12 morebox padding25 paddingtop30">
+                        <img src="img/morebg_03.png" class="img-responsive hidden-xs" alt="">
+                        <img src="img/moremeiti_03.png" class="img-responsive visible-xs" alt="">
+                        <div class="more hidden-xs">
+                            <a href="http://j.guguan.net/jiabao/metalist.html" class="moreadda">
+                                <span class="moretext">more</span>
+                                <img src="img/more_03.png" class="moreadd" alt="">
+                            </a>
+                        </div>
 
-                    <img src="img/morebg_03.png" class="img-responsive" alt="">
-                    <div class="more">
-                        <a href="http://j.guguan.net/jiabao/metalist.html" class="moreadda">
-                            <span class="moretext">more</span>
-                            <img src="img/more_03.png" class="moreadd" alt="">
-                        </a>
                     </div>
-
                 </div>
-            </div>
-            <!--<h2>媒体中心</h2>-->
-            <!--<p>MEDIA CENTER<span></span></p>-->
-            <!--<div class="logg">-->
-            <!--<img src="img/lgg.png" alt="">-->
-            <!--</div>-->
-            <!--<span class="underline"></span>-->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="http://j.guguan.net/jiabao/show.html">
+                <!--<h2>媒体中心</h2>-->
+                <!--<p>MEDIA CENTER<span></span></p>-->
+                <!--<div class="logg">-->
+                <!--<img src="img/lgg.png" alt="">-->
+                <!--</div>-->
+                <!--<span class="underline"></span>-->
+                <div class="row padding25 visible-xs">
+                    <div class="col-md-4 col-xs-6 hidden-xs">
+                        <!--<div class="thumbnail">-->
+                        <a href="http://j.guguan.net/jiabao/show.html" class="xsimg">
                             <img src="./img/img7.png" alt="">
-
                             <div class="text-center mediaCenter-bj-p">
                                 <p>嘉宝股份品牌价值达23.26亿</p>
                             </div>
                         </a>
+                        <!--</div>-->
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
+                    <div class="col-md-4 col-xs-6 visible-xs padingright paddingnoeleft">
+                        <!--<div class="thumbnail">-->
+                        <a href="http://j.guguan.net/jiabao/show.html" class="xsimg">
+                            <img src="./img/xsdoler_05.png" class="img-responsive" alt="">
+                            <div class="text-center mediaCenter-bj-p">
+                                <p>嘉宝股份品牌价值达23.26亿</p>
+                            </div>
+                        </a>
+                        <!--</div>-->
+                    </div>
+                    <div class="col-md-4 col-xs-6 visible-xs padingleft paddingnoright">
+                        <!--<div class="thumbnail">-->
+                        <a href="http://j.guguan.net/jiabao/show.html" class="xsimg">
+                            <img src="./img/dier_03.png" class="img-responsive" alt="">
+                            <div class="text-center mediaCenter-bj-p mediaCenter-bj2-p">
+                                <p>嘉宝生活家综合收费系统
+                                    <br>上线发布圆满成功</p>
+                            </div>
+                        </a>
+                        <!--</div>-->
+                    </div>
+                    <div class="col-md-4 col-xs-6 hidden-xs">
+                        <!--<div class="thumbnail">-->
                         <a href="http://j.guguan.net/jiabao/show.html">
                             <img src="./img/one.png" alt="">
 
@@ -227,118 +269,190 @@
                                 <p>嘉宝股份品牌价值达23.26亿</p>
                             </div>
                         </a>
+                        <!--</div>-->
+                    </div>
+                    <div class="col-md-4 hidden-xs">
+                        <div class="thumbnail">
+                            <a href="http://j.guguan.net/jiabao/show.html">
+                                <img src="./img/two.png" alt="">
+                                <div class="text-center mediaCenter-bj-p">
+                                    <p>嘉宝股份品牌价值达23.26亿</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="http://j.guguan.net/jiabao/show.html">
-                            <img src="./img/two.png" alt="">
+                <div class="row">
+                    <div class="col-md-4 col-xs-6 hidden-xs">
+                        <!--<div class="thumbnail">-->
+                        <a href="http://j.guguan.net/jiabao/show.html" class="xsimg">
+                            <img src="./img/img7.png" alt="">
                             <div class="text-center mediaCenter-bj-p">
                                 <p>嘉宝股份品牌价值达23.26亿</p>
                             </div>
                         </a>
+                        <!--</div>-->
+                    </div>
+                    <div class="col-md-4 col-xs-6 hidden-xs">
+                        <!--<div class="thumbnail">-->
+                        <a href="http://j.guguan.net/jiabao/show.html">
+                            <img src="./img/one.png" alt="">
+
+                            <div class="text-center mediaCenter-bj-p">
+                                <p>嘉宝股份品牌价值达23.26亿</p>
+                            </div>
+                        </a>
+                        <!--</div>-->
+                    </div>
+                    <div class="col-md-4 hidden-xs">
+                        <div class="thumbnail">
+                            <a href="http://j.guguan.net/jiabao/show.html">
+                                <img src="./img/two.png" alt="">
+                                <div class="text-center mediaCenter-bj-p">
+                                    <p>嘉宝股份品牌价值达23.26亿</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row margin10">
-            <div class="col-lg-8">
-                <video src="movie.ogg" controls="controls" poster="img/play_07.png" height="434">
-                    您的浏览器不支持 video 标签。
-                </video>
-            </div>
-            <div class="col-lg-4 videoimg">
-                <img class="video-right hidden-md hidden-sm img-responsive" src="./img/img11.png" c alt="">
-            </div>
-        </div>
-        <!--<div class="text-center">-->
-        <!--&lt;!&ndash;<img src="./img/img10.png" alt="">&ndash;&gt;-->
-        <!---->
-        <!--</div>-->
-
-    </div>
-    <div class="bj" style="margin-top: 10px;">
-        <ul><li><img src="./img/img12.png" alt=""></li>
-
-        </ul>
-    </div>
-    <div class="container">
-        <div class="bj margin10 mapbox">
-            <div class="ditudh">
-                <img src="./img/img19.png" alt="">
-                <span class="dian dian1"></span>
-                <span class="dian dian2"></span>
-                <span class="dian dian3"></span>
-                <span class="dian dian4"></span>
-                <span class="dian dian5"></span>
-                <span class="dian dian6"></span>
-                <span class="dian dian7"></span>
-                <span class="dian dian8"></span>
-                <span class="dian dian9"></span>
-                <span class="dian dian10"></span>
-                <span class="dian dian11"></span>
-                <span class="dian dian12"></span>
-                <span class="dian dian13"></span>
-                <span class="dian dian14"></span>
-                <span class="dian dian15"></span>
-                <span class="dian dian16"></span>
-                <span class="dian dian17"></span>
-                <span class="dian dian18"></span>
-                <span class="dian dian19"></span>
-                <span class="dian dian20"></span>
-                <span class="dian dian21"></span>
-                <span class="dian dian22"></span>
-                <span class="dian dian23"></span>
-                <span class="dian dian24"></span>
-                <span class="dian dian25"></span>
-                <span class="dian dian26"></span>
-                <span class="dian dian27"></span>
-                <span class="dian dian28"></span>
-                <span class="dian dian29"></span>
-                <span class="dian dian30"></span>
-                <!--<span class="dian31"></span>-->
-                <!--<span class="dian32"></span>-->
-                <span class="dian33"></span>
-                <span class="dian34"></span>
-                <span class="dian35"></span>
-                <!--<span class="dian36"></span>-->
+            <div class="row marginzou0 qingchu">
+                <div class="col-lg-8 col-xs-12 padding25 padint_top10">
+                    <video src="movie.ogg" controls="controls" poster="img/play_07.png" height="434" class="vdeioheight hidden-xs">
+                        您的浏览器不支持 video 标签。
+                    </video>
+                    <video src="movie.ogg" controls="controls" poster="img/posterimg_03.png" height="300" class="vdeioheight visible-xs">
+                        您的浏览器不支持 video 标签。
+                    </video>
+                </div>
+                <div class="col-lg-4 hidden-xs videoimg">
+                    <img class="video-right hidden-md hidden-sm img-responsive" src="./img/img11.png" c alt="">
+                </div>
             </div>
 
-            <div class="city">18</div>
-            <div class="xiangmu">152</div>
+
+            <!--<div class="text-center">-->
+            <!--&lt;!&ndash;<img src="./img/img10.png" alt="">&ndash;&gt;-->
+            <!---->
+            <!--</div>-->
+
         </div>
-        <div class="exist text-center">
+        <div class="bj padding15 xsbg maringnoyi" style="margin-top: 10px;">
+            <ul class="padding25 padding_top15"><li>
+                <img src="./img/img12.png" alt="" class="hidden-xs">
+                <img src="./img/zougreenbg_03.png" class="visible-xs imgauto">
+            </li>
+            </ul>
+        </div>
+        <div class="container xsbg  padding15">
+            <div class="bj margin10 maringnoyi padding_top15 mapbox  xsbg padding25">
+                <img src="./img/img19.png" class="img-responsive hidden-xs" alt="">
+                <img src="./img/zoumap_03.png" class="img-responsive visible-xs" alt="">
+                <div class="city">18</div>
+                <div class="xiangmu">152</div>
+            </div>
+
+
+        <!--结束-->
+        <div class="exist marginbottom10 text-center">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 paddingnone paddingright10">
+                <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs paddingnone paddingright10">
                     <div class="exist-left-bj hidden-md hidden-sm lunboxtest">
-                        <div class="jiantou1">
-                            <img src="img/jiantou1_03.png" alt="">
+                        <div class="jiantou1 swiper-button-pre">
                         </div>
                         <div class="lunbox">
                             <div class="lunboximgs">
-                                <img src="./img/lunbo_03.png" alt="1" class="imgwidth">
-                                <img src="./img/lunbo_03.png" alt="2">
-                                <img src="./img/lunbo_03.png" alt="3">
-                                <img src="./img/lunbo_03.png" alt="4">
+                                <div class="swiper-container swiper3-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="./img/lunbo1_03.png" alt="" class="img-responsive hidden-xs">
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/lunbo1_03.png" alt="" class="img-responsive hidden-xs">
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/lunbo1_03.png" alt="" class="img-responsive hidden-xs">
+
+                                        </div>
+                                    </div>
+                                    <!-- 分页器 -->
+
+
+                                </div>
                             </div>
                         </div>
-                        <div class="jiantou2">
-                            <img src="img/jiantou1_03.png" alt="">
+                        <div class="jiantou2 swiper-button-next">
+                            <!--<img src="img/jiantou1_03.png" alt="">-->
                         </div>
                         <div class="jiayuanshenghuo">
                             <span>嘉园生活</span>
                         </div>
-
-
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-12 col-sm-12 paddingnone erweima">
-                    <img class="exist-right-bj img-responsive" src="./img/bj-right.png"  alt="">
+                <div class="col-lg-9 col-md-12 col-sm-12 hidden-xs erweima">
+                    <img src="img/zouerweima_03.png" class="img-responsive visible-xs" alt="">
+                    <img class="exist-right-bj img-responsive hidden-xs" src="./img/bj-right.png"  alt="">
+                </div>
+                <div class="visible-xs col-xs-12 bgcolor padding15">
+                    <div class="swiper-container changswiperwidth swiper2-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                        <div class="imgleft">
+                                            <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="imgright">
+                                            <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                        </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="imgleft">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="imgright">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="imgleft">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="imgright">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="imgleft">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="imgright">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="imgleft">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="imgright">
+                                    <img src="img/yundong_03.png" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+
+                    </div>
+                    <div class="swiper-button-next">
+                    </div>
+                    <div class="swiper-button-prev">
+                    </div>
+                    <p class="jiayuansheng">嘉园生活</p>
                 </div>
             </div>
-
-
         </div>
+            <div class="visible-xs erweima">
+                <img src="img/zouerweima_03.png" class="img-responsive visible-xs" alt="">
+            </div>
     </div>
     <!--<div class="footer">-->
     <!--<div class="container">-->
@@ -348,7 +462,7 @@
     <!--</div>-->
     <!--</div>-->
     <div style="clear: both"></div>
-    <div class="Footer">
+    <div class="Footer hidden-xs">
 
         <div class="x">
 
@@ -370,27 +484,63 @@
                 <img src="img/logo_wx.png"/>
                 <p>官方微信</p>
             </div>
+        </div>
+    </div>
+    <div class="wfooter visible-xs">
+
+        <div class="container">
+            <div class="wleft">
+                <img src="wimg/wfot.png"/>
+                <p class="wlx">如遇到问题，请联系我们</p>
+                <p>地址：成都市高新西区西芯大道9号         &nbsp;&nbsp;服务热线：400-8888-116</p>
+                <p>审计监督：028-87826372      &nbsp;&nbsp;招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+            </div>
+            <div class="wgw">
+                <img src="wimg/gw.jpg"/>
+                <p>官方微信</p>
+            </div>
 
         </div>
 
     </div>
 </div>
 
+
+
     <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/swiper.js"></script>
+    <script src="js/zouswper/swiper.min.js"></script>
+    <!--<script src="js/swiper.js"></script>-->
     <script src="js/progressbar.min.js"></script>
     <script src="js/navstyle.js"></script>
     <script src="js/index.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container',{
-        // autoplay: true,//可选选项，自动滑动
-        loop:true,
-        speed : 1000,
-        autoplay :3000,
-        pagination:'.swiper-pagination',
-        autoplayDisableOnInteraction : false
+    // var swiper1 = new Swiper('.swiper1-container',{
+    //     autoplay: true,//可选选项，自动滑动
+    //     loop:true,
+    //     speed : 1000,
+    //     auto:3000,
+    //     pagination:'.swiper-pagination',
+    //     autoplayDisableOnInteraction : false
+    // });
+    var mySwiper = new Swiper('.swiper1-container',{
+        autoplay: true,//可选选项，自动滑动
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    })
+    var swiper = new Swiper('.swiper2-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
     });
-
+    var swiper3=new Swiper(".swiper3-container",{
+        autoplay:true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    })
 </script>
 </body>
 </html>

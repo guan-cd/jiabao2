@@ -1,147 +1,220 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/globel.css">
-    <link rel="stylesheet" href="css/swiper.css"/>
-    <link rel="stylesheet" href="css/commonality.css">
-    <!--<link rel="stylesheet" href="css/culture.css">-->
-    <!--<link rel="stylesheet" href="css/introduce.css">-->
-    <link rel="stylesheet" href="css/indexzyr.css">
-    <link rel="stylesheet" href="css/BacheckIn.css"/>
-    <link rel="stylesheet" href="css/"/>
-    <title>拎包入住</title>
-</head>
-<body>
-    <div class="head">
-    <div class="m">
 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" href="css/commonality.css">
+		<!--<link rel="stylesheet" href="css/culture.css">-->
+		<!--<link rel="stylesheet" href="css/introduce.css">-->
+		<link rel="stylesheet" href="css/indexzyr.css">
+		<link rel="stylesheet" href="css/BacheckIn.css" />
+		<title>拎包入住</title>
+		<link rel="stylesheet" type="text/css" href="css/gg.css" />
+		<link rel="stylesheet" type="text/css" href="css/bingou.css" />
+		<link rel="stylesheet" href="css/font-size.css"/>
+		<link rel="stylesheet" href="css/boot.css"/>
+		<link rel="stylesheet" href="css/qu.css"/>
+		<script src="js/jquery-2.1.4.js"></script>
+		script
+		<script type="text/javascript">
+			var phoneWidth = parseInt(window.screen.width);
+			var phoneScale = phoneWidth / 640;
+			var ua = navigator.userAgent;
 
-        <div class="container information">
-            <div class="content">
-                <!--  联系start  -->
-                <div class="relation">
-                    <p><span class="iphone"></span><span class="serviceHotline">全国统一服务热线</span><span class="tit">400-8888-116</span></p>
-                    <ul>
-                        <li><span class="branch"></span>网点信息</li>
-                        <li><span class="talents"></span>人才招聘</li>
-                        <li><span class="service"></span>在线客服</li>
-                    </ul>
-                </div>
-                <!--   联系end   -->
+			if(/Android (\d+\.\d+)/.test(ua)) {
+				var version = parseFloat(RegExp.$1);
+				if(version > 2.3) {
+					document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+				} else {
+					document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+				}
+			} else {
+				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+			}
+		</script>
+		
+		
+	</head>
 
-            </div>
-        </div>
+	<body>
+		<!--wap端  start-->
+		<div class="wcontent visible-xs">
+			<img src="wimg/logo.png" class="wlogo" />
+			<button class="wbutton">
+		        <span></span>
+		        <span></span>
+		        <span></span>
+		    </button>
+		</div>
 
-    </div>
-</div>
-    <div class="qrct">
-        <div class="m">
+		<!--banner-->
+		<div class="wbanner visible-xs">
+			<ul>
+				<li><img src="wimg/banner5.jpg" alt=""></li>
+			</ul>
+		</div>
+		<!--wap端  end-->
+		
+		
+		
+		
+		<div class="head hidden-xs">
+			<div class="m">
 
-            <div class="ctle">
+				<div class="container information">
+					<div class="content">
+						<!--  联系start  -->
+						<div class="relation">
+							<p><span class="iphone"></span><span class="serviceHotline">全国统一服务热线</span><span class="tit">400-8888-116</span></p>
+							<ul>
+								<li><span class="branch"></span>网点信息</li>
+								<li><span class="talents"></span>人才招聘</li>
+								<li><span class="service"></span>在线客服</li>
+							</ul>
+						</div>
+						<!--   联系end   -->
 
-                <a href="http://j.guguan.net/jiabao/index.html"><img src="images/jimg1.png"/></a>
+					</div>
+				</div>
 
-            </div>
+			</div>
+		</div>
+		<div class="qrct hidden-xs">
+			<div class="m">
 
-            <div class="ctlk">
-                <ul>
-                    <li><a href="corporateCulture.html" >走进嘉宝</a></li>
-                    <li><a href="metalist.html" >媒体中心</a></li>
-                    <li><a href="#" class="iiiw">业务介绍</a></li>
-                    <li><a href="binggouhezuo.html" >携手嘉宝</a></li>
-                    <li><a href="attention-jb.html">加入我们</a></li>
-                    <li><a href="zhaotoubiao.html">招投标</a></li>
-                    <li><a href="touzizhelaifang.html">投资者关系</a></li>
-                </ul>
-            </div>
+				<div class="ctle">
 
-            <div class="ctrg">
-                <img src="images/jimg2.png"/>
-            </div>
-        </div>
-    </div>
-    <div class="bj-sh swiper-container" style="width: 100%;">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img style="width: 100%;" src="img/jimg3.png" alt=""></div>
-            <div class="swiper-slide"><img style="width: 100%;" src="img/jimg3.png" alt=""></div>
-            <div class="swiper-slide"><img style="width: 100%;" src="img/jimg3.png" alt=""></div>
-        </div>
-        <!--分页器-->
-        <div class="swiper-pagination"></div>
-    </div>
-    <div class="Cult">
-        <div class="container attention">
-            <p class="text-center">
-                <!--<span>企业介绍</span>
-                <span class="attention-this">发展历程</span>
-                <span>企业荣誉</span>
-                <span>企业文化</span>
-                <span>关注嘉宝</span>-->
-                <a href="http://j.guguan.net/jiabao/Residention.html"><span>住宅</span></a>
-                <a href="http://j.guguan.net/jiabao/Business.html"><span>商业</span></a>
-                <a href="http://j.guguan.net/jiabao/BagCheckIn.html"><span class="attention-this">拎包入住</span></a>
-                <a href="http://j.guguan.net/jiabao/House.html"><span>房屋经纪</span></a>
-                <a href="http://j.guguan.net/jiabao/zhinenghuafwu.html"><span>智能化服务</span></a>
-                <a href="http://j.guguan.net/jiabao/build.html"><span>写字楼</span></a>
+					<a href="index.html"><img src="images/jimg1.png" /></a>
 
-            </p>
-        </div>
-    </div>
-    <div class="zp" style="">
-        <div class="padd-23 container">
-            <h1 class="gsfl">发展历程</h1>
-            <div class="ctoi">
-                EVOLUTION
-            </div>
-            <div class="conte" style="position: relative; width:1022px;height :740px;clear: both;">
-                <img src="img/lbrz-r-1.jpg" style="width: 100%; margin-top: 100px;margin-bottom: 50px;" alt="">
-                <p class="synopsis-p" style="">拎包入住简介：</p>
-                <p class="synopsis-c" style="">嘉宝股份拎包入住事业部（一下简称“拎包入住中心”），系蓝光集团-嘉宝股份为满足业主房屋居住全生命周期的居家需求而成立的全方位o2o居家服务平台；围绕创新与升级“智慧化社区生活体系+智慧化金牌物业服务体系” 双轮廓驱动核心商业模式。嘉宝股份拎包入住事业部集室内设计、主材、施工、家具、家电、软装、焕新家、定制家具、智能家居等服务为一体的业主居家服务平台，通过整合产业链资源、减少中间环节、从业主居家功能分析、方格设计、空间运用、收纳集成、材料组合、工程监管、售后服务等维度，为业主提供金牌家居管家服务。</p>
-                <p class="synopsis-p" style="">拎包入住的业务范围：</p>
-                <p>北京、上海、苏州、武汉、长沙、合肥、南充、昆明、重庆、成都、青岛、无锡、南京等</p>
-                <p class="synopsis-c" style="">详询地址：嘉宝物业在管项目物业服务中心 <span>监督电话 ：028-87829504</span></p>
-                <p class="synopsis-c" style="">拎包入住 "家居" 服务---您身边的家居服务服务管家！ </p>
-                <div class="Occupancy">
-                    <div class="Occupancy-Reason">
-                        <p class="synopsis-p">选择拎包入住的理由</p>
-                        <ul>
-                            <li>优势一：服务有保障</li>
-                            <li>现成的装修方案、效果图免费品鉴</li>
-                            <li>优势二：预算保障</li>
-                            <li>方案不变、确保整装报价施工中途0增项</li>
-                            <li>优势三：资金保障</li>
-                            <li>物业收付工程款，资金无风险</li>
-                            <li>优势四：工艺保障</li>
-                            <li>施工质量达到国家标准</li>
-                            <li>优势五：工期保障</li>
-                            <li>按照合同约定，无故拖延工期“罚”</li>
-                            <li>一小时售后到家</li>
-                        </ul>
-                    </div>
-                    <div class="Occupancy-Business">
-                        <p class="synopsis-p">选择拎包入住业务：</p>
-                        <ul>
-                            <li>硬装</li>
-                            <li><span></span>基装 ： 人工 + 材料</li>
-                            <li><span></span>整装 ： 基装 + 主材</li>
-                            <li>团购</li>
-                            <li><span></span>家具、家电、窗帘、定制家居、地暖、中央空调、净水器、空气净化器、装修建材焕新家</li>
-                            <li><span></span>旧屋改造、局部维修翻新</li>
-                            <li><span></span>家具换新、墙面刷新</li>
-                        </ul>
-                    </div>
-                    <img class="map" src="img/lbrz-r-3.png" alt=""/>
-                </div>
-                <div class="LifeHome">
-                    <img src="img/lbrz-r-2.jpg" alt=""/>
-                </div>
+				</div>
 
+				<div class="ctlk">
+					<ul>
+						<li>
+							<a href="corporateCulture.html">走进嘉宝</a>
+						</li>
+						<li>
+							<a href="metalist.html">媒体中心</a>
+						</li>
+						<li>
+							<a href="#" class="iiiw">业务介绍</a>
+						</li>
+						<li>
+							<a href="binggouhezuo.html">携手嘉宝</a>
+						</li>
+						<li>
+							<a href="attention-jb.html">加入我们</a>
+						</li>
+						<li>
+							<a href="zhaotoubiao.html">招投标</a>
+						</li>
+						<li>
+							<a href="touzizhelaifang.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
 
-                <!--<div class="swiper-container">
+				<div class="ctrg">
+					<img src="images/jimg2.png" />
+				</div>
+			</div>
+		</div>
+		<div class="bj-sh swiper-container hidden-xs" style="width: 100%;">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img style="width: 100%;" src="images/jimg3.png" alt=""></div>
+				<div class="swiper-slide"><img style="width: 100%;" src="images/jimg3.png" alt=""></div>
+				<div class="swiper-slide"><img style="width: 100%;" src="images/jimg3.png" alt=""></div>
+			</div>
+			<!--分页器-->
+			<div class="swiper-pagination"></div>
+		</div>
+
+		<div class="lmqr">
+			<ul>
+				<li>
+					<a href="Residention.html">住宅</a>
+				</li>
+				<li>
+					<a href="Business.html">商业</a>
+				</li>
+				<li class="liqr">
+					<a href="BagCheckIn.html">拎包入住</a>
+				</li>
+				<li>
+					<a href="House.html">房产经纪</a>
+				</li>
+				<li>
+					<a href="zhinenghuafwu.html">智能化服务</a>
+				</li>
+				<li>
+					<a href="build.html">写字楼</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="zp act_content" style="margin-top: 26px;">
+			<div class="padd-23 container">
+				<h1 class="gsfl">拎包入驻</h1>
+				<div class="ctoi">
+					BAG CHECK
+				</div>
+				
+				
+				
+				<div class="conte" style="position: relative; width:1022px;height :740px;clear: both;">
+					<img src="img/lbrz-r-1.jpg" class="wlbrz" style="width: 100%; margin-top: 100px;margin-bottom: 50px;" alt="">
+					<p class="synopsis-p" style="">拎包入住简介：</p>
+					<p class="synopsis-c" style="">嘉宝股份拎包入住事业部（一下简称“拎包入住中心”），系蓝光集团-嘉宝股份为满足业主房屋居住全生命周期的居家需求而成立的全方位o2o居家服务平台；围绕创新与升级“智慧化社区生活体系+智慧化金牌物业服务体系” 双轮廓驱动核心商业模式。嘉宝股份拎包入住事业部集室内设计、主材、施工、家具、家电、软装、焕新家、定制家具、智能家居等服务为一体的业主居家服务平台，通过整合产业链资源、减少中间环节、从业主居家功能分析、方格设计、空间运用、收纳集成、材料组合、工程监管、售后服务等维度，为业主提供金牌家居管家服务。</p>
+					<p class="synopsis-p" style="">拎包入住的业务范围：</p>
+					<p>北京、上海、苏州、武汉、长沙、合肥、南充、昆明、重庆、成都、青岛、无锡、南京等</p>
+					<p class="synopsis-c" style="">详询地址：嘉宝物业在管项目物业服务中心 <br /><span>监督电话 ：028-87829504</span></p>
+					<p class="synopsis-c hidden-xs" style="">拎包入住 "家居" 服务---您身边的家居服务服务管家！ </p>
+					
+					<p class="visible-xs guan">拎包入住“家居”服务——<br />您身边的家居服务管家！</p>
+					
+					<div class="Occupancy">
+						<div class="Occupancy-Reason">
+							<p class="synopsis-p">选择拎包入住的理由</p>
+							<ul>
+								<li>优势一：服务有保障</li>
+								<li>现成的装修方案、效果图免费品鉴</li>
+								<li>优势二：预算保障</li>
+								<li>方案不变、确保整装报价施工中途0增项</li>
+								<li>优势三：资金保障</li>
+								<li>物业收付工程款，资金无风险</li>
+								<li>优势四：工艺保障</li>
+								<li>施工质量达到国家标准</li>
+								<li>优势五：工期保障</li>
+								<li>按照合同约定，无故拖延工期“罚”</li>
+								<li>一小时售后到家</li>
+							</ul>
+						</div>
+						<div class="Occupancy-Business">
+							<p class="synopsis-p">选择拎包入住业务：</p>
+							<ul>
+								<li>硬装</li>
+								<li><span></span>基装 ： 人工 + 材料</li>
+								<li><span></span>整装 ： 基装 + 主材</li>
+								<li>团购</li>
+								<li><span></span>家具、家电、窗帘、定制家居、地暖、中央空调、净水器、空气净化器、装修建材焕新家</li>
+								<li><span></span>旧屋改造、局部维修翻新</li>
+								<li><span></span>家具换新、墙面刷新</li>
+							</ul>
+						</div>
+						<img class="map hidden-xs" src="img/lbrz-r-3.png" alt="" />
+						<img src="wimg/map1.png" class="visible-xs map1"/>
+					</div>
+					
+					<div class="LifeHome">
+						<img src="img/lbrz-r-2.jpg" alt="" />
+					</div>
+
+					<!--<div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide bj1">
                             <img src="img/fazhan1.jpg" alt=""/>
@@ -170,66 +243,64 @@
                     <div class="swiper-button-next" style="right: 50px;"></div>
                     <div class="swiper-button-prev" style="left: 50px;"></div>
                 </div>-->
-            </div>
-            <!--<div class=""></div>-->
+				</div>
+				<!--<div class=""></div>-->
 
-        </div>
+			</div>
 
-        <img class="ban" src="./img/img27.png" alt="">
-    </div>
-    <div style="margin-top: 0px!important;" class="Footer">
+			<img class="ban hidden-xs" src="./img/img27.png" />
+		</div>
+		
+		<img class="ban1 visible-xs" src="wimg/img1.png" />
 
-        <div class="x">
+		<div style="margin-top: 0px!important;" class="Footer hidden-xs">
 
-            <div class="lkqr">
-                <img src="img/foot_logo.png"/>
-            </div>
+			<div class="x">
 
-            <div class="lkqc">
+				<div class="lkqr">
+					<img src="img/foot_logo.png" />
+				</div>
 
-                <span>如遇到问题，请联系我们</span>
+				<div class="lkqc">
 
-                <p class="kmws">地址：成都市高新西区西芯大道9号</p>
-                <p>服务热线：400-8888-116        &nbsp;&nbsp;   审计监督：028-87826372</p>
-                <p>招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+					<span>如遇到问题，请联系我们</span>
 
-            </div>
+					<p class="kmws">地址：成都市高新西区西芯大道9号</p>
+					<p>服务热线：400-8888-116 &nbsp;&nbsp; 审计监督：028-87826372</p>
+					<p>招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
 
-            <div class="lkqf">
-                <img src="img/logo_wx.png"/>
-                <p>官方微信</p>
-            </div>
+				</div>
 
-        </div>
+				<div class="lkqf">
+					<img src="img/logo_wx.png" />
+					<p>官方微信</p>
+				</div>
 
-    </div>
-</body>
+			</div>
+
+		</div>
+		
+
+		<!--wap端  start-->
+		<div class="wfooter visible-xs">
+
+			<div class="container">
+				<div class="wleft">
+					<img src="wimg/wfot.png" />
+					<p class="wlx">如遇到问题，请联系我们</p>
+					<p>地址：成都市高新西区西芯大道9号 &nbsp;&nbsp;服务热线：400-8888-116</p>
+					<p>审计监督：028-87826372 &nbsp;&nbsp;招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+				</div>
+				<div class="wgw">
+					<img src="wimg/gw.jpg" />
+					<p>官方微信</p>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<!--wap端  end-->
+	</body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
