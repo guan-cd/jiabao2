@@ -85,7 +85,7 @@ a{
 }
 .hea-bot {
     clear: both;
-    padding-top: 27px;
+    padding-top:10px;
 }
 .indexnav:after{
     content:"";
@@ -93,7 +93,7 @@ a{
     clear: both;
 }
 .header{
-    height:250px!important;
+    height:180px!important;
 }
 .header_h{
     height:250px!important;

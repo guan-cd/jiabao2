@@ -259,7 +259,7 @@ p{
 .mediaCenter{
     background-color: #fff;
     padding:20px 30px;
-    margin-top: 10px;
+    margin-top:30px;
 }
 .mediaCenter .underline{
     display: block;
@@ -661,6 +661,9 @@ p{
         width:35px!important;
         height:33px!important;
         background:url("../img/jiantou_03.png") no-repeat 0 0/100% 100%!important;
+    }
+    .qingchu{
+        margin-top:10px;
     }
 }
 

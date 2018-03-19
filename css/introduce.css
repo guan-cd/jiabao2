@@ -23,7 +23,7 @@ ul li{list-style: none;}
 .pright .rtop{margin-bottom: 68px;}
 
 
-.qj .part3{margin: 142px 5% 40px;}
+.qj .part3{margin: 142px 0% 40px;}
 .part3 .point{width: 100%;height: 472px;background: url(../img/line1.png) no-repeat;position: relative;}
 .part3 ul{width: 472px;height: 472px;overflow: hidden;margin-right: 63px !important;display: inline-block;}
 .part3 li{float: left;width: 157px;height: 157px;text-align: center;}
