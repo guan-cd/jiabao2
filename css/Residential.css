@@ -38,12 +38,11 @@ span.attention-this {color: #94724c!important;}
 .margintop20{
     margin-top:20px!important;
 }
-/*.zouiusa{*/
-    /*width:1190px!important;*/
-    /**/
-
-/*}*/
-
-
+.zuixin-ren .zui-left{
+    float: right;
+}
+.zuixin-ren .zui-right{
+    float: left;
+}
 
 

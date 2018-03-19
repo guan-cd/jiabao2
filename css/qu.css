@@ -28,5 +28,58 @@
 .mnls-ren{
     margin-bottom: 110px!important;
 }
+.ren-n ul li{
+    width:auto;
+    border-bottom: 0 none;
+    margin-top: 40px;
+    height: 213px;
+}
+.ren-n ul .zui-left{
+    width: 910px;
+    /*background-color: #007aff;*/
+    position: relative;
+    height :211px;
+    border: 1px solid #6f6f6f;
+    border-left: 0 none;
+    padding-left: 30px;
+}
+.zui-left p.tit{
+     color: #6f6f6f;
+     font-size: 14px;
+    margin-top: 10px;
+ }
+.zui-left p.bot{
+    font-size: 12px;
+    color :#6f6f6f;
+    position: absolute;
+    bottom: 10px;
+    left :50px;
+    height: 20px;
+    line-height: 20px;
+}
+p.bot em{
+    display: inline-block;
+    width :18px;
+    height: 20px;
+    background: url(../img/xiazai-5.png)0 0 / 100% 100% no-repeat;
+    vertical-align: middle;
+    position: absolute;
+    right: -715px;
+    bottom: 0px;
+}
+p.bot .bot-ri{
+    position: absolute;
+    right:-770px;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
 
 
