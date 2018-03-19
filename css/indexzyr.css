@@ -161,7 +161,7 @@ body{
 }
 
 .lmds{
-	width: 1200px;
+	width:1190px;
 	background: #fff;
 	height: auto;
 	margin: 0px auto;
@@ -1305,6 +1305,7 @@ float: left;
 	width: 70%;
 	overflow: hidden;
 	-background: green;
+	font: 12px/1.8;
 }
 .contesa ul li p{
 	 color: #f1a400;
