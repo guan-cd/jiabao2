@@ -1,0 +1,179 @@
+@media screen and (max-width:768px){
+    .ctoi{
+        margin-top:11px;
+        width:222px!important;
+    }
+    .ctoi{
+        font-size:28px!important;
+        margin-top:1px!important;
+    }
+    .lmds{
+        width:100%;
+        padding-left:0.15rem;
+        padding-right:0.15rem;
+        background: #f4f4f4;
+    }
+    .lmds .m{
+        width:100%;
+        padding-left:0.25rem;
+        padding-right:0.25rem;
+        background:white;
+    }
+    .swiper-slide>img{
+        width:100%;
+    }
+    .serper{
+        margin-top:0.24rem;
+    }
+    .swiper-button-prev{
+        background:url("../img/nanjiantou_03.png") no-repeat !important;
+        width: 58px!important;
+        height: 53px!important;
+
+    }
+    .swiper-button-next{
+        background:url("../img/nanjiantou_03.png") no-repeat !important;
+        width: 58px!important;
+        height: 53px!important;
+        transform:rotate(-180deg);
+    }
+    .lefts{
+        float:left;
+    }
+    .rights{
+        float:left;
+    }
+    .swiper-slide:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .rongyi{
+        margin-top:1rem;
+    }
+.title{
+    font-size: 0.2rem;
+    padding-left:0.1rem;
+    color: #6f6f6f;
+}
+    .jiagu{
+        height:1.2rem;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        padding-left:0.1rem;
+        font-size: 0.17rem;
+        color: #6f6f6f;
+        padding-top:0.1rem;
+    }
+    .yanjingbox:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .yanjingleft{
+        padding-left:0.1rem;
+        float:left;
+        color: #6f6f6f;
+    }
+    .data{
+        float:right;
+    }
+    .yanjingbox img,.yanjingbox span{
+       vertical-align:middle;
+    }
+    .swiper-slide>div:after{
+        content:"";
+        display:block;
+        clear: both;
+    }
+    .swiper-slide>div{
+        padding-bottom:0.2rem;
+        border-bottom:1.5px solid rgb(197,202,210);
+    }
+    .two{
+        margin-top:0.25rem;
+    }
+    .bgcontent{
+        width:100%;
+        padding-left:0.15rem;
+        padding-right:0.15rem;
+    }
+    .bgcon{
+        height:3rem!important;
+    }
+    .bgf{
+        height:2rem!important;
+    }
+    .ctoi{
+        margin-top:11px;
+    }
+    .swiper-button-next2{
+        background:url("../img/jiantoublack_03.png") no-repeat !important;
+        top: 107%!important;
+        transform:rotate(-180deg);
+        right:37%!important;
+    }
+    .swiper-button-prev2{
+        background:url("../img/jiantoublack_03.png") no-repeat !important;
+
+        top: 107%!important;
+        left:37%!important;
+    }
+    .lmds{
+        position:relative;
+    }
+    .yanjingbox{
+        margin-top:0.05rem;
+    }
+    .swiper-slide{
+        width:100%!important;
+    }
+    .bgf{
+        width:96%!important;
+    }
+    .rongyi{
+        overflow:hidden!important;
+    }
+    .swiper-slide{
+        width:100.29%!important;
+    }
+    .n h1{
+        padding-top:60px!important;
+    }
+    html,body{
+        width:100%;
+        overflow-x:hidden;
+    }
+/*.swiper-slide>.one:nth-child(1){*/
+    /*width:20%;*/
+/*}*/
+    /*.swiper-slide>.one:nth-child(2){*/
+        /*width:80%;*/
+    /*}*/
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+
+
+}
+html {
+    width: 100%;
+    height: 100%;
+    /*在谷歌里面，小于12号字都会直接显示为12号字，此代码解除此问题*/
+    -webkit-text-size-adjust: none;
+    font-size: calc(100vw/7.5);
+    /*1rem=100px*/
+    font-size: -webkit-calc(100vw/7.5);
+    font-size: -moz-calc(100vw/7.5);
+    /*overflow: hidden;*/
+    /* -webkit-overflow-scrolling: touch;*/
+}
+.ctoi{
+    color:#94724d!important;
+}
+
+

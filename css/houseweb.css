@@ -1,0 +1,60 @@
+@media screen and (max-width:768px){
+    .house{
+        width:100%;
+        padding-left:0.15rem;
+        padding-right:0.15rem;
+        background: #f4f4f4;
+    }
+    .n{
+        padding-left:0.25rem!important;
+        padding-right:0.25rem!important;
+        width:100%!important;
+        background: #ffffff;
+    }
+    .ctoi{
+        font-size:18px!important;
+        margin-top:1px!important;
+    }
+    .hpart3{
+        width:100%;
+    }
+    .house .hpart3{
+        margin-left:0!important;
+    }
+    #hpart2{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    .bgcon{
+        height:2rem!important;
+    }
+    .bgf{
+        height:2rem!important;
+    }
+    .ctoi{
+        margin-top:11px;
+    }
+
+}
+.Footer{
+    margin-top:0!important;
+}
+.lmqr ul li{
+    width: auto!important;
+    padding: 0 12px!important;
+}
+/*.ctoi{*/
+    /*color:#94724d!important;*/
+/*}*/
+html {
+    width: 100%;
+    height: 100%;
+    /*在谷歌里面，小于12号字都会直接显示为12号字，此代码解除此问题*/
+    -webkit-text-size-adjust: none;
+    font-size: calc(100vw/7.5);
+    /*1rem=100px*/
+    font-size: -webkit-calc(100vw/7.5);
+    font-size: -moz-calc(100vw/7.5);
+    /*overflow: hidden;*/
+    /* -webkit-overflow-scrolling: touch;*/
+}

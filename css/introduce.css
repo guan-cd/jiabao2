@@ -7,8 +7,8 @@ ul li{list-style: none;}
 
 .qj .part1,.qj .part2,.qj .part3{margin: 0 5%;}
 
-.part1 .p1{font-size: 16px;font-family: "微软雅黑";color: #b1b1b1;margin-bottom: 43px !important;}
-.part1 .p2{font-size:14px;font-family: Gautami;margin-top: 23px; color: #b1b1b1;
+.part1 .p1{font-size: 16px;font-family: "微软雅黑";color: #b1b1b1;margin-bottom:15px !important;}
+.part1 .p2{font-size:14px;font-family: Gautami;margin-top: 0px; color: #b1b1b1;
 	margin-bottom: 48px!important;}
 
 .part2{margin-top: 56px;overflow: hidden;}
@@ -30,4 +30,9 @@ ul li{list-style: none;}
 .part3 li p{width: 62px;height: 63px;background: url(../img/line3.png) no-repeat;text-align: center;line-height: 63px;font-size: 35px;color: #fff;margin: 42px auto 5px !important;}
 .part3 li span{font-family: "微软雅黑";font-size: 14px;color: #626262;line-height: 18px;}
 .part3 .f25{font-size: 25px;}
-
+.p1zou{
+	padding-top:25px;
+}
+.margintop30zou{
+	margin-top:30px!important;
+}

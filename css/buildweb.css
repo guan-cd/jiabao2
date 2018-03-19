@@ -1,0 +1,89 @@
+@media screen and (max-width:768px){
+    .build{
+        width:100%!important;
+        padding-left:0.15rem!important;
+        padding-right:0.15rem!important;
+        background: #f4f4f4;
+    }
+    .build .n{
+        width:100%!important;
+        padding-left:0.25rem!important;
+        padding-right:0.25rem!important;
+        background:white;
+    }
+    .ctoi{
+        font-size:28px!important;
+        margin-top:11px!important;
+        width: 244px!important;
+    }
+    .build .bpart3{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    .build{
+        background: #f4f4f4;
+    }
+    .bpart3 .xq{
+        margin-top:0!important;
+    }
+    .bpart3left{
+        width:48%!important;
+        margin-right:2%!important;
+
+    }
+    .bpart3right{
+        width:48%!important;
+        margin-right:0!important;
+        margin-left:2%!important;
+    }
+    .bpart3 .xq p{
+        font-size:22px;
+    }
+    .bpart3 .xq div{
+        margin-top:0.06rem;
+    }
+    .bpart3 .xq a{
+        font-size: 17px;
+        color: #fff;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        line-height: 24px;
+        vertical-align: middle;
+    }
+    .bpart3 .xq div{
+        width:69px;
+    }
+    .btext.btextmargin0{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    .bgcon{
+        height:2rem!important;
+    }
+    .bgf{
+        height:2rem!important;
+    }
+    html {
+        width: 100%;
+        height: 100%;
+        /*在谷歌里面，小于12号字都会直接显示为12号字，此代码解除此问题*/
+        -webkit-text-size-adjust: none;
+        font-size: calc(100vw/7.5);
+        /*1rem=100px*/
+        font-size: -webkit-calc(100vw/7.5);
+        font-size: -moz-calc(100vw/7.5);
+        /*overflow: hidden;*/
+        /* -webkit-overflow-scrolling: touch;*/
+    }
+}
+.Footer{
+    margin-top:0!important;
+}
+.lmqr ul li{
+    width: auto!important;
+    padding: 0 12px!important;
+}
+/*.ctoi{*/
+    /*color:#94724d!important;*/
+/*}*/
