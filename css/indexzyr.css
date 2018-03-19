@@ -7,7 +7,7 @@ body{
 .m{
 	margin: 0 auto;
  clear:both; 
- width: 1200px;
+ width:1190px;
 }
 .he_le{
 	float: left;
@@ -167,10 +167,10 @@ body{
 	margin: 0px auto;
 }
 .n{
-	width: 1030px;
+	/*width: 1030px;*/
 	clear: both;
 	margin: 0 auto;
-
+	padding: 0 50px !important;
 	overflow: hidden;
 }
 

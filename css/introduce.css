@@ -5,7 +5,7 @@ ul li{list-style: none;}
 .qj{/*background: #fff;*/}
 
 
-.qj .part1,.qj .part2,.qj .part3{margin: 0 5%;}
+.qj .part1,.qj .part2,.qj .part3{padding:0 50px;}
 
 .part1 .p1{font-size: 16px;font-family: "微软雅黑";color: #b1b1b1;margin-bottom:15px !important;}
 .part1 .p2{font-size:14px;font-family: Gautami;margin-top: 0px; color: #b1b1b1;
@@ -31,7 +31,7 @@ ul li{list-style: none;}
 .part3 li span{font-family: "微软雅黑";font-size: 14px;color: #626262;line-height: 18px;}
 .part3 .f25{font-size: 25px;}
 .p1zou{
-	padding-top:40px;
+	padding-top:50px;
 }
 .margintop30zou{
 	margin-top:30px!important;
