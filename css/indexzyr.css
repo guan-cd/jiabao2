@@ -2,7 +2,7 @@
 body{
 	background: #f5f5f5;
     overflow-x:hidden;
-	font-family: "å¾®è½¯é›…é»‘","Microsoft YaHei",sans-serif;
+	font-family: "Î¢ÈíÑÅºÚ","Microsoft YaHei",sans-serif;
   }
 .m{
 	margin: 0 auto;
@@ -161,7 +161,7 @@ body{
 }
 
 .lmds{
-	width: 1190px;
+	width:1190px;
 	background: #fff;
 	height: auto;
 	margin: 0px auto;
@@ -175,8 +175,8 @@ body{
 }
 
 .n h1{
-	font-size: 30px;
-	font-family: "å¾®è½¯é›…é»‘";
+	font-size:18px!important;
+	font-family: "Î¢ÈíÑÅºÚ";
 	color: #6f6f6f;
 	font-weight: normal;
 	padding-bottom: 20px;
@@ -185,10 +185,11 @@ body{
 	padding-top: 115px;
 }
 .ctoi{
-	margin-top: 30px;
+	margin-top: 16px;
 	width: 213px;
 	color: #b1b1b1;
-	font-size: 34px;
+	font-size: 16px;
+	line-height:20px;
 }
 .Footer{
 	-background:url('../images/fr.jpg') no-repeat; 
@@ -444,7 +445,7 @@ body{
 
 
 /*
-å…¬å¸æ²»ç†
+¹«Ë¾ÖÎÀí
  */
 .iuqq{
 	margin-top:30px;
@@ -525,7 +526,7 @@ body{
 }
 
 /*
- æŠ•èµ„è€…æ¥è®¿
+ Í¶×ÊÕßÀ´·Ã
  */
 .iuqp{
 	padding-top:80px;
@@ -602,7 +603,7 @@ body{
 
 
 /*
- *åŸºæœ¬ä¿¡æ¯
+ *»ù±¾ĞÅÏ¢
  *
  */
 .kmzs{
@@ -668,7 +669,7 @@ body{
 
 
 /**
- * æœ€æ–°å…¬å‘Š
+ * ×îĞÂ¹«¸æ
  */
 
 .iuqx{
@@ -742,7 +743,7 @@ width: 44%;
 
 
 /*
-æ™ºèƒ½åŒ–æœåŠ¡
+ÖÇÄÜ»¯·şÎñ
  */
 
 .iuqb{
@@ -1003,7 +1004,7 @@ float: left;
 
 /**
  *
- *ç¤¾ä¼šæ‹›è˜
+ *Éç»áÕĞÆ¸
  * 
  */
 
@@ -1040,9 +1041,9 @@ float: left;
 
 
 .ctos{
-	margin-top: 30px;
+	margin-top:15px;
 	width: 500px;
-	color: #c3b3a3;
+	color: #94724d!important;
 	font-size: 34px;
 }
 
@@ -1300,11 +1301,14 @@ float: left;
 	height:1164px;
 	margin-top:60px;
 	-margin-bottom: 300px;
+	/*-:?12px/1.8 "Microsoft JhengHei","Helvetica Neue","Hiragino Sans GB",Arial,"SimSun",sans-serif;*/
 }
 .contesa ul li{
 	width: 70%;
+	line-height: 1.8;
 	overflow: hidden;
 	-background: green;
+
 }
 .contesa ul li p{
 	 color: #f1a400;
