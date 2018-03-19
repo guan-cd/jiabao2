@@ -1300,12 +1300,14 @@ float: left;
 	height:1164px;
 	margin-top:60px;
 	-margin-bottom: 300px;
+	/*-: 12px/1.8 "Microsoft JhengHei","Helvetica Neue","Hiragino Sans GB",Arial,"SimSun",sans-serif;*/
 }
 .contesa ul li{
 	width: 70%;
+	line-height: 1.8;
 	overflow: hidden;
 	-background: green;
-	font: 12px/1.8;
+
 }
 .contesa ul li p{
 	 color: #f1a400;
