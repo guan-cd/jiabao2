@@ -2,7 +2,7 @@
 body{
 	background: #f5f5f5;
     overflow-x:hidden;
-	font-family: "å¾®è½¯é›…é»‘","Microsoft YaHei",sans-serif;
+	font-family: "Î¢ÈíÑÅºÚ","Microsoft YaHei",sans-serif;
   }
 .m{
 	margin: 0 auto;
@@ -176,7 +176,7 @@ body{
 
 .n h1{
 	font-size:18px!important;
-	font-family: "å¾®è½¯é›…é»‘";
+	font-family: "Î¢ÈíÑÅºÚ";
 	color: #6f6f6f;
 	font-weight: normal;
 	padding-bottom: 20px;
@@ -445,7 +445,7 @@ body{
 
 
 /*
-å…¬å¸æ²»ç†
+¹«Ë¾ÖÎÀí
  */
 .iuqq{
 	margin-top:30px;
@@ -526,7 +526,7 @@ body{
 }
 
 /*
- æŠ•èµ„è€…æ¥è®¿
+ Í¶×ÊÕßÀ´·Ã
  */
 .iuqp{
 	padding-top:80px;
@@ -603,7 +603,7 @@ body{
 
 
 /*
- *åŸºæœ¬ä¿¡æ¯
+ *»ù±¾ĞÅÏ¢
  *
  */
 .kmzs{
@@ -669,7 +669,7 @@ body{
 
 
 /**
- * æœ€æ–°å…¬å‘Š
+ * ×îĞÂ¹«¸æ
  */
 
 .iuqx{
@@ -743,7 +743,7 @@ width: 44%;
 
 
 /*
-æ™ºèƒ½åŒ–æœåŠ¡
+ÖÇÄÜ»¯·şÎñ
  */
 
 .iuqb{
@@ -1004,7 +1004,7 @@ float: left;
 
 /**
  *
- *ç¤¾ä¼šæ‹›è˜
+ *Éç»áÕĞÆ¸
  * 
  */
 
@@ -1301,7 +1301,7 @@ float: left;
 	height:1164px;
 	margin-top:60px;
 	-margin-bottom: 300px;
-	/*-:Â 12px/1.8 "Microsoft JhengHei","Helvetica Neue","Hiragino Sans GB",Arial,"SimSun",sans-serif;*/
+	/*-:?12px/1.8 "Microsoft JhengHei","Helvetica Neue","Hiragino Sans GB",Arial,"SimSun",sans-serif;*/
 }
 .contesa ul li{
 	width: 70%;
