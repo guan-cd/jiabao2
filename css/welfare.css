@@ -39,14 +39,14 @@ html,body{
     float: right;
     margin-right: 10%;
     font-size: 30px;
-    width: 200px;
+    width: 173px;
 }
 .fitnessRoom p span{
-    height: 42px;
+    height: 15px;
     display:inline-block;
-    width: 81px;
+    width: 44px;
     vertical-align: middle;
-    background: url(../img/gym.png)0 0;
+    background: url(../imgs/gym.jpg)0 0 no-repeat;
     margin-right: 5%;
 }
 .fitnessRoom-1{
@@ -54,11 +54,11 @@ html,body{
     margin-top: 30px;
 }
 .fitnessRoom-1 p span{
-    background: url(../img/sports.jpg)0 0;
-    width: 222px;
+    background: url(../imgs/sports.jpg)0 0 no-repeat;
+    width: 193px;
 }
 .fitnessRoom-1 p{
-    width: 360px;
+    width: 284px;
 }
 .mg-b-20 img{
     margin-bottom: 22px;
@@ -87,12 +87,12 @@ html,body{
     clear: both;
 }
 .fitnessRoom-2 p span{
-    width:187px ;
+    width:173px ;
     /*background: url('../img/art-center.jpg') 0 0;*/
-    background: url('../img/art-center.jpg') 0 0 no-repeat;
+    background: url('../imgs/art-center.jpg') 0 0 no-repeat;
 }
 .fitnessRoom-2 p{
-    width: 324px;
+    width: 267px;
 }
 .yisuzx .float-le{
     float: left;
@@ -116,11 +116,11 @@ html,body{
     margin-top: 20px;
 }
 .fitnessRoom-3 p span{
-    width: 140px;
-    background: url('../img/canteen.jpg') 0 0 no-repeat;
+    width: 160px;
+    background: url('../imgs/canteen.jpg') 0 0 no-repeat;
 }
 .fitnessRoom-3 p{
-    width :212px;
+    width :217px;
 }
 .stang .float-ri{
     float: right;
@@ -136,11 +136,11 @@ html,body{
     margin-bottom: 22px;
 }
 .fitnessRoom-4 p{
-    width: 140px;
+    width: 178px;
 }
 .fitnessRoom-4 p span{
-    width: 73px;
-    background: url('../img/club.jpg') 0 0 no-repeat;
+    width: 122px;
+    background: url('../imgs/club.jpg') 0 0 no-repeat;
 }
 
 
@@ -210,11 +210,11 @@ html,body{
     width :244px;
 }
 .fitnessRoom-5 p span{
-    width: 345px;
-    background: url("../img/offce.jpg") 0 0 no-repeat;
+    width: 259px;
+    background: url("../imgs/offce.png") 0 0 no-repeat;
 }
 .fitnessRoom-5 p{
-    width :492px;
+    width :357px;
 }
 .huanj1 .huanj1-1{
     float: left;
@@ -244,11 +244,11 @@ html,body{
     margin-top: 10px;
 }
 .fitnessRoom-6 p{
-    width:220px;
+    width:197px;
 }
 .fitnessRoom-6 p span{
     width: 119px;
-    background: url("../img/lintrary.png") 0 0 no-repeat;
+    background: url("../imgs/lintrary.jpg") 0 0 no-repeat;
 }
 .Footer{
     margin:0!important;
