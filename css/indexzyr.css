@@ -711,7 +711,7 @@ body{
 float:right;
 text-align: left;
 padding-right:50px;
-width: 44%;
+width: 46%;
 }
 .lmkk span{
 	display: inline-block;
@@ -1086,7 +1086,7 @@ float: left;
 .iuqi h2{
 	padding-top: 30px;
 	color:#ff5d56;
-	font-size: 30px;
+	font-size: 20px;
 }
 .iuwr{
 	margin-top: 50px;
@@ -1094,19 +1094,23 @@ float: left;
 }
 
 .hhwq{
-	width: 156px;
-	margin-top: 20px;
+	width: 180px;
+	margin-top: 3px;
 	height: 118px;
 	border-top:1px solid #bcc0c1;
 }
 .lkkk{
-	font-size: 50px;
+	font-size: 18px;
 	font-weight: bold;;
 	color:#6f6f6f;
-	text-align: center;
+	/*text-align: center;*/
 	padding-bottom: 50px;
-}
 
+}
+.lkkk span{
+	margin-left: 456px;
+	display: inline-block;
+}
 .hgww{
  text-align: center;
 }
@@ -1395,8 +1399,12 @@ float: left;
 .lmqk-dan{
 	margin-top: 12px;
 }
-
-
+.ztou{
+	margin-top: 80px;
+}
+.zmenu{
+	margin-top: 40px;
+}
 
 
 
