@@ -101,11 +101,57 @@ p.bot .xqing-ren{
     position: absolute;
     left :-15px;
 }
+.cxie{
+    height :86px;
+    width: 100%;
+    line-height: 86px;
+    margin-bottom: 0px;
+}
+.cxie li{
+   display: inline-block;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: bold;
 
-
-
-
-
-
-
+}
+.cxie li a{
+    /*color: #94724d!important;*/
+    color: #464646;
+}
+.liqr a{
+    color: #94724d!important;
+}
+.banner{
+    position: relative;
+}
+.banner div{
+    position: absolute;
+    top:40px;
+    left :300px;
+    color: #fff;
+}
+.ren-p1{
+    font-size: 30px;
+    margin-bottom: 30px!important;
+}
+.ren-p2 em{
+    font-size: 30px;
+}
+.ren-p2 span{
+    font-size: 19px;
+}
+.ren-p3{
+    height :50px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    width :400px;
+    margin-top: 30px!important;
+    margin-bottom: 25px!important;
+}
+.ren-p4{
+    font-size: 18px;
+}
+ol{
+    margin-bottom: 0px;
+}
 
