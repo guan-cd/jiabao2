@@ -25,6 +25,10 @@
 .ffqz-ren{
     padding-bottom: 110px!important;
 }
+.ffqz-ren-culture{
+    padding-bottom: 204px!important;
+    height :auto!important;
+}
 .mnls-ren{
     margin-bottom: 110px!important;
 }
@@ -45,7 +49,7 @@
 }
 .zui-left p.tit{
      color: #6f6f6f;
-     font-size: 14px;
+     font-size: 16px;
     margin-top: 10px;
  }
 .zui-left p.bot{

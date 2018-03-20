@@ -39,7 +39,7 @@ body,html{
 }
 .indexnav>li:nth-of-type(1)
 {
-    margin-right:40px!important;
+    /*margin-right:40px!important;*/
 }
 .indexnav>li:hover a
 {

@@ -297,7 +297,7 @@ body{
 	width: 76%;
 }
 .kmer p{
-	font-size: 20px;
+	font-size: 16px;
 	color: #6f6f6f;
 }
 .kmer span{
@@ -308,7 +308,7 @@ body{
     color: #6f6f6f;
 }
 .lmop {
-	padding-top: 50px;
+	padding-top: 40px;
 }
 .iusa{
 	-background:url('../images/frfc.png') no-repeat; 
@@ -442,11 +442,6 @@ body{
 	font-size: 18px;
 }
 
-
-
-/*
-��˾����
- */
 .iuqq{
 	margin-top:30px;
 	overflow: hidden;
@@ -729,7 +724,7 @@ width: 44%;
 }
 .lmqk{
 	line-height: 30px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .hbss{
@@ -1118,7 +1113,7 @@ float: left;
 
 .hgww h2{
 	text-align: center;
-	font-size: 34px;
+	font-size: 18px;
 	color:#6f6f6f;
 }
 
@@ -1257,7 +1252,10 @@ float: left;
 .sslq p{
 	padding-left: 50px;
 	line-height: 50px;
-	font-size: 24px;
+	font-size: 14px;
+}
+.sslq img{
+	vertical-align: middle;
 }
 .sslq p span{
 	padding-left: 10px;
@@ -1372,3 +1370,43 @@ float: left;
 	padding:0 12px!important;
 	font-size:18px!important;
 }
+.contesa-ren{
+	margin-left: 50px;
+}
+.jzfy .mg-5{
+	margin-top: 7px;
+}
+.tuanjian-ren{
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+.lmqk-dan{
+	margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

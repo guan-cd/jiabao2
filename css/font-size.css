@@ -74,7 +74,7 @@
     font-size: 12px;
 }
 .conte .synopsis-c{
-    line-height: 25px;
+    line-height: 35px;
 }
 .synopsis-p-ren{
     margin-bottom: 16px!important;
@@ -89,13 +89,22 @@
     margin-bottom: 13px;
 }
 .line-ren{
-    line-height: 27px;
+    line-height: 38px;
+}
+.synopsis-p-btn{
+    margin-bottom: 20px!important;
+    margin-top: 10px!important;
+}
+.chenshi{
+    margin-bottom: 10px!important;
+}
+.youshi-ren-ren li{
+    line-height: 38px;
 }
 
-
-
-
-
+.desbox-ren span{
+    font-size: 16px;
+}
 
 
 
