@@ -12,8 +12,8 @@
 .wecm li.weling a{color: #ffb84c;}
 .wecm ul li:first-child{margin-right: 30px;}
 
-.wjjaf{font-family: "微软雅黑";font-size: 24px;color: #2d2d2d;padding-top: 10px;}
-.hsp{font-family: Tunga;font-size: 20px;color: #f1a400;}
+.wjjaf{font-family: "微软雅黑";font-size: 16px;color: #2d2d2d;padding-top: 10px;padding-bottom: 8px;}
+.hsp{font-family: Tunga;font-size: 20px;color: #f1a400;line-height: 18px;}
 
 .dybf{height: auto;overflow: hidden;}
 
