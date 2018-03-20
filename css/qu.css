@@ -76,9 +76,31 @@ p.bot .bot-ri{
     right:-770px;
     bottom: 0px;
 }
-
-
-
+p.bot .xqbj-ren {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url(../img/xiz-ren.png)0 0 / 100% 100% no-repeat;
+    vertical-align: middle;
+    position: absolute;
+    right: -650px;
+    bottom: 0px;
+}
+p.bot .xqing-ren{
+    position: absolute;
+    right: -681px;
+    bottom: 0px;
+}
+.zongze{
+    margin-top: 30px;
+    font-size: 14px;
+    color :#6f6f6f;
+    line-height: 30px;
+}
+.nian{
+    position: absolute;
+    left :-15px;
+}
 
 
 
