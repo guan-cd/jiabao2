@@ -1165,8 +1165,15 @@ float: left;
 .iuss{
 	padding-top: 100px;
 }
-
-
+.iuss-ren{
+	padding-top: 50px;
+}
+.iuss-ren h2{
+	font-size: 18px;
+}
+.iuss-ren p{
+	font-size: 16px;
+}
 .iifq{
 	padding: 100px 0 80px 28px; 
 }
@@ -1174,13 +1181,17 @@ float: left;
 	overflow: hidden;
 	background: orange;
 }
-
+.wrxf-ren p{
+	font-size: 16px;
+}
 .mnqy{
 	width: 1021px;
 	margin: 0 auto;
 	clear: both;
 }
-
+.lmqr-ren ul{
+	margin-bottom: 30px;
+}
 .yyff{
 	color:#94734a;
 	border-bottom: 1px solid #c6cad3;
