@@ -8,5 +8,8 @@
     .zpart3 .xq{
         margin-top:0.1rem;
     }
+    .swiper-container-web .swiper-slide{
+        width:100%!important;
+    }
 
 }

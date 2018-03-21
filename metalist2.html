@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="css/font-size.css"/>
     <link rel="stylesheet" href="css/metalist2.css"/>
     <link rel="stylesheet" href="css/qu.css"/>
+    <!--<link rel="stylesheet" href="css/gg">-->
     <link rel="stylesheet" href="css/wgai.css"/>
+
     <script src="js/jquery-2.1.4.js"></script>
     <script src="js/hei.js"></script>
     <script type="text/javascript">
@@ -381,17 +383,24 @@
     </div>
 </div>
 <div class="visible-xs">
-    <div class="banner">
-        <img src="images/jimg3.png" class="hidden-xs"/>
-        <img src="img/fujjbg_02.png" class="visible-xs" alt="">
+    <div class="banner visible-xs">
+        <div class="swiper-container swiper-container-web visible-xs">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/web-pphd1.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="img/web-pphd1.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="img/web-pphd1.jpg" alt=""/></div>
+            </div>
+            <!-- 分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 
-    <div class="lmqr">
-        <ul>
-            <li><a href="metalist.html">企业动态</a></li>
-            <li class="liqr"><a href="metalist2.html">媒体报道</a></li>
+    <div class="cxie text-center visibel-xs">
+        <ol class="text-center" style="height :60px;">
+            <li class="liqr"><a href="metalist.html">企业动态</a></li>
+            <li><a href="metalist2.html">媒体报道</a></li>
             <li><a href="metalist3.html">行业新闻</a></li>
-        </ul>
+        </ol>
     </div>
     <div class="lmds" style="margin-top: 30px;">
         <div class="m">
@@ -708,6 +717,13 @@
 </div>
     <script src="js/zouswper/swiper.min.js"></script>
 <script>
+    var swiper1 = new Swiper('.swiper-container-web',{
+        // autoplay:true,
+        loop:true,
+        speed : 1000,
+        pagination:'.swiper-pagination',
+        autoplayDisableOnInteraction : false
+    })
     var swiper3=new Swiper(".swiper-container1",{
         autoplay:true,
         navigation: {

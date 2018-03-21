@@ -40,6 +40,9 @@
         font-size: -moz-calc(100vw/6.4);
 
     }
+    .web-pphd1{
+        height:310px!important;
+    }
 	html{font-size: 100px;}
 	.container{padding-left: .15rem;padding-right: .15rem;}
 	
