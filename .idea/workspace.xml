@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc36480-87a5-4ffe-8f9f-744377e5294d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/zouswper/swiper.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/globel.css" afterPath="$PROJECT_DIR$/css/globel.css" />
-      <change beforePath="$PROJECT_DIR$/css/intellServiceweb.css" afterPath="$PROJECT_DIR$/css/intellServiceweb.css" />
-      <change beforePath="$PROJECT_DIR$/zhinenghuafwu.html" afterPath="$PROJECT_DIR$/zhinenghuafwu.html" />
+      <change beforePath="$PROJECT_DIR$/Business.html" afterPath="$PROJECT_DIR$/Business.html" />
+      <change beforePath="$PROJECT_DIR$/House.html" afterPath="$PROJECT_DIR$/House.html" />
+      <change beforePath="$PROJECT_DIR$/Residention.html" afterPath="$PROJECT_DIR$/Residention.html" />
+      <change beforePath="$PROJECT_DIR$/attention-jb.html" afterPath="$PROJECT_DIR$/attention-jb.html" />
+      <change beforePath="$PROJECT_DIR$/binggouhezuo.html" afterPath="$PROJECT_DIR$/binggouhezuo.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -105,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/css/globel.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="743">
-              <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+              <caret line="105" column="3" lean-forward="false" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -125,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/css/intellServiceweb.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
-              <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+              <caret line="102" column="1" lean-forward="false" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -135,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/css/swiper.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
-              <caret line="475" column="23" lean-forward="true" selection-start-line="475" selection-start-column="23" selection-end-line="475" selection-end-column="23" />
+              <caret line="475" column="23" lean-forward="false" selection-start-line="475" selection-start-column="23" selection-end-line="475" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -243,7 +243,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="221" />
     <option name="y" value="169" />
     <option name="width" value="1166" />
@@ -325,16 +325,15 @@
       <option name="presentableId" value="Default" />
       <updated>1521425564898</updated>
       <workItem from="1521425567188" duration="27021000" />
-      <workItem from="1521595017256" duration="11112000" />
+      <workItem from="1521595017256" duration="11321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38133000" />
+    <option name="totallyTimeSpent" value="38342000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14436248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -714,7 +713,7 @@
     <entry file="file://$PROJECT_DIR$/css/swiper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
-          <caret line="475" column="23" lean-forward="true" selection-start-line="475" selection-start-column="23" selection-end-line="475" selection-end-column="23" />
+          <caret line="475" column="23" lean-forward="false" selection-start-line="475" selection-start-column="23" selection-end-line="475" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -767,7 +766,7 @@
     <entry file="file://$PROJECT_DIR$/css/intellServiceweb.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+          <caret line="102" column="1" lean-forward="false" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -775,7 +774,7 @@
     <entry file="file://$PROJECT_DIR$/css/globel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="743">
-          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+          <caret line="105" column="3" lean-forward="false" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
           <folding />
         </state>
       </provider>
