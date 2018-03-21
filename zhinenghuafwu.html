@@ -18,16 +18,31 @@
 		<link rel="stylesheet" href="css/qu.css" />
 		<link rel="stylesheet" href="css/wgai.css" />
 		<link rel="stylesheet" href="css/intellService.css" />
+		<link rel="stylesheet" href="css/intellServiceweb.css">
+		<link rel="stylesheet" href="css/footerweb.css">
+		<link rel="stylesheet" href="css/zhinengwap.css">
 		<script src="js/jquery-2.1.4.js"></script>
 		<script src="js/hei.js"></script>
+		<script type="text/javascript">
+            var phoneWidth = parseInt(window.screen.width);
+            var phoneScale = phoneWidth / 640;
+            var ua = navigator.userAgent;
+            if(/Android (\d+\.\d+)/.test(ua)) {
+                var version = parseFloat(RegExp.$1);
+                if(version > 2.3) {
+                    document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+                } else {
+                    document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+            }
+            // win.addEventListener(resizeEvt, recalc, false);
+            // doc.addEventListener('DOMContentLoaded', recalc, false);
+		</script>
 	</head>
-
 	<body>
-		<style>
-			body {
-				/*overflow: hidden;*/
-			}
-		</style>
+
 		<!--<div class="head">
 <div class="m">
   
@@ -56,7 +71,7 @@
   
 </div>
 </div>-->
-		<div class="qrct">
+		<div class="qrct hidden-xs">
 			<div class="m">
 				<div class="ctle">
 					<a href="index.html"><img src="images/jimg1.png" /></a>
@@ -92,11 +107,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="banner">
+		<div class="banner hidden-xs">
 			<img src="images/jimg3.png" />
 		</div>
 
-		<div class="cxie text-center">
+		<div class="cxie text-center hidden-xs">
 			<ol class="text-center" style="height :60px;">
 				<!--<li><a href="metalist.html">企业动态</a></li>
         <li><a href="metalist2.html">媒体报道</a></li>
@@ -132,7 +147,7 @@
     <li><a href="build.html">写字楼</a></li>
      </ul>
 </div>-->
-		<div class="lmds" style="">
+		<div class="lmds hidden-xs" style="">
 
 			<div class="m">
 				<div class="n">
@@ -709,7 +724,7 @@
 			</div>
 			<img src="images/frfc.png">
 		</div>
-		<div class="Footer">
+		<div class="Footer hidden-xs">
 			<div class="x">
 
 				<div class="lkqr">
@@ -734,6 +749,478 @@
 
 		</div>
 
+		<div class="content coheight visible-xs">
+			<img src="wimg/logo.png" class="wlogo"/>
+			<button class="wbutton">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+		<div class="banner baheight visible-xs">
+			<img src="images/jimg3.png" class="hidden-xs"/>
+			<img src="img/fujjbg_02.png" class="visible-xs" alt="">
+		</div>
+		<div class="lmqr lmqrheight visible-xs">
+			<ul>
+				<li>
+					<a href="binggouhezuo.html">住宅</a>
+				</li>
+				<li>
+					<a href="quanweituofuwu.html">商业</a>
+				</li>
+				<li>
+					<a href="guwenzixunfuwu.html">拎包入住</a>
+				</li>
+				<li>
+					<a href="shangyeyunyinfuwu.html">房产经纪</a>
+				</li>
+				<li class="liqr">
+					<a href="shenghuojialianmeng.html">智能化服务</a>
+				</li>
+				<li>
+					<a href="shenghuojialianmeng.html">写字楼</a>
+				</li>
+			</ul>
+		</div>
+		<div class="lmds lmdsheight visible-xs">
+			<div class="m">
+				<div class="n">
+					<h1>智能化服务</h1>
+					<div class="ctos">
+						INTELLECTUALITY <br />SERVICE
+					</div>
+
+					<div class="wecm">
+						<ul class="muen" id="muen">
+							<li>ECM系统</li>
+							<li class="weling">居家安防</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-container swiper-container1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+
+					<div class="lmds visible-xs">
+						<div class="m">
+							<div class="n">
+								<div class="ECM">
+									<div class="wp1">
+										<h2>ECM物联网</h2>
+										<p class="wot">WEB OF THINGS</p>
+										<ul class="w_p1">
+											<li>
+												<div>
+													<img src="wimg/e1.png"/>
+												</div>
+												<div>
+													<p>科技飞速发展 </p>
+													<span>人工智能画的画 </span>
+												</div>
+											</li>
+											<li>
+												<div>
+													<img src="wimg/e1.png"/>
+												</div>
+												<div>
+													<p>科技飞速发展 </p>
+													<span>人工智能画的画 </span>
+												</div>
+											</li>
+											<li>
+												<div>
+													<img src="wimg/e1.png"/>
+												</div>
+												<div>
+													<p>科技飞速发展 </p>
+													<span>人工智能画的画 </span>
+												</div>
+											</li>
+											<li>
+												<div>
+													<img src="wimg/e1.png"/>
+												</div>
+												<div>
+													<p>科技飞速发展 </p>
+													<span>人工智能画的画 </span>
+												</div>
+											</li>
+										</ul>
+
+										<h2 class="margin50">ECM是什么</h2>
+										<p class="wot">ECM ANYTHING</p>
+										<p class="wuy">物业设施设备管理专家:</p>
+
+										<ul class="wp2">
+											<li>
+												<div>
+													<img src="wimg/e5.png"/>
+												</div>
+												<div>
+													<p class="jfg">机房环境 </p>
+												</div>
+											</li>
+											<li>
+												<div>
+													<img src="wimg/e5.png"/>
+												</div>
+												<div>
+													<p class="jfg">发电机 </p>
+												</div>
+											</li>
+											<li>
+												<div>
+													<img src="wimg/e5.png"/>
+												</div>
+												<div>
+													<p class="jfg">供配电 </p>
+												</div>
+											</li>
+											<li>
+												<div>
+													<img src="wimg/e5.png"/>
+												</div>
+												<div>
+													<p class="jfg">消防 </p>
+												</div>
+											</li>
+										</ul>
+
+										<p class="w_cont">设备状态监控系统  ( Equipment Condition Monitor):
+											ECM系统是物联网技术在物业设备管理中的应用，各种传感器采集设备状态，
+											通过网络设备传输到服务器进行处理和呈现，并通过数据处理和分析来指导和提升物业服务。
+										</p>
+										<img src="wimg/ee1.png"/>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+
+					<div class="lmds visible-xs">
+						<div class="m">
+							<div class="n">
+								<p class="wjjaf">居家安防产品及套餐详情</p>
+								<p class="hsp">Home security <br />products and package details</p>
+
+								<div class="dybf">
+									<div class="pa1web"><span>第一部分      系统篇</span></div>
+									<!--<div class="pa1">-->
+									<!--<p>第一部分</p>-->
+									<!--<p>系统篇</p>-->
+									<!--</div>-->
+									<img src="wimg/fan.png"/>
+
+									<div class="pa1left">
+										<img src="wimg/fanz.jpg"/>
+										<div class="cunchu">
+											<img src="wimg/cunchu.png"/>
+											<p>储存中心</p>
+											<p>系统所有设备的地址信息，配置信息，定时设置，安防联动机制都存储在网关上。除核心板上的flash外，它还内置64GSD内存卡。</p>
+										</div>
+										<img src="wimg/men.png" style="width: 100%;"/>
+										<div class="znmj">
+											<h1>智能门禁系统</h1>
+											<p>INTELLIGENT ACCESS CONTROL SYSTEM</p>
+										</div>
+										<img src="wimg/fan1.png" style="width: 100%;"/>
+										<img src="wimg/shext.jpg" style="width: 100%;"/>
+										<div class="znmj">
+											<h1>视频看家系统</h1>
+											<p>VIDEO HOUSE SYSTEM</p>
+										</div>
+										<img src="wimg/fan3.png" style="width: 100%;"/>
+										<img src="wimg/shouji.jpg" style="width: 100%;"/>
+									</div>
+
+									<div class="pa1right">
+										<div class="cunchu">
+											<img src="wimg/shebei.png"/>
+											<p>设备控制</p>
+											<p>通过APP软件，实现本地或远程的居家安全防护，同时支持扩展到智能家居的其他的功能，如实时管控灯光、窗帘、家电等各种设备。</p>
+										</div>
+										<div class="cunchu shuniu">
+											<img src="wimg/chuanshu.png"/>
+											<p>交通枢纽</p>
+											<p  class="height">网关是整个系统的信息，交通枢纽与信息集散地：所有设备的状态信息通过zigbee网络，蓝牙，WIFI全部发往网关，再由网关推送至各个手机；所有手机的控制命令也将被传至网关，再由网关发给相关的设备。</p>
+										</div>
+										<div class="cunchu">
+											<img src="wimg/app.png"/>
+											<p>云应用</p>
+											<p>通过智能网关，您可免费使用嘉宝生活家居家安防服务应用，如场景定时控制，逻辑控制等。同时我们会不断推出其他应用。</p>
+										</div>
+										<img src="wimg/dianshi.png" style="width: 100%;"/>
+										<div class="znmj jiadian">
+											<h1>智能家电控制系统</h1>
+											<p>INTELLIGENT HOME APPLIANCE CONTROL SYSTEM</p>
+										</div>
+										<img src="wimg/fan2.png" style="width: 100%;"/>
+										<img src="wimg/chuang.jpg" style="width: 100%;"/>
+										<div class="znmj">
+											<h1>智能安防系统</h1>
+											<p>INTELLIGENT SAFE-GUARD SYSTEM</p>
+										</div>
+										<img src="wimg/fan4.png" style="width: 100%;"/>
+										<p class="kongz">
+											<img src="wimg/dingwei.png"/>
+											语音控制
+										</p>
+										<p class="kongc">
+											<span></span>
+											独有的语音语境智能分析系统，让您无需动手，通过语音就能指挥家里的所有设备。
+										</p>
+										<p class="kongc">
+											<span></span>
+											这些动作靠说话就能实现，智能语音包将随时不断更新，永远给您最新体验
+										</p>
+										<p class="kongz">
+											<img src="wimg/dingwei.png"/>
+											场景控制
+										</p>
+										<p class="kongc">
+											<span></span>
+											每一个生活场景，您都可以根据自己需要自行定义！回家、出门、布防、一键撤防……
+										</p>
+
+										<p class="kongz">
+											<img src="wimg/dingwei.png"/>
+											预约控制
+										</p>
+										<p class="kongc">
+											<span></span>
+											可对所有单个设备、场景、联动进行定时控制，时间段管理，让您的生活更轻松、人性化。
+										</p>
+
+										<p class="kongz">
+											<img src="wimg/dingwei.png"/>
+											联动控制DIY
+										</p>
+										<p class="kongc">
+											<span></span>
+											在联动控制功能里，您可以通过“n个条件实现n个动作的执行”，让系统切实为您的生活服务。
+										</p>
+										<p class="kongc">
+											<span></span>
+											模拟情景：遭到胁迫，需要开门入室时，可使用预先设定好的遭胁迫开门密码或指纹开门，家人会立即收到报警信息，采取营救措施。
+										</p>
+										<p class="kongc">
+											<span></span>
+											更多实用功能完全由你来DIY！
+										</p>
+
+
+
+									</div>
+
+									<div class="pa1 hidden-xs">
+										<p>第二部分</p>
+										<p>套餐篇</p>
+									</div>
+
+									<div class="pa1left hidden-xs">
+										<img src="wimg/t1.jpg" style="width: 100%;"/>
+										<div class="tcp">
+											<p>套餐一
+												<span>【基础版】</span>
+											</p>
+											<p>高清摄像头：水平355°旋转，影像记录情况。<br />
+												视频看家：外出后，时常关注家里情况，如在家老人、小孩或宠物。<br />
+												意外情况：可发出警报信息至APP。安心服务包为嘉宝安防联动+保险服务，可享受紧急情况上门查看处理、保险理赔，双重保障、安全省心...
+											</p>
+											<p><a href="###">MORE>></a></p>
+										</div>
+
+
+										<img src="wimg/t2.jpg" style="width: 100%;"/>
+										<div class="tcp">
+											<p>套餐三
+												<span>【旗舰版】</span>
+											</p>
+											<p>既实现对人的远距离关爱， 实现对屋内财产的预防性保护， 实现防盗防胁迫，保障人身安全 发生突发状况及时响应，出行无忧。
+												套餐配置：智能门窗磁 水浸探测器 可燃气体探测器 高清摄像头 红外探测器 智慧网关 智能云锁 安心服务包为嘉宝安防联动+保险服务，可享受紧急情况上门
+												查看处理、保险理赔，双重保障、安全省心...
+
+											</p>
+											<p><a href="###">MORE>></a></p>
+										</div>
+
+									</div>
+									<div class="pa1right hidden-xs">
+										<img src="wimg/t3.jpg" style="width: 100%;"/>
+										<div class="tcp">
+											<p>套餐二
+												<span>【高级版】</span>
+											</p>
+											<p>典型的居家安防系统： 实现对家庭财产的预防性保护 防非法入侵 防水患。<br />
+												套餐配置：网关 门磁 红外 水浸 摄像头 可燃气。<br />
+												安心服务包为嘉宝安防联动+保险服务，可享受紧急情况上门查看理、保险理赔，双重保障、安全省心...
+											</p>
+											<p><a href="###">MORE>></a></p>
+										</div>
+
+
+										<img src="wimg/t4.jpg" style="width: 100%;"/>
+										<div class="tcp t4">
+											<p>套餐四
+												<span>【顶配版】</span>
+											</p>
+											<p>居家安防豪华套餐 全方位地保护家庭财产、关爱老人、防偷盗、监测屋内环境 可掌握家人的回家离家动向，消除您的不安全感，防止您为家人担心.<br />
+												套餐配置：智能门窗磁 水浸探测器 可燃气体探测器 高清摄像头 红外探测器 智慧网关 智能云
+												锁 空气盒子 声光报警 智能猫眼 紧急报警器 安心服务包...
+
+											</p>
+											<p><a href="###">MORE>></a></p>
+										</div>
+
+									</div>
+
+
+									<div class="pa1 hidden-xs">
+										<p>第三部分</p>
+										<p>服务篇</p>
+									</div>
+
+									<div class="pa3 hidden-xs">
+										<!--<img src="wimg/pa3.png" style="width: 100%;"/>-->
+										<p>嘉宝居家安防解决方案·8大专业服务</p>
+										<p>不止于发现问题</p>
+										<p>更重要的是解决问题</p>
+
+										<ul>
+											<li>送装上门</li>
+											<li>信息推送 </li>
+											<li>售后换修 </li>
+											<li>智云监控 </li>
+											<li>险情查勘 </li>
+											<li>报警响应 </li>
+											<li>联动排险 </li>
+											<li>联动排险 </li>
+										</ul>
+
+
+									</div>
+
+
+
+
+								</div>
+
+
+								<div style="clear: both;"></div>
+								<div class="mnlf hidden-xs">
+									<ul>
+
+									</ul>
+								</div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Add Arrows -->
+
+		</div>
+		<div class="swiper-button-next visible-xs" id="swiper-button-next1"></div>
+		<div class="swiper-button-prev visible-xs" id="swiper-button-prev1"></div>
+		<div class="testbgcontent">
+			<div class="bgcontent bgcontentheight visible-xs">
+				<div class="container bgcon">
+				</div>
+				<div class="bgf"></div>
+			</div>
+		</div>
+
+
+		<div class="wfooter visible-xs">
+
+			<div class="container">
+				<div class="wleft">
+					<img src="wimg/wfot.png"/>
+					<p class="wlx">如遇到问题，请联系我们</p>
+					<p>地址：成都市高新西区西芯大道9号         &nbsp;&nbsp;服务热线：400-8888-116</p>
+					<p>审计监督：028-87826372      &nbsp;&nbsp;招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+				</div>
+				<div class="wgw">
+					<img src="wimg/gw.jpg"/>
+					<p>官方微信</p>
+				</div>
+
+			</div>
+
+		</div>
+
+		<script src="js/zouswper/swiper.min.js"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script>
+
+            var heihgt;
+            var swiper3=new Swiper(".swiper-container",{
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                }
+            })
+
+            $(".swiper-button-next,.swiper-button-prev").click(function () {
+                active()
+            })
+            $(".swiper-slide").on("touchmove",function (a) {
+                setTimeout(function () {
+                    active()
+                })
+
+            })
+            function active() {
+                var swiper_slide=$(".swiper-slide");
+                $(".muen").find("li").css({"color":"#818181","borderBottomColor":"transparent"})
+                $(".swiper-slide").eq(1).css("height","auto")
+                $("#swiper-button-next1,#swiper-button-prev1").removeClass("retu")
+                for(var i=0;i<swiper_slide.length;i++)
+                {
+                    if(swiper_slide.eq(i).attr("class").indexOf("swiper-slide-active")!=-1)
+                    {
+                        $(".muen").find("li").eq(i).css({"color":"#ffb84c","borderBottomColor":"#ffb84c"})
+                        if(i==0)
+                        {
+                            $(".swiper-slide").eq(1).css("height","0")
+                            $("#swiper-button-next1,#swiper-button-prev1").addClass("retu")
+                        }else{
+                            $(".swiper-slide").eq(1).css("height","auto")
+                            $("#swiper-button-next1,#swiper-button-prev1").removeClass("retu")
+                        }
+                    }
+                }
+            }
+
+
+
+            window.onload=function () {
+                // var coheight = $(".coheight").innerHeight()
+                // var banner = $(".baheight").innerHeight()
+                // var lmqr = $(".lmqrheight").innerHeight()
+                // var lmds = $(".lmdsheight").innerHeight()
+                // var wfooter=$(".wfooter").innerHeight()
+                // var bgcontentheight=$(".bgcontentheight").innerHeight()
+                // heihgt = (coheight + banner + lmqr + lmds+bgcontentheight+wfooter)
+                // $("body").css("height",heihgt+$(".swiper-slide").eq(0).height()+"px")
+                // $("#swiper-button-next1,#swiper-button-prev1").addClass("retu")
+                // console.log(heihgt)
+                $(".swiper-slide").eq(1).css("height","0")
+                $("#swiper-button-next1,#swiper-button-prev1").addClass("retu")
+            }
+		</script>
 		<!-- web start   -->
 		<!-- web end-->
 		<script type="text/javascript">
