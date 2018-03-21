@@ -3,7 +3,7 @@
 	.lmqr ul li{width: auto;padding: 0 10px;}
 	.lmds{width: 100%;padding: 0 .15rem;background: #f4f4f4;}
 	.act_content{width: 100%;padding: 0 .25rem;background: #fff;}
-	.act_content .n{width: 100%;background: #fff;}
+	.lmds .n{width: 100%;background: #fff;padding: 0 !important;}
 	.act_content .n h1{padding-top: 0;font-size: .25rem;color: #2d2d2d;}
 	.act_content .n .ctoi{font-size: .26rem;color: #6f6f6f;}
 	.act_content .ctoi{margin: .1rem 0;}
