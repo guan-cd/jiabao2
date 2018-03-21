@@ -737,8 +737,9 @@
 		<!-- web start   -->
 		<!-- web end-->
 		<script type="text/javascript">
+			$(".z-tab").hide().eq(0).show();
 			$(".daohang span").click(function() {
-				$(".z-tab").hide().eq(0).show();
+
 //				$(".z-tab").eq(0).show();
 				var index = $(this).index();
 				$(".z-tabs .z-tab").eq(index).show().siblings().hide();

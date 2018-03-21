@@ -124,15 +124,17 @@ p.bot .xqing-ren{
 .banner{
     position: relative;
 }
-.banner div{
+.banner .tian{
     position: absolute;
-    top:40px;
-    left :300px;
+    top:26px;
+    left :0%;
     color: #fff;
+    z-index: 9;
 }
 .ren-p1{
     font-size: 30px;
     margin-bottom: 30px!important;
+
 }
 .ren-p2 em{
     font-size: 30px;
@@ -157,3 +159,24 @@ ol{
 .banner-ren{
     height: 300px;
 }
+.banner-ren img{
+    height: 100%;
+}
+.tian p{
+    line-height: 30px!important;
+}
+.bj-sh img{
+    height: 300px;
+}
+.tian-ren{
+    height: 100%;
+
+    position: relative;top :-300px;
+}
+a:hover{
+    text-decoration: none;
+}
+.bbb li{
+    margin: 0 -3px;
+}
+
