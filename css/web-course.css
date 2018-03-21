@@ -39,9 +39,13 @@
     	font-weight: normal;
         font-size: .18rem!important;
         padding: .4rem 0 .2rem;
+        margin-bottom:-14px;
     }
     .w-fzlc-con{
         height :9rem;
+    }
+    .w-fzlc-hea p{
+        color:#94724d!important;
     }
 
 
