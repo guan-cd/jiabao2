@@ -1,0 +1,25 @@
+/*手机*/
+@media screen and (max-width:768px){
+	.lmqr ul li{width: auto;padding: 0 10px;}
+	.lmds{width: 100%;padding: 0 .15rem;background: #f4f4f4;}
+	.act_content{width: 100%;padding: 0 .25rem;background: #fff;}
+	.act_content .n{width: 100%;background: #fff;}
+	.act_content .n h1{padding-top: 0;font-size: .25rem;color: #2d2d2d;}
+	.act_content .n .ctoi{font-size: .26rem;color: #6f6f6f;}
+	.act_content .ctoi{margin: .1rem 0;}
+	.ECM h2{font-size: .21rem;color: #94724d;text-align: center;}
+	.ECM .wot{font-size: .14rem;color: #ffb84c;text-align: center;padding-bottom: .2rem;}
+	.ECM ul,.ECM ul li{overflow: hidden;}
+	.ECM ul li{float: left;width: 48%;margin-right: 1%;margin-bottom: .2rem;}
+	.ECM ul li div{float: left;color: #2d2d2d;padding-left: .06rem;}
+	.ECM ul li div p{font-size: .14rem;}
+	.ECM ul li div span{font-size: .12rem;}
+	.ECM ul li div p.jfg{font-size: .12rem;color: #565656;padding: .48rem 0;}
+	.ECM .wfang{text-align: center;}
+	.ECM .wfang .yleft{margin-right: .8rem;}
+	.ECM .w_cont{font-size: .12rem;line-height: .24rem;padding-bottom: .1rem;}
+	.ECM .wuy{font-size: .16rem;color: #a99179;font-weight: bold;padding-bottom: .06rem;}
+	.ECM ul.wp2{width: 80%;margin: 0 10% !important;}
+	.ECM ul.w_p1{width: 80%;margin: 0 10% !important;}
+	
+}
