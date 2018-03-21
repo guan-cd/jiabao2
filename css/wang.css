@@ -1,10 +1,6 @@
 body,html{width: 100%;height: 100%;margin: 0;padding: 0;}
 ul,ul li{list-style: none;margin: 0;padding: 0;}
 p{padding: 0;margin: 0;}
-
-
-
-
 /*非公用*/
 .wnav{text-align: center;background: #f4f4f4;}
 .wnav p{line-height: 62px;}

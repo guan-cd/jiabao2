@@ -5,6 +5,7 @@
 	/*并购计划*/
 	.gleft,.gright{width: 48%;}
 	.gleft{margin-right: 1%;}
+
 	.gright{margin-left: 1%;}
 	.jyqy,.gdxx{font-family: "微软雅黑";font-size: 0.16rem;color: #626262;line-height: 28px;}
 	.jyqy{padding-top: 0.39rem;padding-bottom: 0.64rem;}

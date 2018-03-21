@@ -1,99 +1,99 @@
 @media screen and (max-width:768px){
-.lmds{
-    width:100%;
-    padding-left:0.15rem;
-    padding-right:0.15rem;
+.lmds {
+    width: 100%;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
     background: #f4f4f4;
 }
-    .lmds .m{
-        width:100%;
-        padding-left:0.25rem;
-        padding-right:0.25rem;
-        background:white;
-    }
-    .ctoi{
-        font-size:18px!important;
-        margin-top:1px!important;
-    }
-    .ctoi{
-        margin-top:11px;
-    }
-    .lmds .n{
-        width:100%;
+.lmds .m{
+    width:100%;
+    padding-left:0.25rem;
+    padding-right:0.25rem;
+    background:white;
+}
+.ctoi{
+    font-size:18px!important;
+    margin-top:1px!important;
+}
+.ctoi{
+    margin-top:11px;
+}
+.lmds .n{
+    width:100%;
 
-    }
-    .dybf>img{
-        width:100%;
-    }
-    .pa1left>img{
-        width:100%;
-    }
-    .kongc{
-        font-size:12px!important;
-    }
-    .kongz{
-        font-size:18px!important;
-    }
-    .pa1web{
-        text-align:center;
-        font-size:18px;
-        margin-top:0.25rem;
-        color: #aaaaaa;
-    }
-    .swiper-container,.swiper-wrapper,swiper-slide{
-        width:100%;
-    }
-    .bgcon{
-        height:2rem!important;
-    }
-    .bgf{
-        height:2rem!important;
-    }
-    .swiper-button-next,.swiper-button-prev{
-        top:326%!important;
-        background:url("../img/jiantoublack_03.png") no-repeat!important;
-        width: 58px!important;
-        height: 53px!important;
-    }
-    .retu{
-        top:157%!important;
-    }
+}
+.dybf>img{
+    width:100%;
+}
+.pa1left>img{
+    width:100%;
+}
+.kongc{
+    font-size:12px!important;
+}
+.kongz{
+    font-size:18px!important;
+}
+.pa1web{
+    text-align:center;
+    font-size:18px;
+    margin-top:0.25rem;
+    color: #aaaaaa;
+}
+.swiper-container,.swiper-wrapper,swiper-slide{
+    width:100%;
+}
+.bgcon{
+    height:2rem!important;
+}
+.bgf{
+    height:2rem!important;
+}
+.swiper-button-next,.swiper-button-prev{
+    top:326%!important;
+    background:url("../img/jiantoublack_03.png") no-repeat!important;
+    width: 58px!important;
+    height: 53px!important;
+}
+.retu{
+    top:157%!important;
+}
 
-    #muen li{
-        color:#818181;
-        border-bottom: 4px solid transparent;
-    }
-    #muen li:nth-child(1)
-    {
-        color:#ffb84c;
-        border-bottom-color:#ffb84c;
-    }
-    .swiper-button-next{
-        right:37%!important;
-        transform:rotate(-180deg);
-    }
-    .swiper-button-prev{
-        left:37%!important;
-    }
-    .testbgcontent{
-        padding-left:0.15rem;
-        padding-right:0.15rem;
-    }
-    .cunchu p:last-child{
-        font-size: 14px;
-       line-height:normal!important;
-        overflow:hidden;
-        text-overflow:ellipsis;
-    }
-    .height{
-        height:auto!important;
-    }
-    .pa1left p,.pa1right p{
-        height:auto!important;
-    }
-    .margin50,.wp1{
-        margin-top:0.5rem;
-    }
+#muen li{
+    color:#818181;
+    border-bottom: 4px solid transparent;
+}
+#muen li:nth-child(1)
+{
+    color:#ffb84c;
+    border-bottom-color:#ffb84c;
+}
+.swiper-button-next{
+    right:37%!important;
+    transform:rotate(-180deg);
+}
+.swiper-button-prev{
+    left:37%!important;
+}
+.testbgcontent{
+    padding-left:0.15rem;
+    padding-right:0.15rem;
+}
+.cunchu p:last-child{
+    font-size: 14px;
+   line-height:normal!important;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.height{
+    height:auto!important;
+}
+.pa1left p,.pa1right p{
+    height:auto!important;
+}
+.margin50,.wp1{
+    margin-top:0.5rem;
+}
 
 }
 .ctoi{

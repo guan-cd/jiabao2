@@ -6,8 +6,8 @@ body{
   }
 .m{
 	margin: 0 auto;
- clear:both; 
- width:1190px;
+	clear:both;
+    width:1190px;
 }
 .he_le{
 	float: left;

@@ -7,6 +7,7 @@
     .wbutton span{display: block;width: 48px;height: 5px;background: #fff;margin-top: 10px;}
     .wbutton span:first-child{margin: 0;}
     .wbanner{width: 100%;}
+
     .wbanner img{width: 100%;}
     .wcon{width: 100%;position: relative;background: #f4f4f4;}
     .wbot{position: absolute;bottom: 0;width: 100%;}

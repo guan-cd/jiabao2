@@ -2,7 +2,7 @@
 @media screen and (max-width:768px){
     .wcon .wpart2{position: relative;height: 8.1rem;}
 	.wpart2 .wline{position: absolute;}
-	.wpart2 .wideas .wp{font-family: "微软雅黑";width: 1.41rem;height: 0.32rem;background: url(../wimg/b1.png) no-repeat;font-size: 0.2rem;color: #f1a400;padding-left: 0.36rem;line-height: 0.3rem;margin: 0 0 0.1rem -0.36rem !important;}
+	.wpart2 .wideas .wp{font-family: "微软雅黑"; width: 1.41rem;height: 0.32rem;background: url(../wimg/b1.png) no-repeat;font-size: 0.2rem;color: #f1a400;padding-left: 0.36rem;line-height: 0.3rem;margin: 0 0 0.1rem -0.36rem !important;}
 	
 	.wideas div{position: absolute;left: -3px;padding-left: 0.36rem;}
 	.wpart2 .wideas .wp1{top: -0.15rem;}

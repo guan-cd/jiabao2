@@ -6,8 +6,6 @@
 .attention p {height: 77px;line-height: 77px; font-size: 18px;}
 .attention p span {margin: 0 20px;color: #464646;font-weight: bold;}
 span.attention-this {color: #94724c!important;}
-
-
 .build{background: #fff; width:1190px; margin:0 auto;}
 .build .bpart1,.build .bpart2,.build .bpart3,.build .bmenu,.build .btext{margin: 0 6% !important;}
 
