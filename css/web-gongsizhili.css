@@ -50,7 +50,7 @@
     }
     .con-right div,.con-left div{
         position: absolute;
-        bottom :.15rem;
+        bottom : .05rem;
         /*left :.1rem;*/
     }
     .con-right h5,.con-left h5{
@@ -65,8 +65,9 @@
 
         /*position: absolute;bottom: .3rem;*/
     }
-    .contens h6{
+    .text-center h6{
         font-size: .13rem;
+        float: right;
         /*position: absolute;bottom: .2rem;*/
     }
     .con-left .text-center{
@@ -83,7 +84,8 @@
         vertical-align: middle;
     }
     .ding p{
-        position: absolute;bottom: 0;
+        /*position: absolute;bottom: 0;*/
+       float: left;
     }
     .con{
         padding-bottom: 2rem;
@@ -119,6 +121,7 @@
     }
     .ding h5{
         margin-bottom: 0!important;
+        position: absolute;bottom: .4rem;
     }
     .con {
         /*margin-left: .1rem;*/
