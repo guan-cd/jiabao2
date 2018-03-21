@@ -37,18 +37,21 @@
         text-indent: 2em;
         margin-bottom: .22rem;
         text-align: left;
-        font-size: .12rem;
-        padding: 0 .7rem;
+        font-size: .19rem;
+        /*padding: 0 .7rem;*/
     }
     .con .text-index1{
         margin-top: .2rem;
     }
     .con .img1{
-        width :3.5rem;
+        width :100%;
 
     }
     .con .img2{
-        width :4.4rem;
+        width :100%;
+    }
+    .img3{
+        width:100%!important;
     }
     .con .text-index2{
         margin-top: .26rem;
@@ -58,7 +61,8 @@
         width :3.38rem;
     }
     .img10{
-        width :2.66rem;
+        /*width :2.66rem;*/
+        width:100%;
     }
     .container-ren{
         background-color: #fff;

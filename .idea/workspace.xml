@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc36480-87a5-4ffe-8f9f-744377e5294d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/course.html" afterPath="$PROJECT_DIR$/course.html" />
-      <change beforePath="$PROJECT_DIR$/css/web-course.css" afterPath="$PROJECT_DIR$/css/web-course.css" />
-      <change beforePath="$PROJECT_DIR$/introduce.html" afterPath="$PROJECT_DIR$/introduce.html" />
+      <change beforePath="$PROJECT_DIR$/css/web-metalist.css" afterPath="$PROJECT_DIR$/css/web-metalist.css" />
+      <change beforePath="$PROJECT_DIR$/metalist.html" afterPath="$PROJECT_DIR$/metalist.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63483524">
+    <splitter split-orientation="horizontal" split-proportion="0.56489575">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="attention-jb.html" pinned="false" current-in-tab="false">
@@ -47,7 +46,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="web-course.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="web-course.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/web-course.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="616">
@@ -57,11 +56,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="metalist.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="metalist.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/metalist.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="404" selection-end-column="6" />
+                <state relative-caret-position="328">
+                  <caret line="378" column="9" lean-forward="false" selection-start-line="378" selection-start-column="9" selection-end-line="378" selection-end-column="9" />
                   <folding>
                     <element signature="n#style#0;n#ol#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,7 +76,6 @@
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#ol#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -231,11 +229,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="web-metalist.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="web-metalist.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/web-metalist.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6">
-                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+                <state relative-caret-position="360">
+                  <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -251,7 +249,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="wafweb.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="wafweb.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/wafweb.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="128">
@@ -274,8 +272,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>checkOverflow</find>
-      <find>click</find>
       <find>slidePrev</find>
       <find>向</find>
       <find>疯狂</find>
@@ -304,6 +300,8 @@
       <find>img/img27.png</find>
       <find>发展历程</find>
       <find>wling</find>
+      <find>.w-fzlc-hea h3</find>
+      <find>.con .text-index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -351,8 +349,6 @@
         <option value="$PROJECT_DIR$/css/web-jiben.css" />
         <option value="$PROJECT_DIR$/css/gongsizhiliweb.css" />
         <option value="$PROJECT_DIR$/gongsizhili.html" />
-        <option value="$PROJECT_DIR$/css/web-metalist.css" />
-        <option value="$PROJECT_DIR$/metalist.html" />
         <option value="$PROJECT_DIR$/css/houseweb.css" />
         <option value="$PROJECT_DIR$/css/bingou.css" />
         <option value="$PROJECT_DIR$/css/web-touzizhelaifang.css" />
@@ -363,6 +359,8 @@
         <option value="$PROJECT_DIR$/introduce.html" />
         <option value="$PROJECT_DIR$/course.html" />
         <option value="$PROJECT_DIR$/css/web-course.css" />
+        <option value="$PROJECT_DIR$/css/web-metalist.css" />
+        <option value="$PROJECT_DIR$/metalist.html" />
       </list>
     </option>
   </component>
@@ -454,12 +452,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521425564898</updated>
       <workItem from="1521425567188" duration="27021000" />
-      <workItem from="1521595017256" duration="35273000" />
+      <workItem from="1521595017256" duration="36222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62294000" />
+    <option name="totallyTimeSpent" value="63243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -865,44 +863,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metalist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="404" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#ol#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9154#9160#0" expanded="true" />
-            <element signature="e#9160#9166#0" expanded="true" />
-            <element signature="e#9226#9232#0" expanded="true" />
-            <element signature="e#9232#9238#0" expanded="true" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ol#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/web-touzizhelaifang.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1108">
           <caret line="117" column="27" lean-forward="false" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/web-metalist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -970,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/wafweb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/introduceweb.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -1035,6 +991,47 @@
         <state relative-caret-position="616">
           <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/wafweb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web-metalist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metalist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="378" column="9" lean-forward="false" selection-start-line="378" selection-start-column="9" selection-end-line="378" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#ol#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9154#9160#0" expanded="true" />
+            <element signature="e#9160#9166#0" expanded="true" />
+            <element signature="e#9226#9232#0" expanded="true" />
+            <element signature="e#9232#9238#0" expanded="true" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ol#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
