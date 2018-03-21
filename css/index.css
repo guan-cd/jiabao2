@@ -678,4 +678,7 @@ p{
 .jiayuanshenghuo span{
     font-size: 16px;
 }
-
+.text-center-ren p{
+    line-height: 29px!important;
+    margin-top: 12px!important;
+}

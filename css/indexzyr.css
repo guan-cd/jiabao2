@@ -1180,7 +1180,7 @@ float: left;
 	font-size: 16px;
 }
 .iifq{
-	padding: 100px 0 80px 28px; 
+	padding: 72px 0 40px 28px;
 }
 .nsr{
 	overflow: hidden;
@@ -1200,27 +1200,28 @@ float: left;
 .yyff{
 	color:#94734a;
 	border-bottom: 1px solid #c6cad3;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 
 .yyff h1{
 	color:#94734a;
-	font-size: 32px;
+	font-size: 18px;
+	margin-bottom: 10px;
 }
 
 .yyff span{
 	color:#94734a;
-	font-size: 28px;
+	font-size: 16px;
 }
 .rrtq{
 	margin-top: 70px;
 	overflow: hidden;
 	border-bottom: 1px solid #c6cad3;
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 }
 .jhtr{
-	height: 690px;
+	height: 560px;
 	width: 390px;
 	-background: orange;
 	float: left;
@@ -1230,32 +1231,35 @@ float: left;
 .jhtr ul li{
 	margin-top: 0px;
 	border-bottom: none;
-	font-size: 18px;
-	height: 60px;
+	font-size: 14px;
+	height: 32px;
 }
 .jhti{
-	height: 690px;
+	height: 560px;
 	width: 530px;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 60px;
 	float: right;
 	color:#6f6f6f;
 	-background: green;
+	position: relative;
+	top :-22px;
 }
 .bbqq{
 	margin-top: 50px;
 	padding-bottom: 30px;
 }
 .bbqq p{
-	font-size: 24px;
+	font-size: 14px;
 	color:#6f6f6f;
   display: block;
 }
 .bbqq a{
 	color: #6f6f6f;
 	padding-top:2px;
-  display: block;
-  font-size:24px;
+    display: block;
+    font-size:12px;
+	margin-top: 15px;
 }
 .sslq{
 	/*width: 1030px;*/
