@@ -4,7 +4,7 @@
     .w-fzlc-hea{
         height :588px;
         background-color: #fff;
-        padding: 50px 25px 0px;
+        padding: 0 25px 0px;
         height :9rem;
         /*background-color: blue;*/
     }
@@ -29,9 +29,16 @@
         width :75px;
         height :2px;
         background-color: #c5c9ca;
+        
+    }
+    .w-fzlc-hea p{
+    	font-size: .15rem;
+    	padding-top: .11rem;
     }
     .w-fzlc-hea h3{
-        font-size: .2rem!important;
+    	font-weight: normal;
+        font-size: .18rem!important;
+        padding: .4rem 0 .2rem;
     }
     .w-fzlc-con{
         height :9rem;

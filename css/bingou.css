@@ -99,7 +99,7 @@
 	/*业务介绍-拎包入住*/
 	.zp{margin-top: 0 !important;}
 	.padd-23 .gsfl{padding-top: 0;}
-	.act_content .wlbrz{margin: 0 !important;}
+	.act_content .wlbrz{margin: .1rem 0 !important;}
 	.act_content .ctoi{margin: .11rem 0 0;}
 	
 	.padd-23{padding: 0 .25rem !important;height: auto;}
@@ -119,6 +119,22 @@
 	/*全委托服务*/
 	.iuqt img.powf{width: 100%;}
 	
+	/*最新公告*/
+	.ww{background: #f4f4f4;}
+	.ww h1{padding: .4rem 0 .2rem;font-size: .25rem;}
+	.ww .ctoi{font-size: .15rem;margin-top: 0.11rem;}
 	
+	.wnotice{padding: 0 .25rem !important;background: #fff;width: 100%;}
+	.wnotice ul{overflow: hidden;padding-top: .6rem;}
+	.wnotice ul li{width: 49%;margin: 0 1% 0.4rem 0;height: auto;float: left;overflow: hidden;}
+	.wnleft,.wnright{float: left;}
+	.wnotice .wnleft{width: .95rem;height: 1.72rem;background: #00322f;line-height: 1.72rem;text-align: center;}
+	.wnright{border: 1px solid #6f6f6f;border-left: 0;height: 1.72rem;padding: 0 .06rem;}
+	.wnotice .wnright p{font-size: .14rem;color: #6f6f6f;padding-top: .12rem;width: 100%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+	.wnotice .wnright span{font-size: .12rem;color: #6f6f6f;line-height: .26rem;}
+	.wnotice .wnright div{padding-top: .7rem;padding-bottom: .16rem;}
+	.wnotice .wnright div a{font-size: .12rem;color: #6f6f6f;}
+	.wnotice .wfang{text-align: center;}
+	.wnotice .wfang .yleft{margin-right: .8rem;}
 	
 }
