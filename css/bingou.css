@@ -9,9 +9,9 @@
 	.gright{margin-left: 1%;}
 	.jyqy,.gdxx{font-family: "微软雅黑";font-size: 0.16rem;color: #626262;line-height: 28px;}
 	.jyqy{padding-top: 0.39rem;padding-bottom: 0.64rem;}
-	.bing h1{border-bottom: 0;padding-bottom: 0;}
+	/*.bing h1{border-bottom: 0;padding-bottom: 0;}*/
 	.bing .wpart2{height: 100%;}
-	.bing .p1{font-family: Myriad Pro;font-size: 0.26rem;color: #626262;line-height: 32px;margin-top: 0.18rem;}
+	.bing .p1{font-family: Myriad Pro;font-size: 0.16rem;color: #626262;line-height: 20px;margin-top: 0.11rem;width: 2.8rem;}
 	.bing .p1 p{border-bottom: 1px solid #6f6f6f;width: 1.62rem;padding-bottom: 2px;}	
 	.gdxx{line-height: 0.3rem;}
 
