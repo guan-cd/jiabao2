@@ -1,5 +1,6 @@
 html,body{
     font-size:62.5%;
+
 }
 /*关注嘉宝*/
 /*.bj{
@@ -43,6 +44,7 @@ html,body{
 }
 .erji a{
     display:block!important;
+
     padding:0 0!important;
     width:100%;
     border-bottom:1px solid white;

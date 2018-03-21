@@ -6,6 +6,7 @@ body,html{
 }
 .bj-sh img{
     width :100%;
+
 }
 .attention p{
     height: 77px;
@@ -20,6 +21,7 @@ body,html{
 }
 .attention p span:hover{
     color: #fbc066!important;
+
 }
 span.attention-this{
     color :#fbc066!important;

@@ -1,5 +1,5 @@
 
-/*ÊÖ»ú*/
+/*ï¿½Ö»ï¿½*/
 @media screen and (max-width:768px){
     .w-fzlc-hea{
         height :588px;
@@ -8,8 +8,10 @@
         height :9rem;
         /*background-color: blue;*/
     }
+
     .w-fzlc-con{
         position: relative;
+
         height :6rem;
     }
     .w-fzlc-con .fzlc-foo-img{
@@ -40,7 +42,7 @@
 @media only screen and (min-width:768px) and (max-width : 1024px){
 
 }
-/*×ÀÃæ*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 @media (min-width: 1024px){
 
 }

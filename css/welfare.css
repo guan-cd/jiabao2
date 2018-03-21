@@ -6,11 +6,12 @@ html,body{
     background-color: #fff;
     -margin-top: 30px;
     height: 8174px;
-     position: relative;
+    position: relative;
 }
 .padd-23 .gsfl{
     color: rgb(111, 111, 111);
     font-weight: normal;
+
     padding-bottom: 20px;
     font-size: 30px;
     width: 150px;

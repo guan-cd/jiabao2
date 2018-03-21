@@ -7,7 +7,6 @@
     color: #464646;
     font-weight: bold;
     font-size: 18px;
-
 }
 .attention p span.col{
     color: #fbc066;
@@ -19,6 +18,7 @@
 }
 .security-cen{
     /*background-color: #fff;*/
+
     padding:105px 83px 0;
     /*background-color: #0a6999;*/
 }

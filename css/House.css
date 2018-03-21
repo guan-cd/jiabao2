@@ -6,8 +6,6 @@
 .attention p {height: 77px;line-height: 77px;}
 .attention p span {margin: 0 20px;color: #464646;font-weight: bold;}
 span.attention-this{color: #94724c!important;}
-
-
 .house{background: #fff; width:1190px; margin: 0 auto;}
 .house .hpart1,.house .hpart2,.house .hpart3{margin: 0 6% !important;}
 
@@ -21,4 +19,6 @@ span.attention-this{color: #94724c!important;}
 .hpart3 p.f24{font-size: 24px;color: #95734e;line-height: 40px;}
 .hpart3 p.f18{font-size: 18px;color: #91734d;line-height: 42px;}
 .hpart3 p.f16{font-size: 16px;color: #95724c;line-height: 28px;}
+
+
 .hpart3 p.l40{line-height: 40px;}

@@ -1,18 +1,17 @@
-/*ÊÖ»ú*/
+/*ï¿½Ö»ï¿½*/
 @media screen and (max-width:768px){
     html {
         width: 100%;
         height: 100%;
-
         -webkit-text-size-adjust: none;
         font-size: calc(100vw/6.4);
-
         font-size: -webkit-calc(100vw/6.4);
         font-size: -moz-calc(100vw/6.4);
 
     }
     .container{
         padding:0 .15rem;
+
     }
     .con{
         background-color: #fff;
@@ -142,7 +141,7 @@
 @media only screen and (min-width:768px) and (max-width : 1024px){
 
 }
-/*×ÀÃæ*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 @media (min-width: 1024px){
 
 }

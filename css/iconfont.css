@@ -6,13 +6,13 @@
   url('iconfont.ttf?t=1520757115685') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('iconfont.svg?t=1520757115685#iconfont') format('svg'); /* iOS 4.1- */
 }
-
 .iconfont {
   font-family:"iconfont" !important;
   font-size:16px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .icon-qunfengdingwei:before { content: "\e6c6"; }

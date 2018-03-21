@@ -1,9 +1,10 @@
-/*ÊÖ»ú*/
+/*ï¿½Ö»ï¿½*/
 @media screen and (max-width:768px){
     html {
         width: 100%;
         height: 100%;
-        /*ÔÚ¹È¸èÀïÃæ£¬Ð¡ÓÚ12ºÅ×Ö¶¼»áÖ±½ÓÏÔÊ¾Îª12ºÅ×Ö£¬´Ë´úÂë½â³ý´ËÎÊÌâ*/
+        /*ï¿½Ú¹È¸ï¿½ï¿½ï¿½ï¿½æ£¬Ð¡ï¿½ï¿½12ï¿½ï¿½ï¿½Ö¶ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½Ê¾Îª12ï¿½ï¿½ï¿½Ö£ï¿½ï¿½Ë´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+        font-family: "å¾®è½¯é›…é»‘","Microsoft YaHei",sans-serif;
         -webkit-text-size-adjust: none;
         font-size: calc(100vw/6.4);
         /*1rem=100px*/
@@ -70,7 +71,7 @@
 @media only screen and (min-width:768px) and (max-width : 1024px){
 
 }
-/*×ÀÃæ*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 @media (min-width: 1024px){
 
 }

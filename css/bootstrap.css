@@ -10,8 +10,9 @@ html {
       -ms-text-size-adjust: 100%;*/
 }
 body {
+
   margin: 0;
-  font:12px/1.8 "Microsoft JhengHei","Helvetica Neue","Hiragino Sans GB",Arial,"SimSun",sans-serif;
+  font-family: "微软雅黑","Microsoft YaHei",sans-serif;
 }
 article,
 aside,
