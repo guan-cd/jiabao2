@@ -106,8 +106,11 @@
     .bgf{
         height:2rem!important;
     }
+    .n{
+    	padding: 0 !important;
+    }
     .ctoi{
-        margin-top:11px;
+        margin-top:11px !important;
     }
     .swiper-button-next2{
         background:url("../img/jiantoublack_03.png") no-repeat !important;
