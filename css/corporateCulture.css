@@ -14,8 +14,18 @@ span.attention-this {
 
 }
 
+.cul1{margin: 60px 0;}
+.zp p{font-size: 14px;color: #626262;line-height: 24px;}
+.tud span{line-height: 24px;vertical-align: top;}
+.zp p span,.tud span{font-size: 14px;color: #94724d;padding-right: 4px;}
+.tud div{display: inline-block;}
+.ffqz-ren-culture{padding-bottom: 100px !important;}
 
 
-
-
-
+/*手机*/
+@media screen and (max-width:768px){
+	.zp{padding: 0 .15rem;}
+	.container{padding: 0 .25rem !important;}
+	.ffqz-ren-culture{padding-bottom: .2rem !important;}
+	
+}
