@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc36480-87a5-4ffe-8f9f-744377e5294d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/shehuizhaopingweb.css" />
-      <change beforePath="$PROJECT_DIR$/shehuizhaoping.html" afterPath="$PROJECT_DIR$/shehuizhaoping.html" />
+      <change beforePath="$PROJECT_DIR$/zhinenghuafwu.html" afterPath="$PROJECT_DIR$/zhinenghuafwu.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +57,7 @@
             <entry file="file://$PROJECT_DIR$/css/Businessweb.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="32">
-                  <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="3" selection-end-column="7" />
+                  <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="3" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -68,17 +67,17 @@
             <entry file="file://$PROJECT_DIR$/css/wgaiweb.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="32">
-                  <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="3" selection-end-column="7" />
+                  <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="3" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="zhinenghuafwu.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="zhinenghuafwu.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="503">
-                  <caret line="781" column="34" lean-forward="false" selection-start-line="781" selection-start-column="34" selection-end-line="781" selection-end-column="34" />
+                <state relative-caret-position="730">
+                  <caret line="777" column="33" lean-forward="true" selection-start-line="777" selection-start-column="33" selection-end-line="777" selection-end-column="33" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -94,7 +93,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shehuizhaoping.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="shehuizhaoping.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shehuizhaoping.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="576">
@@ -392,9 +391,9 @@
         <option value="$PROJECT_DIR$/introduce.html" />
         <option value="$PROJECT_DIR$/css/Businessweb.css" />
         <option value="$PROJECT_DIR$/css/wgaiweb.css" />
-        <option value="$PROJECT_DIR$/zhinenghuafwu.html" />
         <option value="$PROJECT_DIR$/css/shehuizhaopingweb.css" />
         <option value="$PROJECT_DIR$/shehuizhaoping.html" />
+        <option value="$PROJECT_DIR$/zhinenghuafwu.html" />
       </list>
     </option>
   </component>
@@ -431,11 +430,6 @@
             <path>
               <item name="jiabao2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiabao2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiabao2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiabao2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,12 +480,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521425564898</updated>
       <workItem from="1521425567188" duration="27021000" />
-      <workItem from="1521595017256" duration="41386000" />
+      <workItem from="1521595017256" duration="41605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68407000" />
+    <option name="totallyTimeSpent" value="68626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -582,13 +576,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="201" column="39" lean-forward="false" selection-start-line="201" selection-start-column="39" selection-end-line="201" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +1005,7 @@
     <entry file="file://$PROJECT_DIR$/css/Businessweb.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="3" selection-end-column="7" />
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1025,26 +1013,8 @@
     <entry file="file://$PROJECT_DIR$/css/wgaiweb.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="3" selection-end-column="7" />
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="3" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="781" column="34" lean-forward="false" selection-start-line="781" selection-start-column="34" selection-end-line="781" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,6 +1039,24 @@
         <state relative-caret-position="576">
           <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="777" column="33" lean-forward="true" selection-start-line="777" selection-start-column="33" selection-end-line="777" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
