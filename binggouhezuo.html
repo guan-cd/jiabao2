@@ -9,12 +9,12 @@
 		<link rel="stylesheet" type="text/css" href="css/indexzyr.css">
 		<link rel="stylesheet" href="css/commonality.css">
 		<link rel="stylesheet" type="text/css" href="css/neinav.css">
-		<link rel="stylesheet" type="text/css" href="css/gg.css" />
-		<link rel="stylesheet" type="text/css" href="css/wang.css" />
-		<link rel="stylesheet" type="text/css" href="css/bingou.css" />
 		<link rel="stylesheet" href="css/boot.css"/>
 		<link rel="stylesheet" href="css/font-size.css"/>
 		<link rel="stylesheet" href="css/qu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gg.css" />
+		<link rel="stylesheet" type="text/css" href="css/wang.css" />
+		<link rel="stylesheet" type="text/css" href="css/bingou.css" />
 		<link rel="stylesheet" href="css/wgai.css"/>
 		<script src="js/jquery-2.1.4.js"></script>
 		<script src="js/hei.js"></script>
@@ -38,14 +38,17 @@
 	</head>
 	
 	<style type="text/css">
-		html{font-size: 100px;}
-		.cxie-dan {
-			position: relative;
-		}
-		.cxie-dan ol{
-			position: absolute;
-			width: 100%;
-			top :-6px;
+		/*手机*/
+		@media screen and (min-width: 1024px){
+			html{font-size: 100px;}
+			.cxie-dan {
+				position: relative;
+			}
+			.cxie-dan ol{
+				position: absolute;
+				width: 100%;
+				top :-6px;
+			}
 		}
 	</style>
 	
@@ -61,7 +64,7 @@
 		</div>
 
 		<!--banner-->
-		<div class="wbanner visible-xs banner">
+		<div class="wbanner visible-xs">
 			<ul>
 				<li><img src="wimg/banner5.jpg" alt=""></li>
 			</ul>
@@ -175,7 +178,7 @@
 				<li><a href="shenghuojialianmeng.html">生活家联盟</a></li>
 			</ol>
 		</div>-->
-		<div class="cxie text-center cxie-dan bbb">
+		<div class="cxie text-center cxie-dan">
 			<ol class="text-center" style="height :60px;">
 				<li class="liqr"><a href="binggouhezuo.html">并购合作</a></li>
 				<li><a href="quanweituofuwu.html">全委托服务</a></li>
