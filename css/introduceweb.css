@@ -1,0 +1,25 @@
+@media screen and (max-width:768px){
+    .hei{
+        width:100%;
+    }
+    .mg-top{
+        color:rgb(98,98,98);
+        font-size:0.2rem!important;
+    }
+.licheng{
+    margin-bottom: -14px!important;
+}
+    .trophy-con div{
+        z-index:99;
+    }
+    .mapbox{
+        margin-top:0.5rem;
+    }
+    .w-fzlc-hea .henxian{
+        width:123px!important;
+    }
+    .yinwen{
+        color:#94724d!important;
+    }
+
+}
