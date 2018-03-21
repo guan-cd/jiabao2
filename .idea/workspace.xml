@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc36480-87a5-4ffe-8f9f-744377e5294d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/zhinenghuafwu.html" afterPath="$PROJECT_DIR$/zhinenghuafwu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/shehuizhaopingweb.css" />
+      <change beforePath="$PROJECT_DIR$/shehuizhaoping.html" afterPath="$PROJECT_DIR$/shehuizhaoping.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,16 +19,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.6276446">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Residention.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Residention.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="558">
-                  <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Business.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Business.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -73,16 +64,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="wgai.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/wgai.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="wgaiweb.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/wgaiweb.css">
               <provider selected="true" editor-type-id="text-editor">
@@ -93,7 +74,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="zhinenghuafwu.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="zhinenghuafwu.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="503">
@@ -109,6 +90,26 @@
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shehuizhaoping.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/shehuizhaoping.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="576">
+                  <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shehuizhaopingweb.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/shehuizhaopingweb.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -242,11 +243,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="web-touzizhelaifang.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="web-touzizhelaifang.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/web-touzizhelaifang.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="328">
-                  <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+                <state relative-caret-position="32">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -262,7 +263,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="introduce.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="introduce.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/introduce.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="798">
@@ -305,7 +306,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ECM系统</find>
       <find>an-left</find>
       <find>img/web-hyxx-2.jpg</find>
       <find>paddingwai</find>
@@ -334,6 +334,7 @@
       <find>lmqr hidden-xs</find>
       <find>.con p</find>
       <find>label</find>
+      <find>lmqr lmqrheight visible-xs</find>
       <find>cxie text-center hidden-xs</find>
     </findStrings>
   </component>
@@ -343,8 +344,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/Business.css" />
-        <option value="$PROJECT_DIR$/css/Residential.css" />
         <option value="$PROJECT_DIR$/css/introduce.css" />
         <option value="$PROJECT_DIR$/css/header.css" />
         <option value="$PROJECT_DIR$/css/newheaderadd.css" />
@@ -394,6 +393,8 @@
         <option value="$PROJECT_DIR$/css/Businessweb.css" />
         <option value="$PROJECT_DIR$/css/wgaiweb.css" />
         <option value="$PROJECT_DIR$/zhinenghuafwu.html" />
+        <option value="$PROJECT_DIR$/css/shehuizhaopingweb.css" />
+        <option value="$PROJECT_DIR$/shehuizhaoping.html" />
       </list>
     </option>
   </component>
@@ -485,12 +486,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521425564898</updated>
       <workItem from="1521425567188" duration="27021000" />
-      <workItem from="1521595017256" duration="41052000" />
+      <workItem from="1521595017256" duration="41386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68073000" />
+    <option name="totallyTimeSpent" value="68407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -545,22 +546,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/metalist2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/zhinengwap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/swiper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -975,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/web-touzizhelaifang.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduce.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -1068,6 +1045,30 @@
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web-touzizhelaifang.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shehuizhaopingweb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shehuizhaoping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
