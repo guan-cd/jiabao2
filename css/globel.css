@@ -95,14 +95,14 @@ input:-webkit-autofill {
 /*html {
     width: 100%;
     height: 100%;
-    /!*在谷歌里面，小于12号字都会直接显示为12号字，此代码解除此问题*!/
-    -webkit-text-size-adjust: none;
+/!*在谷歌里面，小于12号字都会直接显示为12号字，此代码解除此问题*!/
+-webkit-text-size-adjust: none;
     font-size: calc(100vw/6.4);
-    /!*1rem=100px*!/
-    font-size: -webkit-calc(100vw/6.4);
+/!*1rem=100px*!/
+font-size: -webkit-calc(100vw/6.4);
     font-size: -moz-calc(100vw/6.4);
-    /!*overflow: hidden;*!/
-    /!* -webkit-overflow-scrolling: touch;*!/
+/!*overflow: hidden;*!/
+/!* -webkit-overflow-scrolling: touch;*!/
 }*/
 
 

@@ -793,7 +793,7 @@
 
 					<div class="wecm">
 						<ul class="muen" id="muen">
-							<li>ECM系统</li>
+							<li class="pre">ECM系统</li>
 							<li class="weling">居家安防</li>
 						</ul>
 					</div>
@@ -1161,7 +1161,7 @@
 
 		</div>
 
-		<script src="js/zouswper/swiper.min.js"></script>
+		<script src="js/zouswper/swiper.js"></script>
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script>
 
@@ -1220,6 +1220,51 @@
                 $(".swiper-slide").eq(1).css("height","0")
                 $("#swiper-button-next1,#swiper-button-prev1").addClass("retu")
             }
+            $(".pre").on("touchend",function () {
+                removeall();
+                $(".swiper-slide").eq(1).css("height","0")
+                $("#swiper-button-next1,#swiper-button-prev1").addClass("retu")
+                $(".swiper-slide").eq(0).addClass("swiper-slide-active")
+                $(".swiper-slide").eq(1).addClass("swiper-slide-next")
+               $(".swiper-wrapper").css({"transform":"translate3d(0px, 0px, 0px)","transition":"0.3s"})
+				// console.log($(".swiper-wrapper").css())
+                $(".swiper-button-prev").addClass("swiper-button-disabled")
+                $(".muen").find("li").eq(0).css({"color":"#ffb84c","borderBottomColor":"#ffb84c"})
+                swiper3.isEnd=false;
+            })
+			$(".weling").on("touchend",function () {
+                swiper3.isBeginning=false
+                removeall();
+                $("#swiper-button-next1,#swiper-button-prev1").addClass("retu")
+             $(".swiper-slide").eq(1).addClass("swiper-slide-active")
+             $(".swiper-slide").eq(0).addClass("swiper-slide-prev")
+			// $(".swiper-wrapper").attr("style","transform: translate3d(-640px, 0px, 0px); transition-duration: 0ms;")
+            $(".swiper-wrapper").css({"transform":"translate3d(-640px, 0px, 0px)","transition":"0.3s"})
+
+			$(".swiper-button-next").addClass("swiper-button-disabled")
+                $(".muen").find("li").eq(1).css({"color":"#ffb84c","borderBottomColor":"#ffb84c"})
+            })
+    function removeall() {
+        $(".swiper-slide").eq(0).removeClass("swiper-slide-active")
+        $(".swiper-slide").eq(1).removeClass("swiper-slide-active")
+        $(".swiper-slide").eq(0).removeClass("swiper-slide-prev")
+        $(".swiper-slide").eq(1).removeClass("swiper-slide-next")
+          $(".swiper-button-next").removeClass("swiper-button-disabled")
+          $(".swiper-button-prev").removeClass("swiper-button-disabled")
+        $(".muen").find("li").css({"color":"#818181","borderBottomColor":"transparent"})
+        $(".swiper-slide").eq(1).css("height","auto")
+        $("#swiper-button-next1,#swiper-button-prev1").removeClass("retu")
+        $(".swiper-wrapper").css({"transform":"translate3d(0px, 0px, 0px)"})
+
+
+
+    }
+
+
+
+
+            console.log(swiper3)
+
 		</script>
 		<!-- web start   -->
 		<!-- web end-->
