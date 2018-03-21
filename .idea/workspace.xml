@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc36480-87a5-4ffe-8f9f-744377e5294d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/gg.css" afterPath="$PROJECT_DIR$/css/gg.css" />
-      <change beforePath="$PROJECT_DIR$/css/wgai.css" afterPath="$PROJECT_DIR$/css/wgai.css" />
+      <change beforePath="$PROJECT_DIR$/House.html" afterPath="$PROJECT_DIR$/House.html" />
+      <change beforePath="$PROJECT_DIR$/build.html" afterPath="$PROJECT_DIR$/build.html" />
+      <change beforePath="$PROJECT_DIR$/css/intellServiceweb.css" afterPath="$PROJECT_DIR$/css/intellServiceweb.css" />
+      <change beforePath="$PROJECT_DIR$/css/qu.css" afterPath="$PROJECT_DIR$/css/qu.css" />
       <change beforePath="$PROJECT_DIR$/metalist2.html" afterPath="$PROJECT_DIR$/metalist2.html" />
+      <change beforePath="$PROJECT_DIR$/zhinenghuafwu.html" afterPath="$PROJECT_DIR$/zhinenghuafwu.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,37 +20,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63751763">
+    <splitter split-orientation="horizontal" split-proportion="0.6396333">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="metalist2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/metalist2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="491">
-                  <caret line="403" column="10" lean-forward="false" selection-start-line="403" selection-start-column="10" selection-end-line="403" selection-end-column="10" />
+                <state relative-caret-position="328">
+                  <caret line="400" column="29" lean-forward="false" selection-start-line="400" selection-start-column="29" selection-end-line="400" selection-end-column="29" />
                   <folding>
                     <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="metalist.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/metalist.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="351" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -67,7 +52,7 @@
           <file leaf-file-name="metalist3.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/metalist3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="577">
+                <state relative-caret-position="583">
                   <caret line="504" column="1" lean-forward="true" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
                   <folding>
                     <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -89,8 +74,8 @@
           <file leaf-file-name="zhinenghuafwu.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-102">
-                  <caret line="769" column="50" lean-forward="true" selection-start-line="769" selection-start-column="50" selection-end-line="769" selection-end-column="50" />
+                <state relative-caret-position="447">
+                  <caret line="803" column="38" lean-forward="true" selection-start-line="803" selection-start-column="38" selection-end-line="803" selection-end-column="38" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -100,67 +85,47 @@
                     <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="binggouhezuo.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/binggouhezuo.html">
+          <file leaf-file-name="intellServiceweb.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/intellServiceweb.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+                <state relative-caret-position="268">
+                  <caret line="111" column="30" lean-forward="false" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="course.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/course.html">
+          <file leaf-file-name="qu.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/qu.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="318" column="0" lean-forward="true" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#ol#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bingou.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/bingou.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="684">
-                  <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+                <state relative-caret-position="520">
+                  <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shehuizhaoping.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shehuizhaoping.html">
+          <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+                <state relative-caret-position="168">
+                  <caret line="124" column="45" lean-forward="false" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shehuizhaopingweb.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/shehuizhaopingweb.css">
+          <file leaf-file-name="BagCheckIn.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BagCheckIn.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+                <state relative-caret-position="168">
+                  <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -303,12 +268,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cxie text-center</find>
-      <find>lanqiuk</find>
-      <find>form-control</find>
-      <find>企业文化</find>
-      <find>p1 p1zou p1-ren</find>
-      <find>BarChart</find>
       <find>img/img27.png</find>
       <find>发展历程</find>
       <find>wling</find>
@@ -333,6 +292,12 @@
       <find>banner</find>
       <find>swiper-container-web</find>
       <find>cxie text-center visibel-xs</find>
+      <find>lmqr</find>
+      <find>cxie text-center</find>
+      <find>wbanner visible-xs</find>
+      <find>img/fujjbg_02.png</find>
+      <find>.cxie</find>
+      <find>liqr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -341,22 +306,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/header.css" />
         <option value="$PROJECT_DIR$/css/newheaderadd.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/indexzyr.css" />
         <option value="$PROJECT_DIR$/css/commonality.css" />
         <option value="$PROJECT_DIR$/css/House.css" />
         <option value="$PROJECT_DIR$/css/build.css" />
-        <option value="$PROJECT_DIR$/House.html" />
         <option value="$PROJECT_DIR$/js/zouswper/swiper.js" />
         <option value="$PROJECT_DIR$/css/globel.css" />
-        <option value="$PROJECT_DIR$/build.html" />
         <option value="$PROJECT_DIR$/css/metilist2web.css" />
         <option value="$PROJECT_DIR$/css/buildweb.css" />
         <option value="$PROJECT_DIR$/attention-jb.html" />
         <option value="$PROJECT_DIR$/css/attentionweb.css" />
-        <option value="$PROJECT_DIR$/css/intellServiceweb.css" />
         <option value="$PROJECT_DIR$/css/courseweb.css" />
         <option value="$PROJECT_DIR$/css/metalist3web.css" />
         <option value="$PROJECT_DIR$/metalist3.html" />
@@ -387,10 +348,14 @@
         <option value="$PROJECT_DIR$/css/shehuizhaopingweb.css" />
         <option value="$PROJECT_DIR$/shehuizhaoping.html" />
         <option value="$PROJECT_DIR$/course.html" />
-        <option value="$PROJECT_DIR$/zhinenghuafwu.html" />
         <option value="$PROJECT_DIR$/css/bingou.css" />
         <option value="$PROJECT_DIR$/css/gg.css" />
         <option value="$PROJECT_DIR$/css/wgai.css" />
+        <option value="$PROJECT_DIR$/House.html" />
+        <option value="$PROJECT_DIR$/css/intellServiceweb.css" />
+        <option value="$PROJECT_DIR$/zhinenghuafwu.html" />
+        <option value="$PROJECT_DIR$/build.html" />
+        <option value="$PROJECT_DIR$/css/qu.css" />
         <option value="$PROJECT_DIR$/metalist2.html" />
       </list>
     </option>
@@ -428,6 +393,11 @@
             <path>
               <item name="jiabao2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiabao2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiabao2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiabao2" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -478,18 +448,18 @@
       <option name="presentableId" value="Default" />
       <updated>1521425564898</updated>
       <workItem from="1521425567188" duration="27021000" />
-      <workItem from="1521595017256" duration="43700000" />
+      <workItem from="1521595017256" duration="44864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70721000" />
+    <option name="totallyTimeSpent" value="71885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2528978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15753424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -538,38 +508,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/zouswper/swiper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="11" column="13066" lean-forward="false" selection-start-line="11" selection-start-column="13057" selection-end-line="11" selection-end-column="13066" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/zouswper/swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="4611" column="103" lean-forward="false" selection-start-line="4611" selection-start-column="84" selection-end-line="4611" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/globel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2226">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="201" column="39" lean-forward="false" selection-start-line="201" selection-start-column="39" selection-end-line="201" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/metilist2web.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -582,14 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5319">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/intellServiceweb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="56" column="10" lean-forward="false" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -951,24 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="769" column="50" lean-forward="true" selection-start-line="769" selection-start-column="50" selection-end-line="769" selection-end-column="50" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/binggouhezuo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -1009,9 +921,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/metalist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="351" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="151" column="14" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="151" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/intellServiceweb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="111" column="30" lean-forward="false" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/metalist3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
+        <state relative-caret-position="583">
           <caret line="504" column="1" lean-forward="true" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
           <folding>
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -1029,29 +974,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metalist.html">
+    <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="351" selection-end-column="6" />
+        <state relative-caret-position="447">
+          <caret line="803" column="38" lean-forward="true" selection-start-line="803" selection-start-column="38" selection-end-line="803" selection-end-column="38" />
           <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BagCheckIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="124" column="45" lean-forward="false" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/qu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metalist2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="403" column="10" lean-forward="false" selection-start-line="403" selection-start-column="10" selection-end-line="403" selection-end-column="10" />
+        <state relative-caret-position="328">
+          <caret line="400" column="29" lean-forward="false" selection-start-line="400" selection-start-column="29" selection-end-line="400" selection-end-column="29" />
           <folding>
             <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>

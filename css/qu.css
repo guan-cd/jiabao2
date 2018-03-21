@@ -101,11 +101,14 @@ p.bot .xqing-ren{
     left :-15px;
 }
 .cxie{
-    height :86px;
+    height :60px;
     width: 100%;
-    line-height: 86px;
+    line-height: 60px;
     margin-bottom: 0px;
     font-family: "微软雅黑";
+}
+.cxie .text-center{
+    line-height:60px;
 }
 .cxie li{
    display: inline-block;
