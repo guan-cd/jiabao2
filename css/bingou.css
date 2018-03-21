@@ -37,10 +37,11 @@
 	.ztou{width: 100%;padding: 0.6rem 0.15rem;background: #f4f4f4;}
 	.ztou .m{padding: 0 0.25rem;background: #fff;}
 	.ztou .m,.ztou .n,.ztou .siut{width: 100%;}
-	.ztou h1{font-size: 0.25rem;color: #2d2d2d;padding-top: 0;}
+	.ztou .n{padding: 0 !important;}
+	.ztou h1{font-size: 0.25rem;color: #2d2d2d;padding-top: 0;margin-bottom: 0 !important;}
 	.ztou .ctoi{
 		/*font-size: 0.26rem;*/
-		color: #6f6f6f;margin-top: 0.16rem;}
+		color: #6f6f6f;margin-top: 0.11rem;}
 	.ztou .uyqi{line-height: 24px;font-size: 0.14rem;}
 	.ztou .uuyf{width: 2.27rem;}
 	.ztou .siut{padding-top: 0.16rem;}
