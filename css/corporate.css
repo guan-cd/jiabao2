@@ -16,6 +16,7 @@
 .attention p span {
     margin: 0 20px;
     color: #464646;
+
     font-weight: bold;
     cursor: pointer;
 }

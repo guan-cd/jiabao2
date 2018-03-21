@@ -14,7 +14,8 @@ span.attention-this {color: #94724c!important;}
 .bpart1 .p1{font-size: 30px;font-family: "微软雅黑";color: #2d2d2d;margin-bottom: 43px !important; padding-top: 30px;}
 .bpart1 .p2{font-size: 40px;font-family: Gautami;color: #94724d;margin: 53px 0 !important;}
 
-.build .bpart2{overflow: hidden;margin-top: 50px !important;}
+.build .bpart2{overflow: hidden;margin-top: 50px !important;
+}
 .bpart2 li{float: left;font-size: 16px;font-family: "微软雅黑";color: #707070;margin-right: 64px;}
 .bpart2 li.bling{color: #94724c;}
 

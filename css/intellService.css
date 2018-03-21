@@ -20,6 +20,7 @@
 .dybf{height: auto;overflow: hidden;}
 
 .dybf .pa1{overflow: hidden;padding: 0 10px;background: #efefef;margin: 78px 0 24px;width: 100%;}
+
 .dybf .pa1 p{font-family: "微软雅黑";font-size: 18px;color: #2d2d2d;font-weight: bold;}
 .dybf .pa1 p:first-child{float: left;}
 .dybf .pa1 p:last-child{float: right;font-size: 24px;}

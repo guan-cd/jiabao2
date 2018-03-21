@@ -15,6 +15,7 @@ ul li{list-style: none;}
 .part2 .pleft{width: 54%;margin-right: 43px;}
 .pleft,.pright{float: left;}
 
+
 .pleft p{font-size: 15px;color: #626262;font-family: "微软雅黑";letter-spacing: 4px;line-height: 24px;}
 .pleft span{color: #002a27;font-family: "微软雅黑";}
 .pleft p:first-child{margin-bottom: 43px !important;}
