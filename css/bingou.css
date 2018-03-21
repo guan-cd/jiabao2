@@ -137,5 +137,8 @@
 	.wnotice .wnright div a{font-size: .12rem;color: #6f6f6f;}
 	.wnotice .wfang{text-align: center;}
 	.wnotice .wfang .yleft{margin-right: .8rem;}
+	.bbb li{
+		margin:0!important;
+	}
 	
 }

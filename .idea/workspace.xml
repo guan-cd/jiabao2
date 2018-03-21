@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2fc36480-87a5-4ffe-8f9f-744377e5294d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/css/bingou.css" afterPath="$PROJECT_DIR$/css/bingou.css" />
-      <change beforePath="$PROJECT_DIR$/zhinenghuafwu.html" afterPath="$PROJECT_DIR$/zhinenghuafwu.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,31 +18,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.72143865">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="jibenxinxi.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/jibenxinxi.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="744">
-                  <caret line="248" column="6" lean-forward="false" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Businessweb.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/Businessweb.css">
               <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +38,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="zhinenghuafwu.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="zhinenghuafwu.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-102">
@@ -80,6 +54,16 @@
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="binggouhezuo.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/binggouhezuo.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="446">
+                  <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="45" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -104,11 +88,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bingou.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="bingou.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/bingou.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+                <state relative-caret-position="684">
+                  <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -343,9 +327,9 @@
       <find>label</find>
       <find>lmqr lmqrheight visible-xs</find>
       <find>cxie text-center hidden-xs</find>
-      <find>房产经纪</find>
       <find>&lt;span&gt;企业介绍&lt;/span&gt;</find>
       <find>.cxie li</find>
+      <find>房产经纪</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -403,8 +387,8 @@
         <option value="$PROJECT_DIR$/css/shehuizhaopingweb.css" />
         <option value="$PROJECT_DIR$/shehuizhaoping.html" />
         <option value="$PROJECT_DIR$/course.html" />
-        <option value="$PROJECT_DIR$/css/bingou.css" />
         <option value="$PROJECT_DIR$/zhinenghuafwu.html" />
+        <option value="$PROJECT_DIR$/css/bingou.css" />
       </list>
     </option>
   </component>
@@ -414,7 +398,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="544" />
     <option name="y" value="76" />
     <option name="width" value="1166" />
@@ -491,15 +475,15 @@
       <option name="presentableId" value="Default" />
       <updated>1521425564898</updated>
       <workItem from="1521425567188" duration="27021000" />
-      <workItem from="1521595017256" duration="42296000" />
+      <workItem from="1521595017256" duration="42458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69317000" />
+    <option name="totallyTimeSpent" value="69479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2528978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -820,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binggouhezuo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/quanweituoweb.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1050,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bingou.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhinenghuafwu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -1073,6 +1041,22 @@
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binggouhezuo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bingou.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
