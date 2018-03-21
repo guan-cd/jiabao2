@@ -3,30 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>媒体新闻页面</title>
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/globel.css"/>
     <link rel="stylesheet" href="css/swiper.css"/>
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="css/indexzyr.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/indexzyr.css">-->
     <link rel="stylesheet" type="text/css" href="css/neinav.css">
     <link rel="stylesheet" href="css/web-metalist.css"/>
-    <link rel="stylesheet" href="css/base.css">
+    <!--<link rel="stylesheet" href="css/base.css">-->
     <link rel="stylesheet" href="css/commonality.css">
     <link rel="stylesheet" type="text/css" href="css/Residential.css"/>
     <link rel="stylesheet" type="text/css" href="css/indexzyr.css"/>
     <link rel="stylesheet" href="css/boot.css"/>
     <link rel="stylesheet" href="css/font-size.css"/>
     <link rel="stylesheet" href="css/qu.css"/>
+    <link rel="stylesheet" href="css/metelist-r.css"/>
     <link rel="stylesheet" href="css/wgai.css"/>
+    <link rel="stylesheet" href="css/footerweb.css">
     <script src="js/swiper.min.js"></script>
     <script src="js/jquery-2.1.4.js"></script>
     <script src="js/hei.js"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+
+        if(/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if(version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
 </head>
 <body>
-	
-  
+
+
 <!--<div class="head hidden-xs">
     <div class="m">
         <div class="container information hidden-xs">
@@ -51,7 +68,7 @@
 <div class="ctle">
    <a href="index.html"><img src="images/jimg1.png"/></a>
 </div>
-<div class="ctlk">
+<div class="ctlk hidden-xs">
        <ul>
             <li><a href="introduce.html" >走进嘉宝</a></li>
             <li><a href="metalist.html" class="iiiw" >媒体中心</a></li>
@@ -62,15 +79,15 @@
             <li><a href="jibenxinxi.html">投资者关系</a></li>
       </ul>
 </div>
-<div class="ctrg">
+<div class="ctrg hidden-xs">
     <img src="images/jimg2.png"/>
 </div>
 </div>
 </div>
-<div class="banner">
+<div class="banner hidden-xs">
     <img src="images/jimg3.png"/>
 </div>
-<div class="cxie text-center">
+<div class="cxie text-center hidden-xs">
     <ol class="text-center" style="height :60px;">
         <li class="liqr"><a href="metalist.html">企业动态</a></li>
         <li><a href="metalist2.html">媒体报道</a></li>
@@ -293,19 +310,27 @@
          <p class="kmws">地址：成都市高新西区西芯大道9号</p>
          <p>服务热线：400-8888-116        &nbsp;&nbsp;   审计监督：028-87826372</p>
          <p>招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
-          
+
       </div>
 
-      <div class="lkqf">
+      <div class="lkqf hidden-xs">
           <img src="images/logo_wx.png"/>
           <p>官方微信</p>
      </div>
-     
+
   </div>
 
 </div>
 
 <!--web  start -->
+<div class="content visible-xs">
+    <img src="wimg/logo.png" class="wlogo"/>
+    <button class="wbutton">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
 <div class="banner visible-xs">
     <div class="swiper-container swiper-container-web visible-xs">
         <div class="swiper-wrapper">
@@ -318,31 +343,41 @@
     </div>
 
 </div>
+<div class="cxie text-center visibel-xs">
+    <ol class="text-center" style="height :60px;">
+        <li class="liqr"><a href="metalist.html">企业动态</a></li>
+        <li><a href="metalist2.html">媒体报道</a></li>
+        <li><a href="metalist3.html">行业新闻</a></li>
+    </ol>
+</div>
 <div class="container visible-xs">
     <div class="con">
-        <h2>物业业主一家亲，共建和谐幸福居</h2>
-        <p class="laiyuan">来源：蓝光嘉宝    发布时间：2018/2/3      浏览次数：122</p>
-        <p class="text-index">2月1日，“2017年蓝光业主艺术团年度总结会”在迎宾一号酒店举行。会议全面总结了2017年度蓝光业主艺术团在文艺创作、结构优化、队伍建设、品牌运营等方面的突出工作表现，同时阐述了2018年业主艺术团工作计划及开展思路，指明了业主艺术团在新一年中的发展方向。嘉宝股份总部及成都公司相关负责人、蓝光业主艺术团成都分团的管理干部共40余人出席总结会。</p>
-        <img class="img1" src="img/web-pphd2.jpg" alt=""/>
-        <p class="text-index1 text-index">总结会上，首先由嘉宝股份总裁办品牌管理部总经理助理罗静就2017年艺术团秘书组的工作向全体与会人员进行总结汇报，并重点强调了业主艺术团2017运营管理要点。会议认为，刚刚过去的2017年，是蓝光业主艺术团运营上规模、管理上层次、节目出精品、影响力有较大提升的一年。</p>
-        <img class="img2" src="img/web-pphd3.jpg" alt=""/>
-        <p class="text-index2 text-index" >一年来，业主艺术团全体干部和成员上下一心，通过一系列精品节目打造、走基层传和谐、参加各类比赛等举措，确保了2017年业主艺术团的良好运营，更加行之有效地推动了嘉宝社区文化建设工作。</p>
-        <img class="img3" src="img/web-pphd4.jpg" alt=""/>
-        <p class="text-index3 text-index">会上，成都业主艺术团各分团团长对2017年艺术工作进行了总结交流。目前，加入业主艺术团的项目仅成都片区已达到105个。2017年，成都蓝光业主艺术团各分团在总团领导下，积极发展会员、挖掘文艺人才、精心策划编排众多精品项目，取得了骄人的成果。</p>
-        <img class="img2" src="img/web-pphd5.jpg" alt=""/>
-        <p class="text-index4 text-index">随后，成都业主艺术团总团团长马兴崇老师对艺术团全年的成果进行了汇报分享。他在发言中指出，2017年，艺术团积极参加了各类文艺表演和比赛，并在各种大赛中取得优异成绩，如《送军鞋》和《心跳火把节》获得了省级金奖。马团长表示，业主艺术团在丰富业主社区文化生活的同时，还积极走进社区、街道办及其他县市，甚至受邀远赴重庆、泸州等地演出。全年，业主艺术团共开展了200多场演出，覆盖人数上万，获得社会各界的一致好评，为蓝光业主艺术团赢得了诸多荣誉，同时高效传播了蓝光“幸福居文化”。</p>
-        <img class="img1" src="img/web-pphd6.jpg" alt=""/>
-        <p class="text-index1 text-index">当天的总结会上，不少业主艺术团成员多次对蓝光嘉宝表示感谢，他们说，蓝光业主艺术团成立已有6年，为广大业主提供了一个交流互动、充分展示自我的广阔平台，既丰富了业主的业余文化生活，也增添了业主情感的交流。通过一次次的沟通、一次次的排练，邻里之间成为了志趣相投的朋友，艺术团里有不少成员是退休人员，在物质生活越来越好的今天，已经退休的业主能与志同道合的人一起去回顾、实现自己年轻时候的艺术梦想是一种非常难得的体验。之于他们，歌曲、舞蹈不仅仅只是艺术体验本身，更多的是重追年少时的梦。大家有共同的目标、共同的追求，为平淡的社区生活带来了无限的乐趣。</p>
-        <img class="img1" src="img/web-pphd7.jpg" alt=""/>
-        <p class="text-index1 text-index">交流中，嘉宝股份总部总裁办主任沈蕾对蓝光业主艺术团全体成员在2017年的付出表示感谢和肯定。她指出，业主艺术团的组建，为物业和业主搭建了有效的交流平台，这是一支充满快乐的团队，大家一定要有效发挥艺术团的示范作用，激发艺术生产活力，引领广大业主的生活方式。</p>
-        <img class="img2" src="img/web-pphd8.jpg" alt=""/>
-        <p class="text-index1 text-index">会末，嘉宝股份对艺术团2017年的优秀团队、优秀节目、优秀个人及优秀管理干部颁发了荣誉证书及奖金。希望业主艺术团的老师们能在2018年创造更多的艺术作品，在艺术中享受快乐的幸福人生！</p>
-        <img class="img1" src="img/web-pphd9.jpg" alt=""/>
-        <p class="text-index1 text-index">会议最后，由嘉宝股份成都公司总经理助理晏开华做总结发言。晏总对蓝光业主艺术团成都分团在2017年的工作开展及所取得的成绩给予了充分肯定，晏总指出，业主艺术团通过6年的打造，已经成为了嘉宝股份一张金字招牌。2017年精品节目不断涌现，为蓝光幸福生活居品质进一步提升也做出了重要贡献，对社会的和谐共建也具有重要贡献价值。2018年，希望能有更多的优质项目加入到蓝光艺术团，为艺术团的发展带来新活力和新思维。</p>
-        <img class="img2" src="img/web-pphd10.jpg" alt=""/>
-        <p class="text-index1 text-index">“家”是组成社区的微小单元，而“社区”是组成社会的重要元素。安全、稳定、和谐、幸福的社区，不仅为每一个家庭提供了港湾，更是构建和谐社会的坚实基础。长期以来，蓝光嘉宝始终专注于业主生活核心需求的研究，以构建“幸福人居”为己任。从硬件、软件等各方面入手，加强自身建设。不仅强抓品质改造、提升服务质量、加快智慧社区建设步伐。同时，也开展了诸如“夏季送清凉”、“打造业主回家路”等丰富多彩、主题鲜明的社区文化活动，通过不断努力，不仅履行、兑现了“诚信、责任、专业”的品牌核心价值，也始终以开放、包容的心态传递着蓝光社区的幸福感。</p>
-        <img class="img10" src="img/web-pphd10.jpg" alt=""/>
-        <p class="text-index3">分享至</p>
+        <div>
+            <h2>物业业主一家亲，共建和谐幸福居</h2>
+            <p class="laiyuan">来源：蓝光嘉宝    发布时间：2018/2/3      浏览次数：122</p>
+            <p class="text-index">2月1日，“2017年蓝光业主艺术团年度总结会”在迎宾一号酒店举行。会议全面总结了2017年度蓝光业主艺术团在文艺创作、结构优化、队伍建设、品牌运营等方面的突出工作表现，同时阐述了2018年业主艺术团工作计划及开展思路，指明了业主艺术团在新一年中的发展方向。嘉宝股份总部及成都公司相关负责人、蓝光业主艺术团成都分团的管理干部共40余人出席总结会。</p>
+            <img class="img1" src="img/web-pphd2.jpg" alt=""/>
+            <p class="text-index1 text-index">总结会上，首先由嘉宝股份总裁办品牌管理部总经理助理罗静就2017年艺术团秘书组的工作向全体与会人员进行总结汇报，并重点强调了业主艺术团2017运营管理要点。会议认为，刚刚过去的2017年，是蓝光业主艺术团运营上规模、管理上层次、节目出精品、影响力有较大提升的一年。</p>
+            <img class="img2" src="img/web-pphd3.jpg" alt=""/>
+            <p class="text-index2 text-index" >一年来，业主艺术团全体干部和成员上下一心，通过一系列精品节目打造、走基层传和谐、参加各类比赛等举措，确保了2017年业主艺术团的良好运营，更加行之有效地推动了嘉宝社区文化建设工作。</p>
+            <img class="img3" src="img/web-pphd4.jpg" alt=""/>
+            <p class="text-index3 text-index">会上，成都业主艺术团各分团团长对2017年艺术工作进行了总结交流。目前，加入业主艺术团的项目仅成都片区已达到105个。2017年，成都蓝光业主艺术团各分团在总团领导下，积极发展会员、挖掘文艺人才、精心策划编排众多精品项目，取得了骄人的成果。</p>
+            <img class="img2" src="img/web-pphd5.jpg" alt=""/>
+            <p class="text-index4 text-index">随后，成都业主艺术团总团团长马兴崇老师对艺术团全年的成果进行了汇报分享。他在发言中指出，2017年，艺术团积极参加了各类文艺表演和比赛，并在各种大赛中取得优异成绩，如《送军鞋》和《心跳火把节》获得了省级金奖。马团长表示，业主艺术团在丰富业主社区文化生活的同时，还积极走进社区、街道办及其他县市，甚至受邀远赴重庆、泸州等地演出。全年，业主艺术团共开展了200多场演出，覆盖人数上万，获得社会各界的一致好评，为蓝光业主艺术团赢得了诸多荣誉，同时高效传播了蓝光“幸福居文化”。</p>
+            <img class="img1" src="img/web-pphd6.jpg" alt=""/>
+            <p class="text-index1 text-index">当天的总结会上，不少业主艺术团成员多次对蓝光嘉宝表示感谢，他们说，蓝光业主艺术团成立已有6年，为广大业主提供了一个交流互动、充分展示自我的广阔平台，既丰富了业主的业余文化生活，也增添了业主情感的交流。通过一次次的沟通、一次次的排练，邻里之间成为了志趣相投的朋友，艺术团里有不少成员是退休人员，在物质生活越来越好的今天，已经退休的业主能与志同道合的人一起去回顾、实现自己年轻时候的艺术梦想是一种非常难得的体验。之于他们，歌曲、舞蹈不仅仅只是艺术体验本身，更多的是重追年少时的梦。大家有共同的目标、共同的追求，为平淡的社区生活带来了无限的乐趣。</p>
+            <img class="img1" src="img/web-pphd7.jpg" alt=""/>
+            <p class="text-index1 text-index">交流中，嘉宝股份总部总裁办主任沈蕾对蓝光业主艺术团全体成员在2017年的付出表示感谢和肯定。她指出，业主艺术团的组建，为物业和业主搭建了有效的交流平台，这是一支充满快乐的团队，大家一定要有效发挥艺术团的示范作用，激发艺术生产活力，引领广大业主的生活方式。</p>
+            <img class="img2" src="img/web-pphd8.jpg" alt=""/>
+            <p class="text-index1 text-index">会末，嘉宝股份对艺术团2017年的优秀团队、优秀节目、优秀个人及优秀管理干部颁发了荣誉证书及奖金。希望业主艺术团的老师们能在2018年创造更多的艺术作品，在艺术中享受快乐的幸福人生！</p>
+            <img class="img1" src="img/web-pphd9.jpg" alt=""/>
+            <p class="text-index1 text-index">会议最后，由嘉宝股份成都公司总经理助理晏开华做总结发言。晏总对蓝光业主艺术团成都分团在2017年的工作开展及所取得的成绩给予了充分肯定，晏总指出，业主艺术团通过6年的打造，已经成为了嘉宝股份一张金字招牌。2017年精品节目不断涌现，为蓝光幸福生活居品质进一步提升也做出了重要贡献，对社会的和谐共建也具有重要贡献价值。2018年，希望能有更多的优质项目加入到蓝光艺术团，为艺术团的发展带来新活力和新思维。</p>
+            <img class="img2" src="img/web-pphd10.jpg" alt=""/>
+            <p class="text-index1 text-index">“家”是组成社区的微小单元，而“社区”是组成社会的重要元素。安全、稳定、和谐、幸福的社区，不仅为每一个家庭提供了港湾，更是构建和谐社会的坚实基础。长期以来，蓝光嘉宝始终专注于业主生活核心需求的研究，以构建“幸福人居”为己任。从硬件、软件等各方面入手，加强自身建设。不仅强抓品质改造、提升服务质量、加快智慧社区建设步伐。同时，也开展了诸如“夏季送清凉”、“打造业主回家路”等丰富多彩、主题鲜明的社区文化活动，通过不断努力，不仅履行、兑现了“诚信、责任、专业”的品牌核心价值，也始终以开放、包容的心态传递着蓝光社区的幸福感。</p>
+            <img class="img10" src="img/web-pphd10.jpg" alt=""/>
+            <p class="text-index3">分享至</p>
+        </div>
+
     </div>
 </div>
 <div class="boot visible-xs">
@@ -350,6 +385,23 @@
         <div class="container-ren"></div>
     </div>
     <img class="img11" src="img/web-fzlc-foo.png" alt=""/>
+</div>
+<div class="wfooter visible-xs">
+
+    <div class="container">
+        <div class="wleft">
+            <img src="wimg/wfot.png"/>
+            <p class="wlx">如遇到问题，请联系我们</p>
+            <p>地址：成都市高新西区西芯大道9号         &nbsp;&nbsp;服务热线：400-8888-116</p>
+            <p>审计监督：028-87826372      &nbsp;&nbsp;招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+        </div>
+        <div class="wgw">
+            <img src="wimg/gw.jpg"/>
+            <p>官方微信</p>
+        </div>
+
+    </div>
+
 </div>
 <!--<div class="ccc" style="width: 6.4rem;height :1rem;background-color: #fff;"></div>-->
 
