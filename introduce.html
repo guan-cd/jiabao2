@@ -17,9 +17,30 @@
 		<link rel="stylesheet" href="css/font-size.css"/>
 		<link rel="stylesheet" href="css/metalist2.css"/>
 		<link rel="stylesheet" href="css/qu.css"/>
+		<link rel="stylesheet" href="css/footerweb.css">
+		<link rel="stylesheet" href="css/gg.css">
+		<link rel="stylesheet" href="css/globel.css">
+		<link rel="stylesheet" href="css/introduceweb.css">
 		<script src="js/jquery-2.1.4.js"></script>
 		<script src="js/hei.js"></script>
 	    <title>企业介绍</title>
+		<script type="text/javascript">
+            var phoneWidth = parseInt(window.screen.width);
+            var phoneScale = phoneWidth / 640;
+            var ua = navigator.userAgent;
+            if(/Android (\d+\.\d+)/.test(ua)) {
+                var version = parseFloat(RegExp.$1);
+                if(version > 2.3) {
+                    document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+                } else {
+                    document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+                }
+            } else {
+                document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+            }
+            // win.addEventListener(resizeEvt, recalc, false);
+            // doc.addEventListener('DOMContentLoaded', recalc, false);
+		</script>
 	</head>
 	<body>
 
@@ -99,7 +120,7 @@
 		</div>-->
 
 
-		<div class="cxie text-center">
+		<div class="cxie text-center hidden-xs">
 			<ol class="text-center" style="height :60px;">
 				<!--<li><a href="metalist.html">企业动态</a></li>
 				<li><a href="metalist2.html">媒体报道</a></li>
@@ -112,69 +133,67 @@
 			</ol>
 		</div>
 
+		<!--<div class="container w-fzlc-con visible-xs margintop30zou">-->
+			<!--<div class="w-fzlc-hea">-->
+				<!--<div class="part1">-->
+					<!--<p class="p1 p1zou p1-ren" style="" >企业介绍</p>-->
+					<!--<img src="img/line.png"/>-->
+					<!--<p class="p2 p1" style="margin-bottom: 16px;" class="p2">INTRODUCTION TO BUSINESS</p>-->
+				<!--</div>-->
+			<!--<div class="web-banle">-->
+                <!--</div>-->
+				<!--<div class="mg-top">-->
+					<!--<P class="mg-bot">四川嘉宝资产管理集团股份有限公司（以下简称“嘉宝股份”，证券代码：834962）成立于2000年，系蓝光发展（SH：600466）旗下控股公司，拥有“国家物业管理企业一级资质”。现荣任中国物业管理协会副会长单位、四川省房地产业协会副会长及成都市物业管理协会副会长单位。在2017年度物业管理行业综合实力百强排名中位列全国第14位，并以品牌价值23.26亿位列西部物业品牌之首。嘉宝股份于2015年12月成为西南地区首家成功挂牌新三板的现代服务业企业，证券代码：834962。全新的资本平台为公司开启“产业+资本市场”发展新时代。</P>-->
+
+					<!--<P>公司以“物业管理+商业运营”为主要产业，管理业态覆盖“住宅物业、商业物业、办公物业、城市综合体、总部基地、旅游地产等主题地产”6大运营服务产品。截止2016年12月，嘉宝股份进驻全国18个城市，在管项目152个，其中，市场拓展委托项目21个。在职员工约6200人，受托管理面积逾3006万平方米。嘉宝股份始终遵循“诚信、责任、专业”为立业之本，“客户满意是我们的第一目标、尊重和关心员工的个人利益”的核心理念，崇尚“阳光、智慧、和谐、合力”的团队文化。坚持以“金管家”（注册号：8920560）服务模式为基础向业主提供优质物业服务。并运用“新技术、新方法”改造传统物业，依托互联网构筑具有平台特征的“生活家服务体系”新型商业模式，实现服务升级与消费升级。同时以“共创联盟、共享平台、共赢未来”的理念，构建“生活家联盟大生态圈”的大平台发展模式。目前，已成功发展以京东集团为代表的战略联盟，以山东龙头企业明德集团、川内综合实力第二的悦华置地为代表的企业联盟，以及伴随嘉宝商业发展的5000余家商家联盟。目前，企业联盟成员已达32家，签约规模逾1.2亿平方米，管理项目700余个，涵盖住宅、写字楼、产业园区、大学校园、商业用户等业态，可货币化的用户规模达到350万。“生活家联盟”将以平台为纽带，高效连接企业、商家、客户，共筑良性价值闭环生态圈，做大平台价值，实现多方共赢。</P>-->
+
+				<!--</div>-->
+			<!--</div>-->
+			<!--<div class="trophy">-->
+				<!--<div class="trophy-left trophy-con">-->
+					<!--<img src="img/web-qyjs-jb(1).jpg" alt=""/>-->
+					<!--<div>-->
+						<!--<p>23.26亿品牌价值<br>-->
+							<!--位列西部物业品牌之首</p>-->
+					<!--</div>-->
+
+				<!--</div>-->
+				<!--<div class="trophy-right trophy-con">-->
+					<!--<img src="img/web-qyjs-jb(2).jpg" alt=""/>-->
+					<!--<div>-->
+						<!--<p>23.26亿品牌价值<br>-->
+							<!--位列西部物业品牌之首</p>-->
+					<!--</div>-->
+
+				<!--</div>-->
+			<!--</div>-->
+			<!--<p class="" style="clear: both;"></p>-->
 
 
-		<div class="container w-fzlc-con visible-xs margintop30zou">
-			<div class="w-fzlc-hea">
-				<!--<div class="w-fzlc-h1"></div>-->
-				<h3>发展历程</h3>
-				<span class="henxian"></span>
-				<p class="yinwen">INTRODUCTION TO BUSINESS</p>
-				<!--<div class="web-banle">
+			<!--&lt;!&ndash;<div class="BarChart">&ndash;&gt;-->
 
-                </div>-->
-				<div class="mg-top">
-					<P class="mg-bot">四川嘉宝资产管理集团股份有限公司（以下简称“嘉宝股份”，证券代码：834962）成立于2000年，系蓝光发展（SH：600466）旗下控股公司，拥有“国家物业管理企业一级资质”。现荣任中国物业管理协会副会长单位、四川省房地产业协会副会长及成都市物业管理协会副会长单位。在2017年度物业管理行业综合实力百强排名中位列全国第14位，并以品牌价值23.26亿位列西部物业品牌之首。嘉宝股份于2015年12月成为西南地区首家成功挂牌新三板的现代服务业企业，证券代码：834962。全新的资本平台为公司开启“产业+资本市场”发展新时代。</P>
+				<!--&lt;!&ndash;<div class="Barchart-con">&ndash;&gt;-->
+					<!--&lt;!&ndash;<div class="Barchart1">&ndash;&gt;-->
+						<!--&lt;!&ndash;<img src="img/web-zhu.png" alt=""/>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding1 ding se">1.2亿</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding2 ding se">3006</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding3 ding se">18</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding4 ding se">21</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding5 ding se">32</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding6 ding">签约规模<br>签约规模逾1.2亿平方米</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding7 ding">逾3006万平方米<br>受托管理面积</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding8 ding">18个城市</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding9 ding">21个市场拓展<br>委托项目</span>&ndash;&gt;-->
+						<!--&lt;!&ndash;<span class="ding10 ding">32家企业联盟</span>&ndash;&gt;-->
+					<!--&lt;!&ndash;</div>&ndash;&gt;-->
+					<!--&lt;!&ndash;<div class="Barchart2">&ndash;&gt;-->
+						<!--&lt;!&ndash;<img src="img/web-qyjs-zhu2.png" alt=""/>&ndash;&gt;-->
+					<!--&lt;!&ndash;</div>&ndash;&gt;-->
+				<!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-					<P>公司以“物业管理+商业运营”为主要产业，管理业态覆盖“住宅物业、商业物业、办公物业、城市综合体、总部基地、旅游地产等主题地产”6大运营服务产品。截止2016年12月，嘉宝股份进驻全国18个城市，在管项目152个，其中，市场拓展委托项目21个。在职员工约6200人，受托管理面积逾3006万平方米。嘉宝股份始终遵循“诚信、责任、专业”为立业之本，“客户满意是我们的第一目标、尊重和关心员工的个人利益”的核心理念，崇尚“阳光、智慧、和谐、合力”的团队文化。坚持以“金管家”（注册号：8920560）服务模式为基础向业主提供优质物业服务。并运用“新技术、新方法”改造传统物业，依托互联网构筑具有平台特征的“生活家服务体系”新型商业模式，实现服务升级与消费升级。同时以“共创联盟、共享平台、共赢未来”的理念，构建“生活家联盟大生态圈”的大平台发展模式。目前，已成功发展以京东集团为代表的战略联盟，以山东龙头企业明德集团、川内综合实力第二的悦华置地为代表的企业联盟，以及伴随嘉宝商业发展的5000余家商家联盟。目前，企业联盟成员已达32家，签约规模逾1.2亿平方米，管理项目700余个，涵盖住宅、写字楼、产业园区、大学校园、商业用户等业态，可货币化的用户规模达到350万。“生活家联盟”将以平台为纽带，高效连接企业、商家、客户，共筑良性价值闭环生态圈，做大平台价值，实现多方共赢。</P>
-
-				</div>
-			</div>
-			<div class="trophy">
-				<div class="trophy-left trophy-con">
-					<img src="img/web-qyjs-jb(1).jpg" alt=""/>
-					<div>
-						<p>23.26亿品牌价值<br>
-							位列西部物业品牌之首</p>
-					</div>
-
-				</div>
-				<div class="trophy-right trophy-con">
-					<img src="img/web-qyjs-jb(2).jpg" alt=""/>
-					<div>
-						<p>23.26亿品牌价值<br>
-							位列西部物业品牌之首</p>
-					</div>
-
-				</div>
-			</div>
-			<p class="" style="clear: both;"></p>
-
-
-			<div class="BarChart">
-
-				<div class="Barchart-con">
-					<div class="Barchart1">
-						<img src="img/web-zhu.png" alt=""/>
-						<span class="ding1 ding se">1.2亿</span>
-						<span class="ding2 ding se">3006</span>
-						<span class="ding3 ding se">18</span>
-						<span class="ding4 ding se">21</span>
-						<span class="ding5 ding se">32</span>
-						<span class="ding6 ding">签约规模<br>签约规模逾1.2亿平方米</span>
-						<span class="ding7 ding">逾3006万平方米<br>受托管理面积</span>
-						<span class="ding8 ding">18个城市</span>
-						<span class="ding9 ding">21个市场拓展<br>委托项目</span>
-						<span class="ding10 ding">32家企业联盟</span>
-					</div>
-					<div class="Barchart2">
-						<img src="img/web-qyjs-zhu2.png" alt=""/>
-					</div>
-				</div>
-
-			</div>
-			<!--<img class="fzlc-foo-img" src="img/web-fzlc-foo.png" alt=""/>-->
-		</div>
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+			<!--&lt;!&ndash;<img class="fzlc-foo-img" src="img/web-fzlc-foo.png" alt=""/>&ndash;&gt;-->
+		<!--</div>-->
 		<div style="position: relative;" class="qj hidden-xs margintop30zou">
 			<div style="background-color: #fff;" class="container w1146">
 				<div class="part1">
@@ -301,21 +320,14 @@
 						<span class="dian dian35"></span>
 						<!--<span class="dian36"></span>-->
 					</div>
-					
-					
 				</div>
-				
-				
 			</div>
-			
-			
-			
 			<!--<img class="banner ban" src="img/img27.png"  alt="">-->
 		</div>
 		<div class="w-fzlc-con">
 			<div class="container"></div>
 			<!--<img class="fzlc-foo-img" src="img/web-fzlc-foo.png" alt=""/>-->
-			<img class="hei" src="img/img27.png"  alt="">
+			<img class="hei hidden-xs" src="img/img27.png"   alt="">
 		</div>
 		<div style="margin-top: 0px!important;" class="Footer hidden-xs">
 
@@ -343,6 +355,327 @@
 			</div>
 
 		</div>
+
+		<!--web start-->
+		<div class="wcontent visible-xs">
+			<img src="wimg/logo.png" class="wlogo"/>
+			<button class="wbutton">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+		<div class="bj-sh visible-xs">
+			<ul class="swiper-container">
+				<li class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/web-qyjs-2.png" alt="" class="img-responsive">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/web-qyjs-2.png" alt="" class="img-responsive">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/web-qyjs-2.png" alt="" class="img-responsive">
+					</div>
+					<!--<img class="hidden-xs" src="img/Ser.png" alt="">
+                    <img class="visible-xs" src="img/web-qyjs-2.png" alt=""/>-->
+				</li>
+			</ul>
+		</div>
+		<div class="container w-fzlc-con visible-xs">
+			<div class="w-fzlc-hea">
+				<!--<div class="w-fzlc-h1"></div>-->
+				<h3 class="licheng">发展历程</h3>
+				<span class="henxian"></span>
+				<p class="yinwen">INTRODUCTION TO BUSINESS</p>
+				<!--<div class="web-banle">
+
+                </div>-->
+				<div class="mg-top">
+					<P class="mg-bot">四川嘉宝资产管理集团股份有限公司（以下简称“嘉宝股份”，证券代码：834962）成立于2000年，系蓝光发展（SH：600466）旗下控股公司，拥有“国家物业管理企业一级资质”。现荣任中国物业管理协会副会长单位、四川省房地产业协会副会长及成都市物业管理协会副会长单位。在2017年度物业管理行业综合实力百强排名中位列全国第14位，并以品牌价值23.26亿位列西部物业品牌之首。嘉宝股份于2015年12月成为西南地区首家成功挂牌新三板的现代服务业企业，证券代码：834962。全新的资本平台为公司开启“产业+资本市场”发展新时代。</P>
+
+					<P>公司以“物业管理+商业运营”为主要产业，管理业态覆盖“住宅物业、商业物业、办公物业、城市综合体、总部基地、旅游地产等主题地产”6大运营服务产品。截止2016年12月，嘉宝股份进驻全国18个城市，在管项目152个，其中，市场拓展委托项目21个。在职员工约6200人，受托管理面积逾3006万平方米。嘉宝股份始终遵循“诚信、责任、专业”为立业之本，“客户满意是我们的第一目标、尊重和关心员工的个人利益”的核心理念，崇尚“阳光、智慧、和谐、合力”的团队文化。坚持以“金管家”（注册号：8920560）服务模式为基础向业主提供优质物业服务。并运用“新技术、新方法”改造传统物业，依托互联网构筑具有平台特征的“生活家服务体系”新型商业模式，实现服务升级与消费升级。同时以“共创联盟、共享平台、共赢未来”的理念，构建“生活家联盟大生态圈”的大平台发展模式。目前，已成功发展以京东集团为代表的战略联盟，以山东龙头企业明德集团、川内综合实力第二的悦华置地为代表的企业联盟，以及伴随嘉宝商业发展的5000余家商家联盟。目前，企业联盟成员已达32家，签约规模逾1.2亿平方米，管理项目700余个，涵盖住宅、写字楼、产业园区、大学校园、商业用户等业态，可货币化的用户规模达到350万。“生活家联盟”将以平台为纽带，高效连接企业、商家、客户，共筑良性价值闭环生态圈，做大平台价值，实现多方共赢。</P>
+
+				</div>
+			</div>
+			<div class="trophy">
+				<div class="trophy-left trophy-con">
+					<img src="img/web-qyjs-jb(1).jpg" alt=""/>
+					<div>
+						<p>23.26亿品牌价值<br>
+							位列西部物业品牌之首</p>
+					</div>
+
+				</div>
+				<div class="trophy-right trophy-con">
+					<img src="img/web-qyjs-jb(2).jpg" alt=""/>
+					<div>
+						<p>23.26亿品牌价值<br>
+							位列西部物业品牌之首</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="padding"></div>
+			<div class="mapbox">
+				<div class="zhu">
+					<img src="img/map1_03.png" class="img-responsive" alt="">
+				</div>
+			</div>
+			<div class="map2">
+				<img src="img/map2_03.png" class="img-responsive" alt="">
+			</div>
+			<img class="hei" src="img/img27.png"   alt="">
+			<!--柱形图1-->
+			<!--<div class="mapbox">-->
+			<!--<ul class="Barchart">-->
+			<!--<li>-->
+			<!--<p class="chartitle">12亿</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu1_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font">签约规模 逾1.2亿平方米</p>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<p class="chartitle">3006</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu2_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font">-->
+			<!--<span style="white-space:nowrap;">逾3006万平方米</span>-->
+			<!--<br>-->
+			<!--<span style="white-space:nowrap;">受托管理面积</span></p>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<p class="chartitle">18</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu3_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font sizemagin">18个城市</p>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<p class="chartitle">21</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu4_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font">21个市场拓展 委托项目</p>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<p class="chartitle">32</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu5_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font">32家企业联盟</p>-->
+			<!--</li>-->
+			<!--</ul>-->
+			<!--</div>-->
+			<!--柱形图二-->
+			<!--<div class="barnav2">-->
+			<!--<ul class="Barchart Barchart2">-->
+			<!--<li>-->
+			<!--<p class="chartitle">5000</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu21_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font">5000余家 商家联盟</p>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<p class="chartitle">6200</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu22_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font">-->
+			<!--<span style="white-space:nowrap;">约6200名<br>在职员工</span>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<p class="chartitle">700</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu23_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font sizemagin">18个城市</p>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<p class="chartitle">21</p>-->
+			<!--<div class="charimg">-->
+			<!--<img src="img/zhu24_03.png" alt="">-->
+			<!--</div>-->
+			<!--<p class="chardes small-font smallsize-font">21个市场拓展 委托项目</p>-->
+			<!--</li>-->
+
+			<!--</ul>-->
+			<!--</div>-->
+
+
+			<!--<div class="BarChart">-->
+
+			<!--<div class="Barchart-con">-->
+			<!--<div class="Barchart1">-->
+			<!--<img src="img/web-zhu.png" alt=""/>-->
+			<!--&lt;!&ndash;<span class="ding1 ding se">1.2亿</span>-->
+			<!--&lt;!&ndash;<span class="ding2 ding se">3006</span>-->
+			<!--&lt;!&ndash;<span class="ding3 ding se">18</span>-->
+			<!--&lt;!&ndash;<span class="ding4 ding se">21</span>-->
+			<!--&lt;!&ndash;<span class="ding5 ding se">32</span>-->
+			<!--&lt;!&ndash;<span class="ding6 ding">签约规模<br>签约规模逾1.2亿平方米</span>-->
+			<!--&lt;!&ndash;<span class="ding7 ding">逾3006万平方米<br>受托管理面积</span>-->
+			<!--&lt;!&ndash;<span class="ding8 ding">18个城市</span>-->
+			<!--&lt;!&ndash;<span class="ding9 ding">21个市场拓展<br>委托项目</span>-->
+			<!--&lt;!&ndash;<span class="ding10 ding">32家企业联盟</span>-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+			<!--&lt;!&ndash;<div class="Barchart2">&ndash;&gt;-->
+			<!--&lt;!&ndash;<img src="img/web-qyjs-zhu2.png" alt=""/>&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+			<!--</div>&ndash;&gt;-->
+			<!--<img class="fzlc-foo-img" src="img/web-fzlc-foo.png" alt=""/>
+        </div>
+        <div style="height:1910px;position: relative;" class="qj hidden-xs">
+            <div style="background-color: #fff;height:1910px;" class="container w1146">
+                <div class="part1">
+                    <p style="margin-top: 80px" class="p1">企业介绍</p>
+                    <img src="img/line.png"/>
+                    <p style="margin-bottom: 16px;" class="p2">INTRODUCTION TO BUSINESS</p>
+                </div>
+
+                <div class="part2">
+                    <div class="pleft">
+                        <p>四川嘉宝资产管理集团股份有限公司（以下简称“嘉宝股份”，证券代码：834962）成立于2000年，系蓝
+                            光发展（SH：600466）旗下控股公司，拥有“国家物业管理企业一级资质”。现荣任中国物业管理协会副会长单
+                            位、四川省房地产业协会副会长及成都市物业管理协会副会长单位。在2017年度物业管理行业综合实力百强排名中位列全国第14
+                            位，并以品牌价值23.26亿位列西部物业品牌之首。嘉宝股份于2015年12月成为西南地区首家成功挂牌新三板的现代服务业企
+                            业，证券代码：834962。全新的资本平台为公司开启“产业+资本市场”发展新时代。
+                        </p>
+                        <p>公司以“物业管理+商业运营”为主要产业，
+                            <span>管理业态覆盖“住宅物业、商业物业、办公物业、城市综合体、总部基地、旅游地产等主题地产”6大运营服务产品。</span>
+                            截止2016年12月，嘉宝股份进驻全国18个城市，在管项目152个，其中，市场拓展委托
+                            项目21个。在职员工约6200人，受托管理面积逾3006万平方米。嘉宝股份始终遵循“诚信、责任、专业”为立业之本，“客户满意是
+                            我们的第一目标、尊重和关心员工的个人利益”的核心理念，崇尚“阳光、智慧、和谐、合力”的团队文化。坚持以“金管家”（注册
+                            号：8920560）服务模式为基础向业主提供优质物业服务。并运用“新技术、新方法”改造传统物业，依托互联网构筑具有平台特征
+                            的“生活家服务体系”新型商业模式，实现服务升级与消费升级。同时以“共创联盟、共享平台、共赢未来”的理念，构建“生活家联
+                            盟大生态圈”的大平台发展模式。目前，已成功发展以京东集团为代表的战略联盟，以山东龙头企业明德集团、川内综合实力第二
+                            的悦华置地为代表的企业联盟，以及伴随嘉宝商业发展的5000余家商家联盟。目前，企业联盟成员已达32家，签约规模逾1.2亿平
+                            方米，管理项目700余个，涵盖住宅、写字楼、产业园区、大学校园、商业用户等业态，可货币化的用户规模达到350万。“生活家
+                            联盟”将以平台为纽带，高效连接企业、商家、客户，共筑良性价值闭环生态圈，做大平台价值，实现多方共赢。
+                        </p>
+
+                    </div>
+
+                    <div class="pright">
+                        <div class="rtop">
+                            <img src="img/11.png"/>
+                            <p>23.26亿品牌价值<br />位列西部物业品牌之首</p>
+                        </div>
+                        <div class="rbott">
+                            <img src="img/14.png"/>
+                            <p>2017年度物业管理行业<br />综合实力全国第14位</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="part3">
+                    <!--<img src="img/fenbu.png"/>-->
+			<div class="point ditudh" style="">
+
+
+
+
+				<!--<img src="img/line2.png"/>-->
+				<!--<ul>-->
+				<!--<li>-->
+				<!--<p>18</p>-->
+				<!--<span>18个城市</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p>152</p>-->
+				<!--<span>152在管项目</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p>21</p>-->
+				<!--<span>21个市场拓展<br />委托项目</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p class="f25">6200</p>-->
+				<!--<span>约6200名<br />在职员工</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p class="f25">3006</p>-->
+				<!--<span>逾3006万平方米<br />受托管理面积</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p class="f25">5000</p>-->
+				<!--<span>5000余家<br />商家联盟</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p>32</p>-->
+				<!--<span>32家企业联盟</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p class="f25">1.2亿</p>-->
+				<!--<span>签约规模<br />逾1.2亿平方米</span>-->
+				<!--</li>-->
+				<!--<li>-->
+				<!--<p>700</p>-->
+				<!--<span>700余个<br />管理项目</span>-->
+				<!--</li>-->
+				<!--</ul>-->
+				<!--<span class="dian dian1"></span>-->
+				<!--<span class="dian dian2"></span>-->
+				<!--<span class="dian dian3"></span>-->
+				<!--<span class="dian dian4"></span>-->
+				<!--<span class="dian dian5"></span>-->
+				<!--<span class="dian dian6"></span>-->
+				<!--<span class="dian dian7"></span>-->
+				<!--<span class="dian dian8"></span>-->
+				<!--<span class="dian dian9"></span>-->
+				<!--<span class="dian dian10"></span>-->
+				<!--<span class="dian dian11"></span>-->
+				<!--<span class="dian dian12"></span>-->
+				<!--<span class="dian dian13"></span>-->
+				<!--<span class="dian dian14"></span>-->
+				<!--<span class="dian dian15"></span>-->
+				<!--<span class="dian dian16"></span>-->
+				<!--<span class="dian dian17"></span>-->
+				<!--<span class="dian dian18"></span>-->
+				<!--<span class="dian dian19"></span>-->
+				<!--<span class="dian20"></span>-->
+				<!--<span class="dian dian21"></span>-->
+				<!--<span class="dian dian22"></span>-->
+				<!--<span class="dian dian23"></span>-->
+				<!--<span class="dian dian24"></span>-->
+				<!--<span class="dian dian25"></span>-->
+				<!--<span class="dian dian26"></span>-->
+				<!--<span class="dian dian27"></span>-->
+				<!--<span class="dian dian28"></span>-->
+				<!--<span class="dian dian29"></span>-->
+				<!--<span class="dian dian30"></span>-->
+				<!--<span class="dian dian31"></span>-->
+				<!--&lt;!&ndash;<span class="dian32"></span>&ndash;&gt;-->
+				<!--<span class="dian dian33"></span>-->
+				<!--<span class="dian dian34"></span>-->
+				<!--<span class="dian dian35"></span>-->
+				<!--<span class="dian36"></span>-->
+			</div>
+		</div>
+		<div class="wfooter visible-xs">
+			<div class="container">
+				<div class="wleft">
+					<img src="wimg/wfot.png"/>
+					<p class="wlx">如遇到问题，请联系我们</p>
+					<p>地址：成都市高新西区西芯大道9号         &nbsp;&nbsp;服务热线：400-8888-116</p>
+					<p>审计监督：028-87826372      &nbsp;&nbsp;招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+				</div>
+				<div class="wgw">
+					<img src="wimg/gw.jpg"/>
+					<p>官方微信</p>
+				</div>
+
+			</div>
+
+		</div>
+		<!--web end-->
+
+
+
 
 		<script src="js/swiper.min.js"></script>
 		<script src="js/jquery-1.11.3.min.js"></script>
