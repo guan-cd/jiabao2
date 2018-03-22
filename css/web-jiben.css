@@ -3,14 +3,15 @@
     html {
         width: 100%;
         height: 100%;
+
         -webkit-text-size-adjust: none;
         font-size: calc(100vw/6.4);
+
         font-size: -webkit-calc(100vw/6.4);
         font-size: -moz-calc(100vw/6.4);
 
     }
     h1,h2,h4,h5,h6,h3,p{
-
         text-align: left;
         margin:0;
     }
@@ -38,7 +39,8 @@
         margin-bottom: .25rem;
     }
     .con p{
-        font-size: .16rem;
+        font-size: .13rem;
+        line-height: 0.3rem;
     }
     .con .p2{
         margin: .4rem 0 .7rem;
@@ -72,6 +74,22 @@
     .container-ren {
         width: 100%;
         background-color: #fff;
+    }
+    html {
+        width: 100%;
+        height: 100%;
+        /*在谷歌里面，小于12号字都会直接显示为12号字，此代码解除此问题*/
+        -webkit-text-size-adjust: none;
+        font-size: calc(100vw/7.5);
+        /*1rem=100px*/
+        font-size: -webkit-calc(100vw/7.5);
+        font-size: -moz-calc(100vw/7.5);
+        /*overflow: hidden;*/
+        /* -webkit-overflow-scrolling: touch;*/
+    }
+    td,th{
+     font-size:0.18rem;
+        color:#6f6f6f;
     }
 
 }

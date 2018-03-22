@@ -9,9 +9,9 @@
 	.gright{margin-left: 1%;}
 	.jyqy,.gdxx{font-family: "微软雅黑";font-size: 0.16rem;color: #626262;line-height: 28px;}
 	.jyqy{padding-top: 0.39rem;padding-bottom: 0.64rem;}
-	.bing h1{border-bottom: 0;padding-bottom: 0;}
+	/*.bing h1{border-bottom: 0;padding-bottom: 0;}*/
 	.bing .wpart2{height: 100%;}
-	.bing .p1{font-family: Myriad Pro;font-size: 0.26rem;color: #626262;line-height: 32px;margin-top: 0.18rem;}
+	.bing .p1{font-family: Myriad Pro;font-size: 0.16rem;color: #626262;line-height: 20px;margin-top: 0.11rem;width: 2.8rem;}
 	.bing .p1 p{border-bottom: 1px solid #6f6f6f;width: 1.62rem;padding-bottom: 2px;}	
 	.gdxx{line-height: 0.3rem;}
 
@@ -26,17 +26,22 @@
 	
 	
 	/*生活家联盟*/
-	.iuqi p.kjwi{font-size: .14rem;line-height: .24rem;}
-	.act_content h1
-	.act_content .ctos{font-size: .26rem;}
+	.iuqi h2{font-size: .15rem;}
+	.iuqi p{font-size: .14rem;line-height: .24rem;}
+	.lkkk{text-align: center;padding-bottom: 0;}
+	.lkkk span{margin-left: 0;}
+	.act_content .ctos{font-size: .16rem;margin-top: 11px;}
 	
 	
 	/*招投标*/
 	.ztou{width: 100%;padding: 0.6rem 0.15rem;background: #f4f4f4;}
 	.ztou .m{padding: 0 0.25rem;background: #fff;}
 	.ztou .m,.ztou .n,.ztou .siut{width: 100%;}
-	.ztou h1{font-size: 0.25rem;color: #2d2d2d;padding-top: 0;}
-	.ztou .ctoi{font-size: 0.26rem;color: #6f6f6f;margin-top: 0.16rem;}
+	.ztou .n{padding: 0 !important;}
+	.ztou h1{font-size: 0.25rem;color: #2d2d2d;padding-top: 0;margin-bottom: 0 !important;}
+	.ztou .ctoi{
+		/*font-size: 0.26rem;*/
+		color: #6f6f6f;margin-top: 0.11rem;}
 	.ztou .uyqi{line-height: 24px;font-size: 0.14rem;}
 	.ztou .uuyf{width: 2.27rem;}
 	.ztou .siut{padding-top: 0.16rem;}
@@ -49,22 +54,25 @@
 	
 	/*员工活动*/
 	.lmds{width: 100%;margin-top: 0 !important;}
-	.act_content{width: 100%;padding: .6rem .15rem 0;background: #f4f4f4;}
-	.act_content .n{width: 100%;padding: 0 .25rem;background: #fff;}
-	.act_content .n h1{padding-top: 0;font-size: .25rem;color: #2d2d2d;}
-	.act_content .n .ctoi{font-size: .26rem;color: #6f6f6f;}
-	.act_content .n .kmer{width: 60%;}
+	.mnlf ul li{overflow: hidden;height: auto;}
+	.act_content{width: 100%;padding: 0 .15rem 0;background: #f4f4f4;}
+	.act_content .n{width: 100%;padding: 0 .25rem !important;background: #fff;}
+	.act_content .n h1{padding-top: 0;font-size: .25rem;color: #2d2d2d;margin-bottom: 0 !important;}
+	.act_content .n .ctoi{font-size: .16rem;color: #6f6f6f;}
+	.act_content .n .kmer{width: 60%;overflow: hidden;}
 	.act_content .kmer p{font-size: .18rem;width: 100%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
 	.act_content .kmer .qrat{width: auto;}
 	.act_content .kmer .lmop{padding-top: 0;}
+	.lmop img{vertical-align: baseline !important;}
 	.act_content .mnlf{margin-bottom: 0;}
 	
 	
 	/*员工活动详情页*/
-	.user_content h1{font-size: 0.2rem;color: #00322f;}
-	.user_content>p>span{font-size: 0.14rem;}
-	.user_content>p{font-size: inherit;}
-	.user_des p{font-size: 0.14rem;color: #323232;line-height: 0.24rem;}
+	.user_content h1{font-size: 0.15rem;color: #00322f;}
+	.user_content>p>span{font-size: 0.12rem;}
+	.user_content>p{font-size: .12rem;}
+	.user_des p{}
+	.user_des p{font-size: 0.14rem;color: #323232;line-height: 0.24rem;margin-bottom: .3rem !important;}
 	.user_content.container{padding: 0.1rem 0.4rem;}
 	.whitbg{position: relative;padding-bottom: 180px;}
 	.wbot{position: absolute;bottom: 0;}
@@ -76,22 +84,24 @@
 	/*业务介绍-住宅*/
 	.lmqr ul li{width: auto;padding: 0 10px;}
 	.shang{width: 100%;padding: 0 .15rem;background: #f4f4f4;}
-	.shang .n{width: 100%;padding: 0 .25rem;background: #fff;}
-	.shang h1{padding: .4rem 0 .12rem;font-size: .25rem;}
-	.shang .ctoi{font-size: .15rem;margin-top: 0.1rem;}
+	.shang .n{width: 100%;padding: 0 .25rem !important;background: #fff;}
+	.shang h1{padding: .4rem 0 .2rem;font-size: .25rem;}
+	.shang .ctoi{font-size: .15rem;margin: 0.1rem 0 .2rem;}
 	.ymenu{overflow: hidden;width: 66%;}
 	.ymenu li{float: left;padding: .04rem .1rem;font-size: .16rem;}
+	.zpart2 li{line-height: .28rem;}
 	.zhuz .zpart2{margin: 0 !important;}
 	.zhuz .zpart3{margin: .6rem 0 0 !important;}
-	.zhuz{margin: .3rem auto 0;}
+	/*.zhuz{margin: .3rem auto 0;}*/
+	.zhuz .zmenu{margin: 0 6% .5rem !important;}
 	.zmenu img.yleft{margin-right: .8rem;}
 	.zpart3 .tabs>div{margin: 0 4% .5rem 0;}
 	
 	/*业务介绍-拎包入住*/
 	.zp{margin-top: 0 !important;}
 	.padd-23 .gsfl{padding-top: 0;}
-	.act_content .wlbrz{margin: 0 !important;}
-	.act_content .ctoi{margin: .1rem 0;}
+	.act_content .wlbrz{margin: .1rem 0 !important;}
+	.act_content .ctoi{margin: .11rem 0 0;}
 	
 	.padd-23{padding: 0 .25rem !important;height: auto;}
 	.act_content .conte{width: 100% !important;height: auto !important;}
@@ -105,8 +115,30 @@
 	/*顾问咨询服务*/
 	.iuqt img{width: 48%;}
 	.iuqt p.kjwi{line-height: 32px;}
+	.cxie li{padding: 0 12px;}
 	
 	/*全委托服务*/
 	.iuqt img.powf{width: 100%;}
+	
+	/*最新公告*/
+	.ww{background: #f4f4f4;}
+	.ww h1{padding: .4rem 0 .2rem;font-size: .25rem;}
+	.ww .ctoi{font-size: .15rem;margin-top: 0.11rem;}
+	
+	.wnotice{padding: 0 .25rem !important;background: #fff;width: 100%;}
+	.wnotice ul{overflow: hidden;padding-top: .6rem;}
+	.wnotice ul li{width: 49%;margin: 0 1% 0.4rem 0;height: auto;float: left;overflow: hidden;}
+	.wnleft,.wnright{float: left;}
+	.wnotice .wnleft{width: .95rem;height: 1.72rem;background: #00322f;line-height: 1.72rem;text-align: center;}
+	.wnright{border: 1px solid #6f6f6f;border-left: 0;height: 1.72rem;padding: 0 .06rem;}
+	.wnotice .wnright p{font-size: .14rem;color: #6f6f6f;padding-top: .12rem;width: 100%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+	.wnotice .wnright span{font-size: .12rem;color: #6f6f6f;line-height: .26rem;}
+	.wnotice .wnright div{padding-top: .7rem;padding-bottom: .16rem;}
+	.wnotice .wnright div a{font-size: .12rem;color: #6f6f6f;}
+	.wnotice .wfang{text-align: center;}
+	.wnotice .wfang .yleft{margin-right: .8rem;}
+	.bbb li{
+		margin:0!important;
+	}
 	
 }

@@ -21,7 +21,7 @@ span.attention-this {color: #94724c!important;}
 .bpart3>div{width: 46%;margin: 0 4% 100px 0;float: left;}
 .bpart3 div img{width: 100%;}
 .bpart3 .xq{overflow: hidden;font-family: "微软雅黑";margin-top: 32px;}
-.bpart3 .xq p{font-size: 28px;color: #94724d;float: left;}
+.bpart3 div.xq p{font-size: 20px;color: #94724d;float: left;line-height: 30px;}
 .bpart3 .xq div{width: 95px;height: 30px;background: #94724D;text-align: center;line-height: 30px;float: right;}
 .bpart3 .xq a{font-size: 24px;color: #fff;display: inline-block;width: 100%;height: 100%;}
 

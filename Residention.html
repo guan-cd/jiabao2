@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/commonality.css">
-		<link rel="stylesheet" type="text/css" href="css/Residential.css" />
 		<link rel="stylesheet" type="text/css" href="css/indexzyr.css" />
 		<link rel="stylesheet" href="css/Residen.css" />
 		<link rel="stylesheet" href="fonts/glyphicons-halflings-regular.svg" />
@@ -16,46 +15,85 @@
 		<link rel="stylesheet" href="fonts/glyphicons-halflings-regular.ttf" />
 		<link rel="stylesheet" href="css/qu.css" />
 		<link rel="stylesheet" href="css/font-size.css" />
+		<link rel="stylesheet" type="text/css" href="css/Residential.css" />
 		<link rel="stylesheet" href="css/boot.css" />
 		<link rel="stylesheet" href="css/nav.css">
 		<link rel="stylesheet" href="css/wgai.css">
+		<link rel="stylesheet" href="css/wgaiweb.css">
+		<link rel="stylesheet" type="text/css" href="css/gg.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bingou.css"/>
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/hei.js"></script>
 		<title>住宅</title>
+		<script type="text/javascript">
+			var phoneWidth = parseInt(window.screen.width);
+			var phoneScale = phoneWidth / 640;
+			var ua = navigator.userAgent;
+
+			if(/Android (\d+\.\d+)/.test(ua)) {
+				var version = parseFloat(RegExp.$1);
+				if(version > 2.3) {
+					document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+				} else {
+					document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+				}
+			} else {
+				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+			}
+		</script>
+		
+		
 	</head>
 
 	<body>
+		<!--wap端  start-->
+		<div class="wcontent visible-xs">
+			<img src="wimg/logo.png" class="wlogo" />
+			<button class="wbutton">
+		        <span></span>
+		        <span></span>
+		        <span></span>
+		    </button>
+		</div>
+
+		<!--banner-->
+		<div class="wbanner visible-xs">
+			<ul>
+				<li><img src="wimg/banner5.jpg" alt=""></li>
+			</ul>
+		</div>
+		<!--wap端  end-->
 
 		<!--<div class="head">
-<div class="m">
-  
- &lt;!&ndash;  <div class="he_le"><img src="images/img1.png" style="vertical-align: middle; padding-right: 4px;">全国统一服务热线 &nbsp; 400-8888-116</div>
+				<div class="m">
+				  
+				 &lt;!&ndash;  <div class="he_le"><img src="images/img1.png" style="vertical-align: middle; padding-right: 4px;">全国统一服务热线 &nbsp; 400-8888-116</div>
+				
+				  <div class="he_rg"> 
+				      <a><img src="images/img2.png" style="vertical-align: middle; padding-right: 4px;">网点信息</a>
+				      <a><img src="images/img3.png" style="vertical-align: middle; padding-right: 4px;">人才招聘</a>
+				      <a><img src="images/img4.png" style="vertical-align: middle; padding-right: 4px;">在线客服</a>
+				  </div> &ndash;&gt;
+				  <div class="container information">
+				         <div class="content">
+				            &lt;!&ndash;  联系start  &ndash;&gt;
+				            <div class="relation">
+				                <p><span class="iphone"></span><span class="serviceHotline">全国统一服务热线</span><span class="tit">400-8888-116</span></p>
+				                <ul>
+				                    <li><span class="branch"></span>网点信息</li>
+				                    <li><span class="talents"></span>人才招聘</li>
+				                    <li><span class="service"></span>在线客服</li>
+				                </ul>
+				            </div>
+				            &lt;!&ndash;   联系end   &ndash;&gt;
+				
+				        </div>
+				   </div>
+				  
+				</div>
+			</div>-->
 
-  <div class="he_rg"> 
-      <a><img src="images/img2.png" style="vertical-align: middle; padding-right: 4px;">网点信息</a>
-      <a><img src="images/img3.png" style="vertical-align: middle; padding-right: 4px;">人才招聘</a>
-      <a><img src="images/img4.png" style="vertical-align: middle; padding-right: 4px;">在线客服</a>
-  </div> &ndash;&gt;
-  <div class="container information">
-         <div class="content">
-            &lt;!&ndash;  联系start  &ndash;&gt;
-            <div class="relation">
-                <p><span class="iphone"></span><span class="serviceHotline">全国统一服务热线</span><span class="tit">400-8888-116</span></p>
-                <ul>
-                    <li><span class="branch"></span>网点信息</li>
-                    <li><span class="talents"></span>人才招聘</li>
-                    <li><span class="service"></span>在线客服</li>
-                </ul>
-            </div>
-            &lt;!&ndash;   联系end   &ndash;&gt;
-
-        </div>
-   </div>
-  
-</div>
-</div>-->
-
-		<div class="qrct">
+		<div class="qrct hidden-xs">
 			<div class="m">
 
 				<div class="ctle">
@@ -96,7 +134,7 @@
 			</div>
 		</div>
 
-		<div class="z-banner banner">
+		<div class="z-banner banner hidden-xs">
 			<!--<ul>
 				<li>-->
 					<img src="images/jimg3.png">
@@ -161,7 +199,7 @@
 				</div>
 
 				<ul class="zpart2">
-					<li class="zling">全部</li>
+					<li class="zling">全&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;部</li>
 					<li>北京区域</li>
 					<li>华东区域</li>
 					<li>华中区域</li>
@@ -322,7 +360,7 @@
 				</div>
 
 				<div class="zmenu">
-					<ul>
+					<ul class="hidden-xs">
 						<li class="zprev">
 							<img src="img/zleft.jpg" />
 						</li>
@@ -345,6 +383,13 @@
 							<img src="img/zright.jpg" />
 						</li>
 					</ul>
+					
+					
+					<div class="visible-xs">
+						<img src="wimg/left.png" class="yleft"/>
+						<img src="wimg/right.png"/>
+					</div>
+					
 				</div>
 
 			</div>
@@ -382,7 +427,31 @@
 			</div>
 
 		</div>
+		
+		
+		<!--wap端  start-->
+		<img src="wimg/img1.png" class="visible-xs" style="width: 100%;"/>
+		<div class="wfooter visible-xs">
 
+			<div class="container">
+				<div class="wleft">
+					<img src="wimg/wfot.png" />
+					<p class="wlx">如遇到问题，请联系我们</p>
+					<p>地址：成都市高新西区西芯大道9号 &nbsp;&nbsp;服务热线：400-8888-116</p>
+					<p>审计监督：028-87826372 &nbsp;&nbsp;招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+				</div>
+				<div class="wgw">
+					<img src="wimg/gw.jpg" />
+					<p>官方微信</p>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<!--wap端  end-->
+		
+		
 		<script type="text/javascript" src="js/Residential.js"></script>
 	</body>
 

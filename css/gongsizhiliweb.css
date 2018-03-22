@@ -1,0 +1,29 @@
+@media screen and (max-width:768px){
+    .paddingwai{
+        padding-left:0.15rem!important;
+        padding-right:0.15rem!important;
+    }
+    .con{
+        padding-left:0.25rem!important;
+        padding-right:0.25rem!important;
+    }
+    .swiper-container{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+    .an-left{
+        /*bottom: 0.1rem!important;*/
+        left: 1.8rem!important;
+    }
+    .an-rig{
+        /*bottom: 0.1rem!important;*/
+        right: 1.8rem!important;
+    }
+
+
+}
+.ctoi {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #94724d!important;
+}

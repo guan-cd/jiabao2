@@ -4,3 +4,12 @@
 .banner{overflow: hidden;width: 100%;height: 300px;position: relative;}
 .banner img{/*width: auto;*/height: 100%;/*position: absolute;left: 50%;margin-left: -960px;*/}
 
+@media screen and (max-width:768px){
+    .zpart3 .xq{
+        margin-top:0.1rem;
+    }
+    .swiper-container-web .swiper-slide{
+        width:100%!important;
+    }
+
+}

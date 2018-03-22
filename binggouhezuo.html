@@ -9,12 +9,12 @@
 		<link rel="stylesheet" type="text/css" href="css/indexzyr.css">
 		<link rel="stylesheet" href="css/commonality.css">
 		<link rel="stylesheet" type="text/css" href="css/neinav.css">
-		<link rel="stylesheet" type="text/css" href="css/gg.css" />
-		<link rel="stylesheet" type="text/css" href="css/wang.css" />
-		<link rel="stylesheet" type="text/css" href="css/bingou.css" />
 		<link rel="stylesheet" href="css/boot.css"/>
 		<link rel="stylesheet" href="css/font-size.css"/>
 		<link rel="stylesheet" href="css/qu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gg.css" />
+		<link rel="stylesheet" type="text/css" href="css/wang.css" />
+		<link rel="stylesheet" type="text/css" href="css/bingou.css" />
 		<link rel="stylesheet" href="css/wgai.css"/>
 		<script src="js/jquery-2.1.4.js"></script>
 		<script src="js/hei.js"></script>
@@ -38,14 +38,17 @@
 	</head>
 	
 	<style type="text/css">
-		html{font-size: 100px;}
-		.cxie-dan {
-			position: relative;
-		}
-		.cxie-dan ol{
-			position: absolute;
-			width: 100%;
-			top :-6px;
+		/*手机*/
+		@media screen and (min-width: 1024px){
+			html{font-size: 100px;}
+			.cxie-dan {
+				position: relative;
+			}
+			.cxie-dan ol{
+				position: absolute;
+				width: 100%;
+				top :-6px;
+			}
 		}
 	</style>
 	
@@ -61,76 +64,14 @@
 		</div>
 
 		<!--banner-->
-		<div class="wbanner visible-xs banner">
+		<div class="wbanner visible-xs">
 			<ul>
 				<li><img src="wimg/banner5.jpg" alt=""></li>
 			</ul>
 		</div>
-
-		<div class="container wnav visible-xs">
-			<p class="text-center">
-				<span>企业介绍</span>
-				<span>发展历程</span>
-				<span>企业荣誉</span>
-				<span class="wling">企业文化</span>
-				<span>关注嘉宝</span>
-			</p>
-		</div>
-
-		<div class="wcon bing visible-xs">
-			<div class="container w">
-				<div class="wpart1">
-					<h1>并购计划</h1>
-					<div class="p1">
-						MERGER AND ACQUISITION
-						<p>COOPERATION</p>
-					</div>
-				</div>
-
-				<div class="wpart2">
-					<img src="wimg/g1.jpg" class="gleft"/>
-					<img src="wimg/g2.jpg" class="gright"/>
-					
-					<div class="jyqy">
-						基于企业战略发展的共识，面向物业同行，寻求志同道合的伙伴进行企业
-						股权收购及项目股份合作。我们凭借先进的商业运营模式、现代化物业管
-						理手段以及丰富的管理经验促使企业快速发展，只要您与我们价值理念相
-						契合，我们愿与您一起共谋发展，携手并进，期待与您的深度合作！
-					</div>
-					
-					<p class="gdxx">
-						更多信息，欢迎来电咨询！<br/> 联系人及电话：
-						<br/> 李女士：028-87833742 &nbsp; 18030610624<br/> 蒋先生：18980829160
-						<br/> 陈先生：13908082896
-						<br/>
-					</p>
-					
-				</div>
-
-			</div>
-			<!--<img class="wbot" src="wimg/img1.png" alt="">-->
-		</div>
-
-		<div class="wfooter visible-xs">
-
-			<div class="container">
-				<div class="wleft">
-					<img src="wimg/wfot.png" />
-					<p class="wlx">如遇到问题，请联系我们</p>
-					<p>地址：成都市高新西区西芯大道9号 &nbsp;&nbsp;服务热线：400-8888-116</p>
-					<p>审计监督：028-87826372 &nbsp;&nbsp;招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
-				</div>
-				<div class="wgw">
-					<img src="wimg/gw.jpg" />
-					<p>官方微信</p>
-				</div>
-
-			</div>
-
-		</div>
-		
-		
 		<!--wap端  end-->
+
+		
 		
 		
 		<!--<div class="head hidden-xs">
@@ -237,7 +178,7 @@
 				<li><a href="shenghuojialianmeng.html">生活家联盟</a></li>
 			</ol>
 		</div>-->
-		<div class="cxie text-center cxie-dan bbb">
+		<div class="cxie text-center cxie-dan">
 			<ol class="text-center" style="height :60px;">
 				<li class="liqr"><a href="binggouhezuo.html">并购合作</a></li>
 				<li><a href="quanweituofuwu.html">全委托服务</a></li>
@@ -301,6 +242,63 @@
 				</div>
 			</div>
 		</div>
+		
+		
+		
+		<!--wap端  start-->
+		<div class="wcon bing visible-xs bbing">
+			<div class="container w">
+				<div class="wpart1">
+					<h1>并购计划</h1>
+					<div class="p1">
+						MERGER AND ACQUISITION
+						COOPERATION
+					</div>
+				</div>
+
+				<div class="wpart2">
+					<img src="wimg/g1.jpg" class="gleft"/>
+					<img src="wimg/g2.jpg" class="gright"/>
+					
+					<div class="jyqy">
+						基于企业战略发展的共识，面向物业同行，寻求志同道合的伙伴进行企业
+						股权收购及项目股份合作。我们凭借先进的商业运营模式、现代化物业管
+						理手段以及丰富的管理经验促使企业快速发展，只要您与我们价值理念相
+						契合，我们愿与您一起共谋发展，携手并进，期待与您的深度合作！
+					</div>
+					
+					<p class="gdxx">
+						更多信息，欢迎来电咨询！<br/> 联系人及电话：
+						<br/> 李女士：028-87833742 &nbsp; 18030610624<br/> 蒋先生：18980829160
+						<br/> 陈先生：13908082896
+						<br/>
+					</p>
+					
+				</div>
+
+			</div>
+			
+		</div>
+		
+		<img src="wimg/img1.png" class="visible-xs" alt="">
+		<div class="wfooter visible-xs">
+
+			<div class="container">
+				<div class="wleft">
+					<img src="wimg/wfot.png" />
+					<p class="wlx">如遇到问题，请联系我们</p>
+					<p>地址：成都市高新西区西芯大道9号 &nbsp;&nbsp;服务热线：400-8888-116</p>
+					<p>审计监督：028-87826372 &nbsp;&nbsp;招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+				</div>
+				<div class="wgw">
+					<img src="wimg/gw.jpg" />
+					<p>官方微信</p>
+				</div>
+
+			</div>
+
+		</div>
+		<!--wap端  end-->
 
 	</body>
 

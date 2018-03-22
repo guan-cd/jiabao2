@@ -1,164 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>最新公告</title>
-    <link rel="stylesheet" href="css/globel.css"/>
-    <link rel="stylesheet" href="css/swiper.css"/>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="css/indexzyr.css">
-    <link rel="stylesheet" type="text/css" href="css/neinav.css">
-    <link rel="stylesheet" href="css/web-metalist.css"/>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/commonality.css">
-    <link rel="stylesheet" type="text/css" href="css/Residential.css"/>
-    <link rel="stylesheet" type="text/css" href="css/indexzyr.css"/>
-    <link rel="stylesheet" href="css/boot.css"/>
-    <link rel="stylesheet" href="css/font-size.css"/>
-    <link rel="stylesheet" href="css/qu.css"/>
-    <link rel="stylesheet" href="css/qu.css"/>
-    <script src="js/jquery-2.1.4.js"></script>
-    <script src="js/hei.js"></script>
-</head>
-<body>
-	
-  
-<!--<div class="head">
-<div class="m">
-  
- &lt;!&ndash;  <div class="he_le"><img src="images/img1.png" style="vertical-align: middle; padding-right: 4px;">全国统一服务热线 &nbsp; 400-8888-116</div>
 
-  <div class="he_rg"> 
-      <a><img src="images/img2.png" style="vertical-align: middle; padding-right: 4px;">网点信息</a>
-      <a><img src="images/img3.png" style="vertical-align: middle; padding-right: 4px;">人才招聘</a>
-      <a><img src="images/img4.png" style="vertical-align: middle; padding-right: 4px;">在线客服</a>
-  </div> &ndash;&gt;
-  <div class="container information">
-         <div class="content">
-            &lt;!&ndash;  联系start  &ndash;&gt;
-            <div class="relation">
-                <p><span class="iphone"></span><span class="serviceHotline">全国统一服务热线</span><span class="tit">400-8888-116</span></p>
-                <ul>
-                    <li><span class="branch"></span>网点信息</li>
-                    <li><span class="talents"></span>人才招聘</li>
-                    <li><span class="service"></span>在线客服</li>
-                </ul>
-            </div>
-            &lt;!&ndash;   联系end   &ndash;&gt;
+	<head>
+		<meta charset="UTF-8">
+		<title>最新公告</title>
+		<link rel="stylesheet" href="css/globel.css" />
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/indexzyr.css">
+		<link rel="stylesheet" type="text/css" href="css/neinav.css">
+		<link rel="stylesheet" href="css/web-metalist.css" />
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/commonality.css">
+		<link rel="stylesheet" type="text/css" href="css/Residential.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/indexzyr.css" />-->
+		<link rel="stylesheet" href="css/boot.css" />
+		<link rel="stylesheet" href="css/font-size.css" />
+		<link rel="stylesheet" href="css/qu.css" />
+		<link rel="stylesheet" type="text/css" href="css/gg.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bingou.css"/>
+		<script src="js/jquery-2.1.4.js"></script>
+		<script src="js/hei.js"></script>
+		<script type="text/javascript">
+			var phoneWidth = parseInt(window.screen.width);
+			var phoneScale = phoneWidth / 640;
+			var ua = navigator.userAgent;
 
-        </div>
-   </div>
-  
-</div>
-</div>-->
+			if(/Android (\d+\.\d+)/.test(ua)) {
+				var version = parseFloat(RegExp.$1);
+				if(version > 2.3) {
+					document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+				} else {
+					document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+				}
+			} else {
+				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+			}
+		</script>
+		
+	</head>
 
-<div class="qrct">
-<div class="m">
+	<body>
+		<!--wap端  start-->
+		<div class="wcontent visible-xs">
+			<img src="wimg/logo.png" class="wlogo" />
+			<button class="wbutton">
+		        <span></span>
+		        <span></span>
+		        <span></span>
+		    </button>
+		</div>
 
-<div class="ctle">
+		<!--banner-->
+		<div class="wbanner visible-xs">
+			<ul>
+				<li><img src="img/web-tzz-1.jpg" style="height: 300px;" alt=""></li>
+			</ul>
+		</div>
+		<!--wap端  end-->
+		
 
-   <a href="index.html"><img src="images/jimg1.png"/></a>
+		<!--<div class="head">
+				<div class="m">
+				  
+				 &lt;!&ndash;  <div class="he_le"><img src="images/img1.png" style="vertical-align: middle; padding-right: 4px;">全国统一服务热线 &nbsp; 400-8888-116</div>
+				
+				  <div class="he_rg"> 
+				      <a><img src="images/img2.png" style="vertical-align: middle; padding-right: 4px;">网点信息</a>
+				      <a><img src="images/img3.png" style="vertical-align: middle; padding-right: 4px;">人才招聘</a>
+				      <a><img src="images/img4.png" style="vertical-align: middle; padding-right: 4px;">在线客服</a>
+				  </div> &ndash;&gt;
+				  <div class="container information">
+				         <div class="content">
+				            &lt;!&ndash;  联系start  &ndash;&gt;
+				            <div class="relation">
+				                <p><span class="iphone"></span><span class="serviceHotline">全国统一服务热线</span><span class="tit">400-8888-116</span></p>
+				                <ul>
+				                    <li><span class="branch"></span>网点信息</li>
+				                    <li><span class="talents"></span>人才招聘</li>
+				                    <li><span class="service"></span>在线客服</li>
+				                </ul>
+				            </div>
+				            &lt;!&ndash;   联系end   &ndash;&gt;
+				
+				        </div>
+				   </div>
+				  
+				</div>
+			</div>-->
 
-</div>
+		<div class="qrct hidden-xs">
+			<div class="m">
 
+				<div class="ctle">
 
-<div class="ctlk">
-       <ul>
-            <li><a href="introduce.html" >走进嘉宝</a></li>
-            <li><a href="metalist.html"  >媒体中心</a></li>
-            <li><a href="Residention.html"  >业务介绍</a></li>
-            <li><a href="binggouhezuo.html" >携手嘉宝</a></li>
-            <li><a href="attention-jb.html">加入我们</a></li>
-            <li><a href="zhaotoubiao.html">招投标</a></li>
-            <li><a href="jibenxinxi.html"  class="iiiw"  >投资者关系</a></li>
-      </ul>
-</div>
+					<a href="index.html"><img src="images/jimg1.png" /></a>
 
+				</div>
 
-<div class="ctrg">
-    <img src="images/jimg2.png"/>
-</div>
-</div>
-</div>
+				<div class="ctlk">
+					<ul>
+						<li>
+							<a href="introduce.html">走进嘉宝</a>
+						</li>
+						<li>
+							<a href="metalist.html">媒体中心</a>
+						</li>
+						<li>
+							<a href="Residention.html">业务介绍</a>
+						</li>
+						<li>
+							<a href="binggouhezuo.html">携手嘉宝</a>
+						</li>
+						<li>
+							<a href="attention-jb.html">加入我们</a>
+						</li>
+						<li>
+							<a href="zhaotoubiao.html">招投标</a>
+						</li>
+						<li>
+							<a href="jibenxinxi.html" class="iiiw">投资者关系</a>
+						</li>
+					</ul>
+				</div>
 
-<div class="banner banner-ren">
-    <img src="images/12345.png"/>
-    <div class="container tian-ren" style="">
-        <div class="tian">
-            <p class="ren-p1">嘉宝股份 834963</p>
-            <p class="ren-p2"><em>30.61</em> <span>RMB--</span></p>
-            <ul class="ren-p3">
-                <li>最高 <br/> <span>10.120</span></li>
-                <li>最低 <br/> <span>9.950</span></li>
-                <li>成交量(万手) <br/> <span>9,097</span></li>
-                <li>成交额(亿) <br/> <span>0.91</span></li>
-            </ul>
-            <P class="ren-p4">截至<i>2018-02-23</i>香港时间 *报价有十五分钟或以上延迟。资料来源： 新浪财经</P>
-        </div>
-    </div>
-</div>
+				<div class="ctrg">
+					<img src="images/jimg2.png" />
+				</div>
+			</div>
+		</div>
 
-<!--<div class="lmqr">
-     <ul>
-			<li><a href="jibenxinxi.html">基本信息</a></li>
-			<li class="liqr"><a href="zuixingonggao.html">最新公告</a></li>
-			<li><a href="gongsizhili.html">公司治理</a></li>
-      <li><a href="touzizhelaifang.html">投资者来访</a></li>
-     </ul>
-</div>-->
-<div class="cxie text-center">
-    <ol class="text-center" style="height :60px;">
-        <li><a href="jibenxinxi.html">基本信息</a></li>
-        <li class="liqr"><a href="zuixingonggao.html">最新公告</a></li>
-        <li><a href="gongsizhili.html">公司治理</a></li>
-        <li><a href="touzizhelaifang.html">投资者来访</a></li>
-    </ol>
-</div>
+		<div class="banner banner-ren hidden-xs">
+			<img src="images/12345.png" />
+			<div class="container tian-ren" style="">
+				<div class="tian">
+					<p class="ren-p1">嘉宝股份 834963</p>
+					<p class="ren-p2"><em>30.61</em> <span>RMB--</span></p>
+					<ul class="ren-p3">
+						<li>最高 <br/> <span>10.120</span></li>
+						<li>最低 <br/> <span>9.950</span></li>
+						<li>成交量(万手) <br/> <span>9,097</span></li>
+						<li>成交额(亿) <br/> <span>0.91</span></li>
+					</ul>
+					<P class="ren-p4">截至<i>2018-02-23</i>香港时间 *报价有十五分钟或以上延迟。资料来源： 新浪财经</P>
+				</div>
+			</div>
+		</div>
 
+		<!--<div class="lmqr">
+			    <ul>
+						<li><a href="jibenxinxi.html">基本信息</a></li>
+						<li class="liqr"><a href="zuixingonggao.html">最新公告</a></li>
+						<li><a href="gongsizhili.html">公司治理</a></li>
+			      		<li><a href="touzizhelaifang.html">投资者来访</a></li>
+			     </ul>
+			</div>-->
+		<div class="cxie text-center">
+			<ol class="text-center" style="height :60px;">
+				<li>
+					<a href="jibenxinxi.html">基本信息</a>
+				</li>
+				<li class="liqr">
+					<a href="zuixingonggao.html">最新公告</a>
+				</li>
+				<li>
+					<a href="gongsizhili.html">公司治理</a>
+				</li>
+				<li>
+					<a href="touzizhelaifang.html">投资者来访</a>
+				</li>
+			</ol>
+		</div>
 
-<div class="lmds" style="">
-      
-    <div class="m">
+		<div class="lmds hidden-xs" style="">
 
-        <div class="n ren-n">
+			<div class="m">
 
-            <h1>最新公告</h1>
+				<div class="n ren-n">
 
-            <div class="ctoi"> LATEST <br/> ANNOUNCEMENT</div>
+					<h1>最新公告</h1>
 
+					<div class="ctoi"> LATEST <br/> ANNOUNCEMENT</div>
 
-            <div class="iuqx">
-                <ul>
-                    <li class="zuixin-ren">
-                        <img class="zui-right" src="img/zuixinggg-1.jpg" alt=""/>
-                        <div class="zui-left">
-                            <p class="tit">嘉宝股份 2015年年度报告</p>
-                            <p class="bot"><span class="nian">2016/03/30</span> <em></em><span class="bot-ri">点击下载</span></p>
-                        </div>
-                    </li>
-                    <li class="zuixin-ren">
-                        <img class="zui-right" src="img/zuixingg-2.png" alt=""/>
-                        <div class="zui-left">
-                            <p class="tit">嘉宝股份 2016年半年年度报告</p>
-                            <p class="bot"><span class="nian">2016/06/30</span> <em></em><span class="bot-ri">点击下载</span></p>
-                        </div>
-                    </li>
-                    <li class="zuixin-ren">
-                        <img class="zui-right" src="img/zuixingg-4.jpg" alt=""/>
-                        <div class="zui-left">
-                            <p class="tit">嘉宝股份 2017年半年年度报告</p>
-                            <p class="bot"><span class="nian">2017/03/30</span> <em></em><span class="bot-ri">点击下载</span></p>
-                        </div>
-                    </li>
-                    <li class="zuixin-ren">
-                        <img class="zui-right" src="img/zuixinggg-3.jpg" alt=""/>
-                        <div class="zui-left">
-                            <p class="tit">嘉宝股份 2017年年度报告</p>
-                            <p class="bot"><span class="nian">2016/09/30</span> <em></em><span class="bot-ri">点击下载</span></p>
-                        </div>
-                    </li>
-                </ul>
-            <!-- <ul>
+					<div class="iuqx">
+						<ul>
+							<li class="zuixin-ren">
+								<img class="zui-right" src="img/zuixinggg-1.jpg" alt="" />
+								<div class="zui-left">
+									<p class="tit">嘉宝股份 2015年年度报告</p>
+									<p class="bot"><span class="nian">2016/03/30</span> <em></em><span class="bot-ri">点击下载</span></p>
+								</div>
+							</li>
+							<li class="zuixin-ren">
+								<img class="zui-right" src="img/zuixingg-2.png" alt="" />
+								<div class="zui-left">
+									<p class="tit">嘉宝股份 2016年半年年度报告</p>
+									<p class="bot"><span class="nian">2016/06/30</span> <em></em><span class="bot-ri">点击下载</span></p>
+								</div>
+							</li>
+							<li class="zuixin-ren">
+								<img class="zui-right" src="img/zuixingg-4.jpg" alt="" />
+								<div class="zui-left">
+									<p class="tit">嘉宝股份 2017年半年年度报告</p>
+									<p class="bot"><span class="nian">2017/03/30</span> <em></em><span class="bot-ri">点击下载</span></p>
+								</div>
+							</li>
+							<li class="zuixin-ren">
+								<img class="zui-right" src="img/zuixinggg-3.jpg" alt="" />
+								<div class="zui-left">
+									<p class="tit">嘉宝股份 2017年年度报告</p>
+									<p class="bot"><span class="nian">2016/09/30</span> <em></em><span class="bot-ri">点击下载</span></p>
+								</div>
+							</li>
+						</ul>
+						<!-- <ul>
                  <li>
                  &lt;!&ndash; <div class="lipq">
                     <div class="lmiu">
@@ -365,58 +420,158 @@
                
              </ul>-->
 
-             
-           </div>
-           <div style="clear: both;"></div>
-           <div class="mnlf">
-          </div>
+					</div>
+					<div style="clear: both;"></div>
+					<div class="mnlf">
+					</div>
 
-      </div>
- 
+				</div>
 
-     
+			</div>
 
-   </div>
+		</div>
 
+		<div class="iusa hidden-xs">
+			<div class="ban">
+				<div class="ban-ren" style='background-color:#fff;'></div>
+			</div>
+			<img src="images/frfc.png">
+		</div>
 
-</div>
+		<div class="Footer hidden-xs">
 
+			<div class="x">
 
-<div class="iusa hidden-xs">
-    <div class="ban">
-        <div class="ban-ren" style='background-color:#fff;'></div>
-    </div>
-    <img src="images/frfc.png">
-</div>
+				<div class="lkqr">
+					<img src="images/foot_logo.png" />
+				</div>
 
+				<div class="lkqc">
 
-<div class="Footer">
- 
-  <div class="x">
-     
-     <div class="lkqr">
-          <img src="images/foot_logo.png"/>
-     </div>
+					<span>如遇到问题，请联系我们</span>
 
-      <div class="lkqc">
+					<p class="kmws">地址：成都市高新西区西芯大道9号</p>
+					<p>服务热线：400-8888-116 &nbsp;&nbsp; 审计监督：028-87826372</p>
+					<p>招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
 
-       <span>如遇到问题，请联系我们</span>
+				</div>
 
-         <p class="kmws">地址：成都市高新西区西芯大道9号</p>
-         <p>服务热线：400-8888-116        &nbsp;&nbsp;   审计监督：028-87826372</p>
-         <p>招标采购热线：028-87826299    &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
-          
-      </div>
+				<div class="lkqf">
+					<img src="images/logo_wx.png" />
+					<p>官方微信</p>
+				</div>
 
-      <div class="lkqf">
-          <img src="images/logo_wx.png"/>
-          <p>官方微信</p>
-     </div>
-     
-  </div>
+			</div>
 
-</div>
+		</div>
+		
+		
+		<!--wap端  start-->
+		<div class="container ww visible-xs">			
+			<div class="wnotice n">
+				<h1 class="gsfl">最新公告</h1>
+				<div class="ctoi">
+					LATEST  ANNOUNCEMENGT
+				</div>			
+			
+				
+				<ul>
+					<li>
+						<div class="wnleft">
+							<img src="wimg/zx1.png"/>
+						</div>
+						
+						<div class="wnright">
+							<p>嘉宝股份 2015年年度报告</p>
+							<span>2016/02/16</span>
+							<div>
+								<img src="wimg/pdfcopy.png"/>
+								<a href="#">点击下载</a>
+							</div>
+						</div>
+						
+					</li>
+					<li>
+						<div class="wnleft">
+							<img src="wimg/zx1.png"/>
+						</div>
+						
+						<div class="wnright">
+							<p>嘉宝股份 2015年年度报告</p>
+							<span>2016/02/16</span>
+							<div>
+								<img src="wimg/pdfcopy.png"/>
+								<a href="#">点击下载</a>
+							</div>
+						</div>
+						
+					</li>
+					<li>
+						<div class="wnleft">
+							<img src="wimg/zx1.png"/>
+						</div>
+						
+						<div class="wnright">
+							<p>嘉宝股份 2015年年度报告</p>
+							<span>2016/02/16</span>
+							<div>
+								<img src="wimg/pdfcopy.png"/>
+								<a href="#">点击下载</a>
+							</div>
+						</div>
+						
+					</li>
+					<li>
+						<div class="wnleft">
+							<img src="wimg/zx1.png"/>
+						</div>
+						
+						<div class="wnright">
+							<p>嘉宝股份 2015年年度报告</p>
+							<span>2016/02/16</span>
+							<div>
+								<img src="wimg/pdfcopy.png"/>
+								<a href="#">点击下载</a>
+							</div>
+						</div>
+						
+					</li>
+				</ul>
+				
+				
+				<div class="wfang visible-xs">
+					<img src="wimg/left.png" class="yleft"/>
+					<img src="wimg/right.png"/>
+				</div>
+				
+			</div>
+			
+			
+			
+		</div>
+		
+		<img src="wimg/img1.png" class="visible-xs" style="width: 100%;"/>
+		
+		<div class="wfooter visible-xs">
 
+			<div class="container">
+				<div class="wleft">
+					<img src="wimg/wfot.png" />
+					<p class="wlx">如遇到问题，请联系我们</p>
+					<p>地址：成都市高新西区西芯大道9号 &nbsp;&nbsp;服务热线：400-8888-116</p>
+					<p>审计监督：028-87826372 &nbsp;&nbsp;招标采购热线：028-87826299 &nbsp;&nbsp;嘉宝股份前台：028-87829522</p>
+				</div>
+				<div class="wgw">
+					<img src="wimg/gw.jpg" />
+					<p>官方微信</p>
+				</div>
 
-</body>
+			</div>
+
+		</div>
+		
+		<!--wap端  end-->
+
+	</body>
+
 </html>
