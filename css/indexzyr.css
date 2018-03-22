@@ -92,6 +92,10 @@ body{
    height: 113px;
   background: #fff;
   width: 100%;
+	position: fixed;
+	top :0;
+	left :0;
+	z-index: 9999999999;
 }
 .ctle{
 	float: left; 
@@ -144,6 +148,15 @@ body{
 }
 .lmqr ul  li.liqr a{
 	color:#94724d!important;
+}
+.bj-sh{
+	margin-top: 113px;
+}
+.bj-sh .banner{
+	margin-top: 0px;
+}
+.bj-sh-qumar{
+	margin-top: 0px;
 }
 .lmqr ul li a{
 	color:#464646;
@@ -417,7 +430,9 @@ body{
 	width: 100%;
 	height: 300px;
 }
-
+.banner{
+	margin-top: 113px;
+}
 .lkqc{
 	float: left;
     border-right: 2px solid #7d6716;
